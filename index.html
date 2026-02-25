@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevDash - Resource Dashboard</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="dashTitle">DevDash</h1>
+            <p class="subtitle" id="dashSubtitle">Loading...</p>
+        </header>
+
+        <div id="stats"></div>
+
+        <div class="toolbar">
+            <input type="text" class="search-box" placeholder="Search all resources..." id="searchBox">
+            <button class="btn btn-export" id="exportBtn" title="Export as JSON">Export</button>
+        </div>
+
+        <div class="tabs" id="tabBar"></div>
+
+        <div id="tabPanels"></div>
+
+        <footer class="footer">
+            <p id="footerText">DevDash</p>
+            <p class="footer-sub">Open-source developer resource dashboard &middot; Works with any AI provider</p>
+        </footer>
+    </div>
+
+    <script src="js/data-loader.js"></script>
+    <script src="js/dashboard.js"></script>
+</body>
+</html>

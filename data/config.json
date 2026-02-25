@@ -1,0 +1,37 @@
+{
+  "title": "DevDash",
+  "subtitle": "Your AI Development Resources - Organized",
+  "lastUpdated": "2026-02-24",
+  "tabs": [
+    {
+      "id": "repositories",
+      "label": "Repositories",
+      "dataFile": "repositories.json",
+      "statColor": "var(--accent-green)"
+    },
+    {
+      "id": "agents",
+      "label": "AI Agents",
+      "dataFile": "agents.json",
+      "statColor": "var(--accent-blue)"
+    },
+    {
+      "id": "integrations",
+      "label": "Integrations",
+      "dataFile": "integrations.json",
+      "statColor": "var(--accent-purple)"
+    },
+    {
+      "id": "commands",
+      "label": "Commands",
+      "dataFile": "commands.json",
+      "statColor": "var(--accent-pink)"
+    },
+    {
+      "id": "clients",
+      "label": "Clients",
+      "dataFile": "clients.json",
+      "statColor": "var(--accent-gold)"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "categories": [
+    {
+      "name": "Project Management",
+      "count": 3,
+      "items": [
+        {"name": "/roadmap", "badge": "Daily", "badgeClass": "badge-active", "description": "View today's tasks, weekly overview, or full project roadmap.", "meta": ["status", "week", "report"]},
+        {"name": "/deploy", "badge": "Deploy", "badgeClass": "badge-active", "description": "Deploy with pre-flight checks. Supports staging and production.", "meta": ["staging", "production"]},
+        {"name": "/version", "badge": "Release", "badgeClass": "badge-active", "description": "Assess repo, recommend version bump, and execute release.", "meta": ["patch", "minor", "major"]}
+      ]
+    },
+    {
+      "name": "Code Quality",
+      "count": 3,
+      "items": [
+        {"name": "/review", "badge": "Review", "badgeClass": "badge-active", "description": "Multi-perspective code review for quality and security."},
+        {"name": "/audit", "badge": "Security", "badgeClass": "badge-active", "description": "Comprehensive security and dependency audit.", "meta": ["security", "deps"]},
+        {"name": "/test", "badge": "Testing", "badgeClass": "badge-ready", "description": "Run test suites with coverage reporting.", "meta": ["unit", "integration", "e2e"]}
+      ]
+    },
+    {
+      "name": "Utilities",
+      "count": 4,
+      "items": [
+        {"name": "/dashboard", "badge": "Dashboard", "badgeClass": "badge-active", "description": "Open, sync, or manage this resource dashboard.", "meta": ["open", "sync", "stats"]},
+        {"name": "/repos", "badge": "Library", "badgeClass": "badge-active", "description": "View and manage your git repository library."},
+        {"name": "/db", "badge": "Database", "badgeClass": "badge-ready", "description": "Query or migrate your project databases."},
+        {"name": "/docs", "badge": "Docs", "badgeClass": "badge-ready", "description": "Generate or update project documentation."}
+      ]
+    }
+  ],
+  "quickReference": {
+    "columns": ["Category", "Count", "Key Commands"],
+    "items": [
+      {"category": "Project Management", "count": 3, "keycommands": "/roadmap, /deploy, /version"},
+      {"category": "Code Quality", "count": 3, "keycommands": "/review, /audit, /test"},
+      {"category": "Utilities", "count": 4, "keycommands": "/dashboard, /repos, /db, /docs"}
+    ]
+  }
+}

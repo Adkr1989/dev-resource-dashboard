@@ -1,0 +1,68 @@
+{
+  "categories": [
+    {
+      "name": "Built-in Agents",
+      "count": 4,
+      "items": [
+        {
+          "name": "Code Assistant",
+          "badge": "Built-in",
+          "badgeClass": "badge-builtin",
+          "description": "General-purpose coding agent for writing, reviewing, and debugging code.",
+          "tools": ["Read", "Write", "Search", "Execute"]
+        },
+        {
+          "name": "Researcher",
+          "badge": "Built-in",
+          "badgeClass": "badge-builtin",
+          "description": "Web research agent for finding documentation, APIs, and technical references.",
+          "tools": ["WebSearch", "WebFetch", "Summarize"]
+        },
+        {
+          "name": "Planner",
+          "badge": "Built-in",
+          "badgeClass": "badge-builtin",
+          "description": "Architecture and planning agent for designing implementation strategies.",
+          "tools": ["Read", "Search", "Analyze"]
+        },
+        {
+          "name": "Explorer",
+          "badge": "Built-in",
+          "badgeClass": "badge-builtin",
+          "description": "Fast codebase exploration for finding files, patterns, and understanding structure.",
+          "tools": ["Glob", "Grep", "Read"]
+        }
+      ]
+    },
+    {
+      "name": "Custom Agents",
+      "count": 3,
+      "items": [
+        {
+          "name": "deploy-agent",
+          "badge": "Custom",
+          "badgeClass": "badge-active",
+          "description": "Handles CI/CD pipeline checks, staging deploys, and production releases.",
+          "tools": ["Bash", "WebFetch", "Read"],
+          "path": ".agents/deploy-agent.md"
+        },
+        {
+          "name": "db-migration-agent",
+          "badge": "Custom",
+          "badgeClass": "badge-active",
+          "description": "Generates and validates database migrations with rollback safety checks.",
+          "tools": ["Read", "Write", "Bash"],
+          "path": ".agents/db-migration-agent.md"
+        },
+        {
+          "name": "client-onboarding",
+          "badge": "Pipeline",
+          "badgeClass": "badge-pipeline",
+          "description": "Automates new client setup - creates repos, configures access, sends welcome docs.",
+          "tools": ["Write", "Bash", "WebFetch"],
+          "path": ".agents/client-onboarding.md"
+        }
+      ]
+    }
+  ]
+}
