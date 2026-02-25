@@ -2,54 +2,8 @@
   "categories": [
     {
       "name": "My Projects",
-      "count": 3,
-      "items": [
-        {
-          "name": "my-saas-app",
-          "badge": "Active",
-          "badgeClass": "badge-active",
-          "description": "Full-stack SaaS application with React frontend and Node.js API backend.",
-          "meta": ["TypeScript", "Vercel"],
-          "path": "github.com/yourname/my-saas-app",
-          "url": "https://github.com/yourname/my-saas-app"
-        },
-        {
-          "name": "portfolio-site",
-          "badge": "Active",
-          "badgeClass": "badge-active",
-          "description": "Personal portfolio website with project showcases and blog.",
-          "meta": ["Next.js", "Deployed"],
-          "path": "github.com/yourname/portfolio-site"
-        },
-        {
-          "name": "mobile-app",
-          "badge": "In Progress",
-          "badgeClass": "badge-pipeline",
-          "description": "Cross-platform mobile app built with React Native.",
-          "meta": ["React Native", "Expo"],
-          "path": "github.com/yourname/mobile-app"
-        }
-      ]
-    },
-    {
-      "name": "Open Source Contributions",
-      "count": 2,
-      "display": "table",
-      "columns": ["Repository", "Role", "Status"],
-      "items": [
-        {"repository": "facebook/react", "role": "Contributor", "status": "Active"},
-        {"repository": "vercel/next.js", "role": "Bug Reporter", "status": "Merged"}
-      ]
-    },
-    {
-      "name": "References & Learning",
-      "count": 2,
-      "display": "table",
-      "columns": ["Repository", "Source", "Purpose"],
-      "items": [
-        {"repository": "awesome-selfhosted", "source": "Community", "purpose": "Self-hosting reference list"},
-        {"repository": "system-design-primer", "source": "donnemartin", "purpose": "System design interview prep"}
-      ]
+      "count": 0,
+      "items": []
     }
   ]
 }

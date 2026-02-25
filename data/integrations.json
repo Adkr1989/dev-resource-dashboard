@@ -1,91 +1,9 @@
 {
   "categories": [
     {
-      "name": "Active Integrations",
-      "subtitle": "5 Connected",
-      "items": [
-        {
-          "name": "GitHub",
-          "badge": "Connected",
-          "badgeClass": "badge-active",
-          "description": "Repository management, pull requests, issues, and CI/CD workflows.",
-          "meta": ["OAuth", "Free"],
-          "tools": ["repos", "issues", "pull_requests", "actions", "search_code"]
-        },
-        {
-          "name": "Slack",
-          "badge": "Connected",
-          "badgeClass": "badge-active",
-          "description": "Team messaging, notifications, and workflow automation.",
-          "meta": ["OAuth", "Free"],
-          "tools": ["post_message", "read_channel", "list_channels", "reactions"]
-        },
-        {
-          "name": "Vercel",
-          "badge": "Connected",
-          "badgeClass": "badge-active",
-          "description": "Frontend deployment, preview URLs, and serverless functions.",
-          "meta": ["API Token", "Free tier"],
-          "tools": ["deploy", "domains", "env_vars"]
-        },
-        {
-          "name": "Database",
-          "badge": "Connected",
-          "badgeClass": "badge-active",
-          "description": "PostgreSQL database with connection pooling and migration tools.",
-          "meta": ["Supabase", "Free tier"],
-          "tools": ["query", "migrate", "backup"]
-        },
-        {
-          "name": "Analytics",
-          "badge": "Connected",
-          "badgeClass": "badge-active",
-          "description": "Website traffic, user behavior, and conversion tracking.",
-          "meta": ["Google Analytics", "Free"],
-          "tools": ["get_report", "get_realtime"]
-        }
-      ]
-    },
-    {
-      "name": "Available (Not Configured)",
-      "subtitle": "3 Available",
-      "items": [
-        {
-          "name": "Stripe",
-          "badge": "Needs Key",
-          "badgeClass": "badge-requires",
-          "description": "Payment processing, subscriptions, and invoicing.",
-          "meta": ["API Key required"],
-          "tools": ["charges", "subscriptions", "invoices"]
-        },
-        {
-          "name": "SendGrid",
-          "badge": "Needs Key",
-          "badgeClass": "badge-requires",
-          "description": "Transactional and marketing email automation.",
-          "meta": ["API Key required"],
-          "tools": ["send_email", "templates", "contacts"]
-        },
-        {
-          "name": "Linear",
-          "badge": "Needs Auth",
-          "badgeClass": "badge-requires",
-          "description": "Issue tracking and project management integration.",
-          "meta": ["OAuth required"],
-          "tools": ["issues", "projects", "cycles"]
-        }
-      ]
+      "name": "Connected Services",
+      "subtitle": "0 Connected",
+      "items": []
     }
-  ],
-  "credentials": {
-    "columns": ["Service", "Platform", "Required", "Cost"],
-    "items": [
-      {"service": "GitHub", "platform": "github.com", "required": "OAuth / PAT", "cost": "Free"},
-      {"service": "Slack", "platform": "slack.com", "required": "Bot Token", "cost": "Free"},
-      {"service": "Vercel", "platform": "vercel.com", "required": "API Token", "cost": "Free tier"},
-      {"service": "Stripe", "platform": "stripe.com", "required": "Secret Key", "cost": "2.9% + 30c"},
-      {"service": "SendGrid", "platform": "sendgrid.com", "required": "API Key", "cost": "Free tier"},
-      {"service": "Linear", "platform": "linear.app", "required": "OAuth", "cost": "Free tier"}
-    ]
-  }
+  ]
 }

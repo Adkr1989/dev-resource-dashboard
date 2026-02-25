@@ -1,40 +1,9 @@
 {
   "categories": [
     {
-      "name": "Client Portfolio",
-      "count": 3,
-      "items": [
-        {
-          "name": "Acme Corp",
-          "badge": "Active",
-          "badgeClass": "badge-active",
-          "description": "SaaS platform build and maintenance. Monthly retainer for feature development and support.",
-          "meta": ["$2,000/mo", "React + Node.js", "2 agents"]
-        },
-        {
-          "name": "GreenTech Solutions",
-          "badge": "Active",
-          "badgeClass": "badge-active",
-          "description": "Data dashboard and API integration. Automated reporting and analytics pipeline.",
-          "meta": ["$1,500/mo", "Python + PostgreSQL", "1 agent"]
-        },
-        {
-          "name": "Local Bakery Co",
-          "badge": "Pipeline",
-          "badgeClass": "badge-pipeline",
-          "description": "E-commerce website with online ordering and inventory management.",
-          "meta": ["$500/mo target", "Shopify + Custom", "Proposal sent"]
-        }
-      ]
+      "name": "My Clients",
+      "count": 0,
+      "items": []
     }
-  ],
-  "revenue": {
-    "columns": ["Metric", "Value"],
-    "items": [
-      {"metric": "Target MRR", "value": "$4,000"},
-      {"metric": "Current MRR", "value": "$3,500"},
-      {"metric": "Active Clients", "value": "2"},
-      {"metric": "Pipeline", "value": "1"}
-    ]
-  }
+  ]
 }
