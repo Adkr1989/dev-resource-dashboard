@@ -232,4 +232,8 @@ const Dashboard = (() => {
     return { init };
 })();
 
-document.addEventListener('DOMContentLoaded', Dashboard.init);
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', Dashboard.init);
+} else {
+    Dashboard.init();
+}
