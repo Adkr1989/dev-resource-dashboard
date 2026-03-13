@@ -1,7 +1,7 @@
 {
-  "title": "DevDash",
-  "subtitle": "Your AI Development Resources - Organized",
-  "lastUpdated": "2026-02-24",
+  "title": "ADEV Dashboard",
+  "subtitle": "A_Development Resources — Repos, Agents, MCPs, Skills, Clients & Commands",
+  "lastUpdated": "2026-03-03",
   "tabs": [
     {
       "id": "repositories",
@@ -16,10 +16,23 @@
       "statColor": "var(--accent-blue)"
     },
     {
+      "id": "agent-projects",
+      "label": "Agents by Project",
+      "dataFile": "agent-projects.json",
+      "statColor": "var(--accent-purple)",
+      "showStat": false
+    },
+    {
       "id": "integrations",
-      "label": "Integrations",
+      "label": "MCPs & Integrations",
       "dataFile": "integrations.json",
       "statColor": "var(--accent-purple)"
+    },
+    {
+      "id": "skills",
+      "label": "Skills",
+      "dataFile": "skills.json",
+      "statColor": "#00e5ff"
     },
     {
       "id": "commands",

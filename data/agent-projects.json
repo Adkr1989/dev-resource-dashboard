@@ -1,0 +1,574 @@
+{
+  "categories": [
+    {
+      "name": "⚡ EVLV (evlv.energy)",
+      "count": 14,
+      "items": [
+        {
+          "name": "API Tester",
+          "badge": "🔴 Critical",
+          "badgeClass": "badge-active",
+          "description": "Validate every endpoint switches from NREL → NLR before April 30 deadline. Response comparison, regression testing, status code checks.",
+          "meta": ["April 30 deadline", "NLR migration", "Regression"],
+          "tools": ["Endpoint validation", "NREL vs NLR diff", "Response comparison", "Integration QA"]
+        },
+        {
+          "name": "Backend Architect",
+          "badge": "EVLV",
+          "badgeClass": "badge-ready",
+          "description": "Redesign the API service layer for NLR. Wire up SAM_GOV_API_KEY and Resend integrations cleanly.",
+          "meta": ["API design", "NLR integration", "Service layer"],
+          "tools": ["API route design", "SAM_GOV wiring", "Resend setup", "Service patterns"]
+        },
+        {
+          "name": "Data Engineer",
+          "badge": "EVLV",
+          "badgeClass": "badge-ready",
+          "description": "Normalize NLR API response shapes if they differ from NREL. Build reliable energy data ingestion pipelines.",
+          "meta": ["NLR data", "ETL", "Schema normalization"],
+          "tools": ["Response normalization", "Data pipelines", "Schema mapping", "Ingestion logic"]
+        },
+        {
+          "name": "Software Architect",
+          "badge": "EVLV",
+          "badgeClass": "badge-ready",
+          "description": "Architecture decisions for EVLV data layer. System design trade-offs as NLR changes the data model.",
+          "meta": ["System design", "Architecture", "Trade-offs"],
+          "tools": ["Domain modeling", "Architecture review", "Trade-off analysis", "System evolution"]
+        },
+        {
+          "name": "AI Engineer",
+          "badge": "EVLV",
+          "badgeClass": "badge-ready",
+          "description": "Improve the AVA agent — better prompts, tool use, structured outputs, response quality and reliability.",
+          "meta": ["AVA agent", "Claude API", "Prompt engineering"],
+          "tools": ["Prompt optimization", "Tool design", "Structured outputs", "Response quality"]
+        },
+        {
+          "name": "SRE",
+          "badge": "EVLV",
+          "badgeClass": "badge-ready",
+          "description": "Establish SLOs and production reliability standards for evlv.energy with LAW Ventures. Uptime, alerting, error budgets.",
+          "meta": ["SLOs", "Uptime", "Observability"],
+          "tools": ["SLO definition", "Error budgets", "Alerting setup", "Incident playbooks"]
+        },
+        {
+          "name": "Infrastructure Maintainer",
+          "badge": "EVLV",
+          "badgeClass": "badge-ready",
+          "description": "Vercel + NLR API health monitoring. System reliability and performance for the production site.",
+          "meta": ["Vercel", "Monitoring", "Reliability"],
+          "tools": ["Health monitoring", "Uptime checks", "Performance tuning", "System ops"]
+        },
+        {
+          "name": "Security Engineer",
+          "badge": "EVLV",
+          "badgeClass": "badge-ready",
+          "description": "Audit EVLV API routes for auth gaps and secrets exposure. Ensure API key handling is secure through the NLR migration.",
+          "meta": ["API security", "Auth review", "Secrets"],
+          "tools": ["Route audit", "Auth gaps", "Key handling", "OWASP scan"]
+        },
+        {
+          "name": "Frontend Developer",
+          "badge": "EVLV",
+          "badgeClass": "badge-ready",
+          "description": "Audit all nrel.gov API call sites in the codebase and produce a migration checklist for swapping to nlr.gov.",
+          "meta": ["Next.js", "NLR migration", "Component review"],
+          "tools": ["Migration checklist", "Call site audit", "Component review", "Loading states"]
+        },
+        {
+          "name": "Technical Writer",
+          "badge": "EVLV",
+          "badgeClass": "badge-ready",
+          "description": "Document the NLR migration for the LAW Ventures team. API integration guides, handoff docs, and architecture writeups.",
+          "meta": ["Migration docs", "LAW Ventures", "Handoff"],
+          "tools": ["Migration guide", "API reference", "Handoff docs", "Architecture writeup"]
+        },
+        {
+          "name": "DevOps Automator",
+          "badge": "EVLV",
+          "badgeClass": "badge-ready",
+          "description": "CI job that greps for remaining nrel.gov references and fails the build. Enforce the April 30 deadline automatically.",
+          "meta": ["CI/CD", "GitHub Actions", "Build guards"],
+          "tools": ["Migration CI gate", "Build validation", "Vercel pipeline", "Auto-rollback"]
+        },
+        {
+          "name": "Accessibility Auditor",
+          "badge": "EVLV",
+          "badgeClass": "badge-ready",
+          "description": "WCAG 2.1 compliance audit on evlv.energy before client handoff to LAW Ventures.",
+          "meta": ["WCAG", "A11y", "Compliance"],
+          "tools": ["WCAG audit", "Screen reader", "Keyboard nav", "Contrast check"]
+        },
+        {
+          "name": "Performance Benchmarker",
+          "badge": "EVLV",
+          "badgeClass": "badge-ready",
+          "description": "Lighthouse and Core Web Vitals benchmarking before Vercel deploys on evlv.energy.",
+          "meta": ["Lighthouse", "Core Web Vitals", "Load times"],
+          "tools": ["Lighthouse audit", "CWV benchmarks", "Load testing", "Performance budgets"]
+        },
+        {
+          "name": "Reality Checker",
+          "badge": "EVLV",
+          "badgeClass": "badge-ready",
+          "description": "Final pre-deploy gate after NLR migration — zero nrel.gov URLs remain, all APIs return 200, mobile renders correctly.",
+          "meta": ["Pre-deploy", "QA gate", "Evidence-based"],
+          "tools": ["Deploy certification", "API validation", "Mobile check", "Screenshot QA"]
+        }
+      ]
+    },
+    {
+      "name": "🌐 A_Development (ADEV)",
+      "count": 12,
+      "items": [
+        {
+          "name": "Frontend Developer",
+          "badge": "ADEV",
+          "badgeClass": "badge-active",
+          "description": "Admin dashboard improvements, lead pipeline UI, real-time notifications, and new page sections on adevelopment.dev.",
+          "meta": ["Next.js 15", "Admin dashboard", "Lead pipeline"],
+          "tools": ["Lead notification UI", "Dashboard components", "Responsive polish", "Loading states"]
+        },
+        {
+          "name": "Security Engineer",
+          "badge": "ADEV",
+          "badgeClass": "badge-active",
+          "description": "Threat-model /api/leads — rate limiting, input validation, PII exposure risks. Harden before scaling lead volume.",
+          "meta": ["Lead API", "Rate limiting", "PII"],
+          "tools": ["API threat model", "Rate limiting", "Input validation", "PII audit"]
+        },
+        {
+          "name": "SEO Specialist",
+          "badge": "ADEV",
+          "badgeClass": "badge-active",
+          "description": "Audit adevelopment.dev for technical SEO gaps. Core Web Vitals, structured data, local SEO for North Shore web design keywords.",
+          "meta": ["Technical SEO", "Local SEO", "North Shore"],
+          "tools": ["Site audit", "Keyword gaps", "Structured data", "Local SEO signals"]
+        },
+        {
+          "name": "Behavioral Nudge Engine",
+          "badge": "ADEV",
+          "badgeClass": "badge-ready",
+          "description": "Convert more adevelopment.dev visitors into leads. CTA design, lead form psychology, social proof placement.",
+          "meta": ["Conversion", "CTA design", "Psychology"],
+          "tools": ["CTA optimization", "Lead form nudges", "Social proof", "Engagement hooks"]
+        },
+        {
+          "name": "UX Architect",
+          "badge": "ADEV",
+          "badgeClass": "badge-ready",
+          "description": "Technical CSS architecture and design system consistency when building new sections of adevelopment.dev.",
+          "meta": ["CSS systems", "Design tokens", "Component architecture"],
+          "tools": ["CSS architecture", "Design tokens", "Component foundations", "Implementation guides"]
+        },
+        {
+          "name": "Outbound Strategist",
+          "badge": "ADEV",
+          "badgeClass": "badge-active",
+          "description": "Signal-based prospect sequences for North Shore venues and entertainment companies. Multi-channel outreach playbooks.",
+          "meta": ["Cold email", "LinkedIn", "North Shore"],
+          "tools": ["Email sequences", "LinkedIn plays", "Signal triggers", "Follow-up playbooks"]
+        },
+        {
+          "name": "Growth Hacker",
+          "badge": "ADEV",
+          "badgeClass": "badge-ready",
+          "description": "Design growth tactics for adevelopment.dev lead generation and Instagram follower growth for ADEV brand.",
+          "meta": ["Lead gen", "Growth tactics", "Experiments"],
+          "tools": ["Growth experiments", "Viral loops", "Conversion tests", "Acquisition tactics"]
+        },
+        {
+          "name": "DevOps Automator",
+          "badge": "ADEV",
+          "badgeClass": "badge-active",
+          "description": "GitHub Actions workflow for a-development-website — TypeScript checks, build validation, block deploys on failure.",
+          "meta": ["Vercel", "GitHub Actions", "CI/CD"],
+          "tools": ["Deploy pipeline", "Build guards", "TypeScript checks", "Auto-rollback"]
+        },
+        {
+          "name": "Accessibility Auditor",
+          "badge": "ADEV",
+          "badgeClass": "badge-ready",
+          "description": "WCAG compliance for adevelopment.dev — essential before pitching enterprise or government clients.",
+          "meta": ["WCAG", "A11y", "Compliance"],
+          "tools": ["WCAG audit", "Screen reader", "Keyboard nav", "Contrast check"]
+        },
+        {
+          "name": "Performance Benchmarker",
+          "badge": "ADEV",
+          "badgeClass": "badge-ready",
+          "description": "Lighthouse benchmarking before Vercel deploys. Core Web Vitals gate for adevelopment.dev.",
+          "meta": ["Lighthouse", "Core Web Vitals", "Vercel"],
+          "tools": ["Lighthouse audit", "CWV benchmarks", "Performance budgets", "Load testing"]
+        },
+        {
+          "name": "Sprint Prioritizer",
+          "badge": "ADEV",
+          "badgeClass": "badge-ready",
+          "description": "Manage backlog across EVLV + ADEV + Bizar simultaneously. Prioritize features by impact and deadline.",
+          "meta": ["Backlog", "Prioritization", "Multi-project"],
+          "tools": ["Sprint planning", "Backlog grooming", "Feature scoring", "Resource allocation"]
+        },
+        {
+          "name": "Finance Tracker",
+          "badge": "ADEV",
+          "badgeClass": "badge-ready",
+          "description": "Track ADEV business financials — Bizar $2,800/mo, EVLV contract, margins, and effective hourly rate across clients.",
+          "meta": ["Revenue", "Margins", "Cash flow"],
+          "tools": ["Revenue tracking", "Cost analysis", "Margin reporting", "Hourly rate calc"]
+        }
+      ]
+    },
+    {
+      "name": "🤖 GoBot & MCP Servers",
+      "count": 7,
+      "items": [
+        {
+          "name": "MCP Builder",
+          "badge": "GoBot",
+          "badgeClass": "badge-active",
+          "description": "Build new GoBot MCP tools — prospect status, EVLV migration tracker, lead alerts from /api/leads.",
+          "meta": ["MCP", "TypeScript", "Zod"],
+          "tools": ["Prospect status tool", "NLR migration checker", "Lead alerts MCP", "GoBot tool wiring"]
+        },
+        {
+          "name": "Agents Orchestrator",
+          "badge": "GoBot",
+          "badgeClass": "badge-active",
+          "description": "Coordinate the full GoBot prospect pipeline — Security Engineer → SEO → Frontend → Outbound across a single /prospect run.",
+          "meta": ["Pipeline", "Multi-agent", "Quality gates"],
+          "tools": ["Full pipeline runs", "Agent handoffs", "Dev-QA loops", "Case study orchestration"]
+        },
+        {
+          "name": "Autonomous Optimization Architect",
+          "badge": "GoBot",
+          "badgeClass": "badge-ready",
+          "description": "Optimize GoBot's Ollama → Mistral → Qwen → Groq → OpenRouter fallback chain. Reduce API costs as Bizar usage scales.",
+          "meta": ["LLM routing", "Cost optimization", "Fallback chain"],
+          "tools": ["Fallback tuning", "Cost reduction", "Provider routing", "Shadow testing"]
+        },
+        {
+          "name": "Security Engineer",
+          "badge": "GoBot",
+          "badgeClass": "badge-active",
+          "description": "Audit GoBot prospect pipeline — no secrets in logs, input sanitization, safe HTML generation in case study templates.",
+          "meta": ["Pipeline security", "Log safety", "HTML sanitization"],
+          "tools": ["Pipeline audit", "Log review", "Secrets check", "HTML sanitization"]
+        },
+        {
+          "name": "Rapid Prototyper",
+          "badge": "GoBot",
+          "badgeClass": "badge-active",
+          "description": "Fast new GoBot Telegram commands — /stats, /evlv-status, /lead-check. Quick feature iteration without full releases.",
+          "meta": ["Telegram commands", "Fast iteration", "Bun"],
+          "tools": ["/stats command", "/evlv-status", "/lead-check", "Quick features"]
+        },
+        {
+          "name": "Code Reviewer",
+          "badge": "GoBot",
+          "badgeClass": "badge-active",
+          "description": "Review GoBot releases — security, error handling, TypeScript correctness in prospect.ts and prompts.ts.",
+          "meta": ["PR review", "TypeScript", "Release gate"],
+          "tools": ["Release review", "Security check", "Error handling", "TS correctness"]
+        },
+        {
+          "name": "DevOps Automator",
+          "badge": "GoBot",
+          "badgeClass": "badge-ready",
+          "description": "GoBot auto-restart on crash via PM2 or Windows Task Scheduler. Telegram alert when GoBot goes down.",
+          "meta": ["Auto-restart", "PM2", "Uptime alerts"],
+          "tools": ["Crash recovery", "PM2 config", "Uptime alerts", "Health checks"]
+        }
+      ]
+    },
+    {
+      "name": "🎭 Bizar — Core Agent Pipeline",
+      "count": 10,
+      "items": [
+        {
+          "name": "Social Media Strategist",
+          "badge": "Step 1",
+          "badgeClass": "badge-active",
+          "description": "Monday morning — generates 15 content concepts for Bizar/Boom brands. Monthly strategy, content calendar, competitive positioning.",
+          "meta": ["Monday run", "15 concepts", "Calendar planning"],
+          "tools": ["Weekly concepts", "Content calendar", "Competitive positioning", "Platform strategy"]
+        },
+        {
+          "name": "Instagram Curator",
+          "badge": "Step 2",
+          "badgeClass": "badge-active",
+          "description": "Selects 10 concepts, creates Instagram-specific posts with captions. Bizar/Boom brand voice, grid aesthetic, story hooks.",
+          "meta": ["10 posts/week", "Instagram", "Brand voice"],
+          "tools": ["Post concepts", "Caption writing", "Grid planning", "Story hooks"]
+        },
+        {
+          "name": "SEO Specialist",
+          "badge": "Step 3",
+          "badgeClass": "badge-active",
+          "description": "Hashtag optimization for each post — 5 high-volume + 10 medium + 5 niche. Event entertainment keyword sets.",
+          "meta": ["Hashtags", "Event keywords", "Discoverability"],
+          "tools": ["Hashtag sets", "Keyword optimization", "Niche tags", "Competitor hashtags"]
+        },
+        {
+          "name": "Content Creator",
+          "badge": "On-demand",
+          "badgeClass": "badge-ready",
+          "description": "Caption polish and cross-platform adaptation from client raw copy. Bizar high-energy voice, Boom professional voice.",
+          "meta": ["Caption polish", "Brand voice", "Cross-platform"],
+          "tools": ["Caption writing", "Brand voice", "Copy variations", "Platform formatting"]
+        },
+        {
+          "name": "TikTok Strategist",
+          "badge": "Reels",
+          "badgeClass": "badge-ready",
+          "description": "Short-form video strategy for Bizar Reels — trending audio, hooks, younger demographic reach for bar mitzvah/wedding content.",
+          "meta": ["Reels", "Short-form", "Viral hooks"],
+          "tools": ["Reel strategy", "Audio trends", "Hook writing", "Algorithm optimization"]
+        },
+        {
+          "name": "Carousel Growth Engine",
+          "badge": "Carousels",
+          "badgeClass": "badge-ready",
+          "description": "Instagram carousel generation for Bizar — event recaps, tips, before/after content. Autonomous publishing support.",
+          "meta": ["Carousels", "Event recaps", "Publishing"],
+          "tools": ["Carousel scripts", "Slide structure", "Publishing automation", "Engagement hooks"]
+        },
+        {
+          "name": "LinkedIn Content Creator",
+          "badge": "B2B",
+          "badgeClass": "badge-ready",
+          "description": "Corporate event planner B2B content. Targets Boom Entertainment's corporate audience — planners, HR teams, event coordinators.",
+          "meta": ["LinkedIn", "B2B", "Corporate events"],
+          "tools": ["Professional posts", "B2B targeting", "Thought leadership", "Corporate audience"]
+        },
+        {
+          "name": "Growth Hacker",
+          "badge": "Growth",
+          "badgeClass": "badge-ready",
+          "description": "Rapid follower growth experiments for Bizar Instagram. Viral loop design, engagement tactics, conversion from follower to inquiry.",
+          "meta": ["Follower growth", "Viral tactics", "Inquiry conversion"],
+          "tools": ["Growth experiments", "Viral loops", "Engagement tactics", "Inquiry conversion"]
+        },
+        {
+          "name": "Outbound Strategist",
+          "badge": "DMs",
+          "badgeClass": "badge-ready",
+          "description": "Signal-based Instagram DM outreach sequences for Bizar — parents planning events, engaged couples, corporate planners.",
+          "meta": ["Instagram DM", "Signal-based", "Event leads"],
+          "tools": ["DM sequences", "Signal triggers", "Lead nurturing", "Follow-up playbooks"]
+        },
+        {
+          "name": "Agents Orchestrator",
+          "badge": "Pipeline",
+          "badgeClass": "badge-active",
+          "description": "Coordinate the full Bizar weekly workflow — Strategist → Curator → SEO with quality gates and handoffs.",
+          "meta": ["Pipeline", "Weekly workflow", "Handoffs"],
+          "tools": ["Workflow coordination", "Quality gates", "Agent handoffs", "Pipeline monitoring"]
+        }
+      ]
+    },
+    {
+      "name": "📊 Bizar — Reporting & QA",
+      "count": 9,
+      "items": [
+        {
+          "name": "Analytics Reporter",
+          "badge": "Monthly",
+          "badgeClass": "badge-active",
+          "description": "End-of-month performance data — follower growth, engagement rate, reach, top posts, competitor benchmarks.",
+          "meta": ["Monthly run", "Performance data", "Competitor benchmarks"],
+          "tools": ["Performance summaries", "Growth metrics", "Competitor analysis", "Trend reporting"]
+        },
+        {
+          "name": "Executive Summary Generator",
+          "badge": "Client",
+          "badgeClass": "badge-active",
+          "description": "Client-facing monthly report narrative. Translate agent data into business language for Bizar/Boom stakeholders.",
+          "meta": ["Client report", "Executive language", "Monthly"],
+          "tools": ["Monthly narrative", "Business summaries", "Strategic insights", "Stakeholder comms"]
+        },
+        {
+          "name": "Document Generator",
+          "badge": "PDF/PPTX",
+          "badgeClass": "badge-active",
+          "description": "Generate polished PDF or PPTX monthly report from agent JSON outputs. Professional deliverable for client meetings.",
+          "meta": ["PDF", "PPTX", "Client deliverable"],
+          "tools": ["PDF reports", "PowerPoint decks", "Excel exports", "Formatted deliverables"]
+        },
+        {
+          "name": "Feedback Synthesizer",
+          "badge": "Post-meeting",
+          "badgeClass": "badge-ready",
+          "description": "Synthesize Bizar client meeting feedback into next month's content adjustments and strategy shifts.",
+          "meta": ["Client feedback", "Content adjustments", "Strategy"],
+          "tools": ["Feedback analysis", "Theme extraction", "Content adjustments", "Priority mapping"]
+        },
+        {
+          "name": "Workflow Optimizer",
+          "badge": "Pre-launch",
+          "badgeClass": "badge-ready",
+          "description": "Analyze and tighten the Strategist→Curator→SEO pipeline before go-live. Remove bottlenecks, improve throughput.",
+          "meta": ["Pipeline optimization", "Bottlenecks", "Pre-launch"],
+          "tools": ["Pipeline analysis", "Bottleneck detection", "Workflow redesign", "Efficiency gains"]
+        },
+        {
+          "name": "Evidence Collector",
+          "badge": "QA",
+          "badgeClass": "badge-ready",
+          "description": "Screenshot-based QA for Bizar post output. Visual proof of generated content quality before client delivery.",
+          "meta": ["Screenshots", "Visual QA", "Content proof"],
+          "tools": ["Screenshot capture", "Visual QA", "Content review", "QA evidence"]
+        },
+        {
+          "name": "Test Results Analyzer",
+          "badge": "QA",
+          "badgeClass": "badge-ready",
+          "description": "Track Bizar agent output quality week-over-week. Identify drops in caption quality or hashtag performance.",
+          "meta": ["Quality metrics", "Week-over-week", "Trend tracking"],
+          "tools": ["Quality analysis", "Output trends", "Performance metrics", "Coverage reporting"]
+        },
+        {
+          "name": "Model QA Specialist",
+          "badge": "Prompts",
+          "badgeClass": "badge-ready",
+          "description": "Audit Bizar agent prompts for consistency and on-brand accuracy. Catch output drift before it affects client deliverables.",
+          "meta": ["Prompt audit", "Consistency", "Brand accuracy"],
+          "tools": ["Prompt auditing", "Output consistency", "Brand accuracy", "Bias detection"]
+        },
+        {
+          "name": "Reality Checker",
+          "badge": "Final gate",
+          "badgeClass": "badge-ready",
+          "description": "Evidence-based final gate before client delivery. Defaults to NEEDS WORK — requires proof posts meet brand and quality standards.",
+          "meta": ["Final QA", "Evidence-based", "Client delivery"],
+          "tools": ["Delivery certification", "Brand check", "Quality gate", "Screenshot evidence"]
+        }
+      ]
+    },
+    {
+      "name": "🚀 Bizar — Build & Scale",
+      "count": 8,
+      "items": [
+        {
+          "name": "Project Shepherd",
+          "badge": "Build",
+          "badgeClass": "badge-active",
+          "description": "4-week bizar-social-agents build coordination. Phase handoffs: agent customization → orchestration → Instagram API → testing.",
+          "meta": ["Build coordination", "4-week plan", "Phase handoffs"],
+          "tools": ["Timeline tracking", "Phase handoffs", "Risk management", "Stakeholder updates"]
+        },
+        {
+          "name": "Studio Producer",
+          "badge": "Scale",
+          "badgeClass": "badge-ready",
+          "description": "Multi-client orchestration as you scale from Bizar to 5 clients. Resource allocation, portfolio management, reuse strategy.",
+          "meta": ["5-client scale", "Portfolio mgmt", "Resource allocation"],
+          "tools": ["Multi-client oversight", "Resource planning", "Reuse strategy", "Strategic alignment"]
+        },
+        {
+          "name": "Rapid Prototyper",
+          "badge": "Build",
+          "badgeClass": "badge-active",
+          "description": "Fast iteration on orchestration scripts and new workflow features during the 4-week build phase.",
+          "meta": ["Fast iteration", "Python", "POC"],
+          "tools": ["Quick features", "Workflow prototypes", "API tests", "Fast iteration"]
+        },
+        {
+          "name": "Code Reviewer",
+          "badge": "Build",
+          "badgeClass": "badge-active",
+          "description": "Review orchestrator.py, base_agent.py, and workflow scripts before each build phase ships.",
+          "meta": ["Code review", "Python", "Quality gate"],
+          "tools": ["PR review", "Security check", "Logic review", "Error handling"]
+        },
+        {
+          "name": "Proposal Strategist",
+          "badge": "Sales",
+          "badgeClass": "badge-ready",
+          "description": "Pitch the social media management service to clients 2-5. Proposals, win themes, pricing narrative.",
+          "meta": ["Proposals", "New clients", "Win themes"],
+          "tools": ["Proposal writing", "Win narrative", "Pricing structure", "Competitive positioning"]
+        },
+        {
+          "name": "Sales Engineer",
+          "badge": "Sales",
+          "badgeClass": "badge-ready",
+          "description": "Technical demo of the Bizar agent system for new prospects. Show how the pipeline works without revealing the backend.",
+          "meta": ["Demo prep", "Technical sales", "POC scoping"],
+          "tools": ["Demo scripts", "POC design", "System walkthrough", "Client-safe narrative"]
+        },
+        {
+          "name": "Discovery Coach",
+          "badge": "Sales",
+          "badgeClass": "badge-ready",
+          "description": "Structure discovery calls for new social media management prospects. SPIN questions, qualification, pain identification.",
+          "meta": ["Discovery calls", "SPIN", "Qualification"],
+          "tools": ["Call structure", "Question design", "Qualification", "Pain mapping"]
+        },
+        {
+          "name": "MCP Builder",
+          "badge": "Build",
+          "badgeClass": "badge-active",
+          "description": "Build MCP tools to extend the Bizar pipeline — content queue tools, Instagram scheduling tools, analytics fetch tools.",
+          "meta": ["MCP", "Pipeline tools", "TypeScript"],
+          "tools": ["Content queue tool", "Scheduling tool", "Analytics fetch", "Pipeline extension"]
+        }
+      ]
+    },
+    {
+      "name": "💼 ADEV Business Development",
+      "count": 6,
+      "items": [
+        {
+          "name": "Outbound Strategist",
+          "badge": "Prospecting",
+          "badgeClass": "badge-active",
+          "description": "Signal-based sequences for North Shore venue and entertainment company prospects. Multi-channel outreach for ADEV services.",
+          "meta": ["Cold email", "LinkedIn", "North Shore venues"],
+          "tools": ["Email sequences", "LinkedIn outreach", "Signal triggers", "Follow-up plays"]
+        },
+        {
+          "name": "Deal Strategist",
+          "badge": "Pipeline",
+          "badgeClass": "badge-ready",
+          "description": "MEDDPICC scoring for ADEV active deals. Strategy for EVLV contract and social media management pitches.",
+          "meta": ["MEDDPICC", "Deal scoring", "Win planning"],
+          "tools": ["Deal scoring", "Win strategies", "Risk exposure", "Competitive positioning"]
+        },
+        {
+          "name": "Pipeline Analyst",
+          "badge": "Pipeline",
+          "badgeClass": "badge-ready",
+          "description": "ADEV prospect pipeline health — who's close to close, what's stalled, revenue forecast across services.",
+          "meta": ["Pipeline health", "Forecast", "Deal velocity"],
+          "tools": ["Pipeline review", "Forecast accuracy", "Velocity tracking", "Revenue ops"]
+        },
+        {
+          "name": "Paid Media Auditor",
+          "badge": "Upsell",
+          "badgeClass": "badge-ready",
+          "description": "200-point ad account audits as an ADEV upsell service. Add to the social media management package for higher-tier clients.",
+          "meta": ["Ad audits", "Upsell", "PPC"],
+          "tools": ["Account audits", "Waste elimination", "Competitive analysis", "Performance diagnosis"]
+        },
+        {
+          "name": "Finance Tracker",
+          "badge": "Business",
+          "badgeClass": "badge-ready",
+          "description": "Track total ADEV revenue, per-client margins, and effective hourly rate. Monitor progress toward $350-400/hr target.",
+          "meta": ["Revenue", "Margins", "Hourly rate"],
+          "tools": ["Revenue tracking", "Cost analysis", "Margin reporting", "Rate calculation"]
+        },
+        {
+          "name": "Studio Producer",
+          "badge": "Scale",
+          "badgeClass": "badge-ready",
+          "description": "High-level portfolio management as ADEV grows from 2 to 5+ clients across web dev and social media management.",
+          "meta": ["Portfolio mgmt", "5+ clients", "Strategic alignment"],
+          "tools": ["Multi-client planning", "Resource allocation", "Strategic review", "Portfolio health"]
+        }
+      ]
+    }
+  ]
+}
