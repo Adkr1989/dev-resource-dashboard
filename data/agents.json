@@ -55,7 +55,7 @@
     },
     {
       "name": "Agency Agents (msitarzewski/agency-agents)",
-      "count": 11,
+      "count": 23,
       "items": [
         {
           "name": "Security Engineer",
@@ -145,6 +145,102 @@
           "description": "Evidence-based production readiness certification — defaults to NEEDS WORK. Use as the final gate before any deploy to Vercel or GoBot release.",
           "meta": ["QA", "Pre-deploy", "Evidence-based"],
           "tools": ["Deploy certification", "User journey testing", "Spec vs. reality check", "Screenshot QA"]
+        },
+        {
+          "name": "Social Media Strategist",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "Monthly strategy, content calendar planning, and platform optimization. Core agent in the Bizar social system — runs Monday morning to generate 15 content concepts.",
+          "meta": ["Strategy", "Content calendar", "Multi-platform"],
+          "tools": ["Weekly concept generation", "Competitive positioning", "Platform optimization", "Calendar planning"]
+        },
+        {
+          "name": "Content Creator",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "Cross-platform content adaptation and caption writing from raw client copy. Use to polish captions and create content variations for Bizar/Boom brands.",
+          "meta": ["Captions", "Multi-platform", "Brand voice"],
+          "tools": ["Caption writing", "Content adaptation", "Copy variations", "Platform formatting"]
+        },
+        {
+          "name": "Analytics Reporter",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "Performance tracking, competitive analysis, and monthly reporting. End-of-month agent — generates client-ready insights, growth recommendations, and competitor benchmarks.",
+          "meta": ["Analytics", "Monthly reports", "KPIs"],
+          "tools": ["Performance summaries", "Competitor benchmarks", "Growth recommendations", "Dashboard data"]
+        },
+        {
+          "name": "TikTok Strategist",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "Viral content strategy, algorithm optimization, and short-form video planning. Relevant for Bizar Reels/TikTok crossover content and younger demographic reach.",
+          "meta": ["TikTok", "Reels", "Short-form video"],
+          "tools": ["Viral content strategy", "Algorithm optimization", "Audio trends", "Reels crossover"]
+        },
+        {
+          "name": "LinkedIn Content Creator",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "Personal branding, thought leadership, and professional content for B2B audiences. Use for Bizar corporate event planner targeting and ADEV agency positioning.",
+          "meta": ["LinkedIn", "B2B", "Thought leadership"],
+          "tools": ["Professional posts", "Thought leadership", "B2B audience", "Personal branding"]
+        },
+        {
+          "name": "Carousel Growth Engine",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "TikTok/Instagram carousel generation with autonomous publishing support. Use for Bizar educational/event-recap carousels and ADEV Instagram carousel posts.",
+          "meta": ["Carousels", "Instagram", "TikTok"],
+          "tools": ["Carousel scripts", "Slide structure", "Publishing automation", "Engagement hooks"]
+        },
+        {
+          "name": "Growth Hacker",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "Rapid user acquisition, viral loops, and conversion experiments. Use to design growth tactics for Bizar's Instagram follower growth and ADEV lead generation.",
+          "meta": ["Growth", "Acquisition", "Experiments"],
+          "tools": ["Viral loop design", "Conversion optimization", "A/B experiments", "Growth tactics"]
+        },
+        {
+          "name": "Executive Summary Generator",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "C-suite communication and strategic summaries. Use to generate the monthly client-facing report narrative for Bizar and future social media management clients.",
+          "meta": ["Client reports", "Executive comms", "Summaries"],
+          "tools": ["Monthly client reports", "Strategic summaries", "Decision support", "Executive narratives"]
+        },
+        {
+          "name": "Document Generator",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "PDF, PPTX, DOCX, XLSX generation from code. Use to produce polished monthly reports and client deliverables from agent JSON outputs in bizar-social-agents.",
+          "meta": ["PDF", "PPTX", "DOCX", "Reports"],
+          "tools": ["PDF reports", "PowerPoint decks", "Excel exports", "Client deliverables"]
+        },
+        {
+          "name": "Proposal Strategist",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "RFP responses, win themes, and persuasive proposal narratives. Use when pitching the social media management service to clients 2-5 beyond Bizar.",
+          "meta": ["Proposals", "Sales", "Win themes"],
+          "tools": ["RFP responses", "Win narratives", "Proposal structure", "Competitive positioning"]
+        },
+        {
+          "name": "Feedback Synthesizer",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "User feedback analysis and insight extraction. Use after Bizar client meetings to synthesize feedback into actionable content adjustments for next month.",
+          "meta": ["Feedback", "Insights", "Product priorities"],
+          "tools": ["Client feedback analysis", "Theme extraction", "Content adjustments", "Priority mapping"]
+        },
+        {
+          "name": "Project Shepherd",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "Cross-functional coordination and timeline management. Use to manage the 4-week bizar-social-agents build and coordinate handoffs between build phases.",
+          "meta": ["Project mgmt", "Timelines", "Coordination"],
+          "tools": ["Timeline tracking", "Stakeholder coordination", "Phase handoffs", "Risk management"]
         }
       ]
     },
