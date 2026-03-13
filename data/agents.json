@@ -1,16 +1,191 @@
 {
   "categories": [
     {
-      "name": "Dashboard Agent",
-      "count": 1,
+      "name": "Production Agents",
+      "count": 3,
       "items": [
+        {
+          "name": "GoBot (Claude Telegram Relay)",
+          "badge": "Running",
+          "badgeClass": "badge-active",
+          "description": "Telegram-to-Claude relay with prospect pipeline, case study generation, security audits, and multi-provider LLM fallback.",
+          "meta": ["Bun", "Port 3737", "Multi-Provider"],
+          "tools": ["/prospect", "/prospect audit", "/prospect email", "/prospect search", "/prospect pipeline", "/prospect band", "/prospect pitch"],
+          "url": "http://localhost:3737"
+        },
+        {
+          "name": "ADEV Lead Pipeline",
+          "badge": "Active",
+          "badgeClass": "badge-active",
+          "description": "Automated lead capture on adevelopment.dev — Prisma + MongoDB + Resend email notifications to arik@adevelopment.dev.",
+          "meta": ["Next.js API", "Prisma", "MongoDB", "Resend"],
+          "tools": ["/api/leads", "Email alerts", "Admin dashboard"]
+        },
         {
           "name": "DevDash Assistant",
           "badge": "Built-in",
           "badgeClass": "badge-active",
-          "description": "Your dashboard companion. Scans your local repositories, detects AI agents and integrations, and populates this dashboard with your resources. Tell it what you use and it organizes everything for you.",
-          "meta": ["Auto-discovery", "Any AI provider", "JSON sync"],
+          "description": "Dashboard companion agent — scans repos, detects integrations, syncs data, and exports config.",
+          "meta": ["Auto-discovery", "JSON sync"],
           "tools": ["Scan repos", "Add resources", "Sync data", "Export config"]
+        }
+      ]
+    },
+    {
+      "name": "Autonomous Agents",
+      "count": 2,
+      "items": [
+        {
+          "name": "Autonomous Planner",
+          "badge": "Skill",
+          "badgeClass": "badge-ready",
+          "description": "Plans and executes multi-step autonomous task sessions with progress tracking and crash recovery.",
+          "meta": ["Claude Code", "Session mgmt"],
+          "tools": ["/autonomous", "/autonomous-run", "/autonomous-status", "/autonomous-cancel"]
+        },
+        {
+          "name": "Bloom Evaluator",
+          "badge": "Skill",
+          "badgeClass": "badge-ready",
+          "description": "LLM behavioral evaluation framework — runs evals, tracks trends, generates HTML reports.",
+          "meta": ["Evaluation", "Reports"],
+          "tools": ["/bloom", "/bloom-check", "/bloom-config", "/bloom-report"]
+        }
+      ]
+    },
+    {
+      "name": "Agency Agents (msitarzewski/agency-agents)",
+      "count": 11,
+      "items": [
+        {
+          "name": "Security Engineer",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "Threat modeling, OWASP audits, secure code review, and security architecture. Use for GoBot case study audits, EVLV API hardening, and A_Dev lead API reviews.",
+          "meta": ["OWASP", "STRIDE", "SAST/DAST"],
+          "tools": ["Threat model", "Vulnerability assessment", "Security headers", "CI/CD scanning"],
+          "url": "https://github.com/msitarzewski/agency-agents"
+        },
+        {
+          "name": "Frontend Developer",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "React/Next.js specialist covering Core Web Vitals, accessibility, and component architecture. Use for EVLV NLR migration audit and A_Dev dashboard work.",
+          "meta": ["React", "Next.js", "TypeScript", "WCAG"],
+          "tools": ["Component review", "Performance audit", "Accessibility check", "Migration checklist"]
+        },
+        {
+          "name": "DevOps Automator",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "CI/CD pipelines, infrastructure automation, deployment strategies. Use for GoBot auto-restart, Vercel workflows, and EVLV migration deadline CI gates.",
+          "meta": ["GitHub Actions", "Vercel", "CI/CD"],
+          "tools": ["Deploy pipelines", "Auto-restart config", "Build guards", "Rollback automation"]
+        },
+        {
+          "name": "Rapid Prototyper",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "Fast POC and MVP development. Use for new GoBot Telegram commands and quick A_Dev platform features.",
+          "meta": ["Fast iteration", "POC", "MVP"],
+          "tools": ["Quick features", "Telegram commands", "Webhook prototypes"]
+        },
+        {
+          "name": "Code Reviewer",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "Constructive PR reviews covering security, maintainability, and correctness. Use before any GoBot release or EVLV migration merge.",
+          "meta": ["PR review", "Security", "TypeScript"],
+          "tools": ["PR review", "Security audit", "Diff analysis"]
+        },
+        {
+          "name": "Instagram Curator",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "Visual storytelling, content calendars, and community building for Instagram. Use for ADEV monthly content planning and Reel scripts.",
+          "meta": ["Content calendar", "Reels", "Hashtags"],
+          "tools": ["30-day calendar", "Reel scripts", "Post critique", "Hashtag strategy"]
+        },
+        {
+          "name": "SEO Specialist",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "Technical SEO, content strategy, and link authority. Use for GoBot prospect digital audits and adevelopment.dev organic growth.",
+          "meta": ["Technical SEO", "Core Web Vitals", "Local SEO"],
+          "tools": ["Site audit", "Keyword gaps", "Competitor analysis", "Structured data"]
+        },
+        {
+          "name": "Outbound Strategist",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "Signal-based multi-channel outreach sequences and ICP targeting. Use for North Shore venue prospects and entertainment niche LinkedIn outreach.",
+          "meta": ["Cold email", "LinkedIn", "ICP"],
+          "tools": ["Email sequences", "LinkedIn plays", "Signal triggers", "Follow-up playbooks"]
+        },
+        {
+          "name": "MCP Builder",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "Builds production MCP servers with typed tools, error handling, and Zod validation. Use to extend GoBot with new tools and build lead-alert servers.",
+          "meta": ["MCP", "TypeScript", "Zod"],
+          "tools": ["Tool design", "MCP server scaffold", "API integration", "Error handling"]
+        },
+        {
+          "name": "Agents Orchestrator",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "Coordinates multi-agent dev pipelines from spec to ship with quality gates. Use to run full GoBot prospect pipelines and EVLV launch readiness checks.",
+          "meta": ["Multi-agent", "Pipeline", "Quality gates"],
+          "tools": ["Full pipeline runs", "Agent handoffs", "Dev-QA loops", "Launch checklists"]
+        },
+        {
+          "name": "Reality Checker",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "Evidence-based production readiness certification — defaults to NEEDS WORK. Use as the final gate before any deploy to Vercel or GoBot release.",
+          "meta": ["QA", "Pre-deploy", "Evidence-based"],
+          "tools": ["Deploy certification", "User journey testing", "Spec vs. reality check", "Screenshot QA"]
+        }
+      ]
+    },
+    {
+      "name": "LLM Providers (GoBot Fallback Chain)",
+      "count": 5,
+      "items": [
+        {
+          "name": "Ollama (Local)",
+          "badge": "Primary",
+          "badgeClass": "badge-active",
+          "description": "Local LLM inference — first in fallback chain.",
+          "meta": ["Local", "Free"]
+        },
+        {
+          "name": "Mistral",
+          "badge": "Fallback 1",
+          "badgeClass": "badge-ready",
+          "description": "Mistral API — second in fallback chain.",
+          "meta": ["Cloud", "API"]
+        },
+        {
+          "name": "Qwen Coder",
+          "badge": "Fallback 2",
+          "badgeClass": "badge-ready",
+          "description": "Qwen Coder — third in fallback chain.",
+          "meta": ["Cloud", "API"]
+        },
+        {
+          "name": "Groq",
+          "badge": "Fallback 3",
+          "badgeClass": "badge-ready",
+          "description": "Groq API — fast inference, fourth in chain.",
+          "meta": ["Cloud", "Fast"]
+        },
+        {
+          "name": "OpenRouter",
+          "badge": "Fallback 4",
+          "badgeClass": "badge-ready",
+          "description": "OpenRouter — multi-model gateway, last resort.",
+          "meta": ["Cloud", "Multi-model"]
         }
       ]
     }

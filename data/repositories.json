@@ -1,9 +1,185 @@
 {
   "categories": [
     {
-      "name": "My Projects",
-      "count": 0,
-      "items": []
+      "name": "Active Projects",
+      "count": 4,
+      "items": [
+        {
+          "name": "a-development-website",
+          "badge": "Active",
+          "badgeClass": "badge-active",
+          "description": "Professional portfolio & lead pipeline — Next.js 15, Prisma, MongoDB, Resend emails. Deployed on Vercel + Cloudflare.",
+          "meta": ["Next.js 15", "TypeScript", "Vercel", "Public"],
+          "path": "~/dev/active/a-development-website",
+          "url": "https://github.com/Adkr1989/a-development-website"
+        },
+        {
+          "name": "claude-telegram-relay (GoBot)",
+          "badge": "Active",
+          "badgeClass": "badge-active",
+          "description": "Claude Telegram Relay — prospect pipeline, case studies, security audits. Bun runtime, port 3737.",
+          "meta": ["Bun", "TypeScript", "Private"],
+          "path": "~/dev/tools/claude-telegram-relay",
+          "url": "https://github.com/Adkr1989/ari-telegram-relay"
+        },
+        {
+          "name": "dev-resource-dashboard",
+          "badge": "Active",
+          "badgeClass": "badge-active",
+          "description": "This dashboard — zero-dependency developer resource organizer. GitHub Pages hosted.",
+          "meta": ["Vanilla JS", "GitHub Pages", "Public"],
+          "path": "~/dev/tools/dev-resource-dashboard",
+          "url": "https://github.com/Adkr1989/dev-resource-dashboard"
+        },
+        {
+          "name": "A-Development-Platform",
+          "badge": "In Progress",
+          "badgeClass": "badge-pipeline",
+          "description": "Base platform for A_Development services and agent orchestration.",
+          "meta": ["TypeScript", "Private"],
+          "path": "~/dev/active/a-development-platform",
+          "url": "https://github.com/Adkr1989/A-Development-Platform"
+        }
+      ]
+    },
+    {
+      "name": "Reference Repos",
+      "count": 1,
+      "items": [
+        {
+          "name": "agency-agents",
+          "badge": "Reference",
+          "badgeClass": "badge-ready",
+          "description": "142 specialized AI agent personalities across 12 divisions — 11 installed to ~/.claude/agents/. Use-case guide at ~/.claude/agents/ADEV-AGENT-USECASES.md.",
+          "meta": ["Markdown", "Claude Code", "142 agents"],
+          "path": "~/dev/agency-agents",
+          "url": "https://github.com/msitarzewski/agency-agents"
+        }
+      ]
+    },
+    {
+      "name": "MCP Servers",
+      "count": 4,
+      "items": [
+        {
+          "name": "app-seo-ai",
+          "badge": "Fork",
+          "badgeClass": "badge-ready",
+          "description": "SEO automation and AI-powered optimization — traffic, keywords, backlinks, difficulty analysis.",
+          "meta": ["Python", "Public"],
+          "path": "~/dev/mcp-servers/app-seo-ai",
+          "url": "https://github.com/Adkr1989/app-seo-ai"
+        },
+        {
+          "name": "firecrawl-mcp-server",
+          "badge": "Tool",
+          "badgeClass": "badge-ready",
+          "description": "Firecrawl MCP server for web scraping and crawling.",
+          "meta": ["TypeScript"],
+          "path": "~/dev/mcp-servers/firecrawl-mcp-server"
+        },
+        {
+          "name": "mcp-gateway",
+          "badge": "Tool",
+          "badgeClass": "badge-ready",
+          "description": "MCP gateway for routing and aggregating MCP servers.",
+          "meta": ["TypeScript"],
+          "path": "~/dev/mcp-servers/mcp-gateway"
+        },
+        {
+          "name": "mcp-google-search",
+          "badge": "Tool",
+          "badgeClass": "badge-ready",
+          "description": "Google Search MCP server integration.",
+          "meta": ["TypeScript"],
+          "path": "~/dev/mcp-servers/mcp-google-search"
+        }
+      ]
+    },
+    {
+      "name": "Utilities & Learning",
+      "count": 6,
+      "items": [
+        {
+          "name": "claude-agent-sdk-intro",
+          "badge": "Learning",
+          "badgeClass": "badge-pipeline",
+          "description": "ADEV Personal Assistant — Claude Agent SDK workspace.",
+          "meta": ["Python", "Private"],
+          "url": "https://github.com/Adkr1989/claude-agent-sdk-intro"
+        },
+        {
+          "name": "agent-scripts",
+          "badge": "Utility",
+          "badgeClass": "badge-ready",
+          "description": "Shared scripts for agents across repositories.",
+          "meta": ["Shell", "Public"],
+          "url": "https://github.com/Adkr1989/agent-scripts"
+        },
+        {
+          "name": "gogcli",
+          "badge": "Utility",
+          "badgeClass": "badge-ready",
+          "description": "Google Suite CLI — Gmail, GCal, GDrive, GContacts.",
+          "meta": ["Go", "Public"],
+          "url": "https://github.com/Adkr1989/gogcli"
+        },
+        {
+          "name": "EV_LV",
+          "badge": "Research",
+          "badgeClass": "badge-pipeline",
+          "description": "EV Charging Infrastructure Research & Investment Analysis Platform.",
+          "meta": ["Private"],
+          "url": "https://github.com/Adkr1989/EV_LV"
+        },
+        {
+          "name": "Light_RL",
+          "badge": "Fork",
+          "badgeClass": "badge-ready",
+          "description": "Lightweight deep reinforcement learning implementation.",
+          "meta": ["Python", "Public"],
+          "url": "https://github.com/Adkr1989/Light_RL"
+        },
+        {
+          "name": "aris-notebook",
+          "badge": "Learning",
+          "badgeClass": "badge-pipeline",
+          "description": "Personal Python Learning Workshop — 30 Days of Python mapped to ADEV ecosystem.",
+          "meta": ["Python", "Private"],
+          "url": "https://github.com/Adkr1989/aris-notebook"
+        }
+      ]
+    },
+    {
+      "name": "Archives",
+      "count": 3,
+      "items": [
+        {
+          "name": "ari-dev-portfolio",
+          "badge": "Archived",
+          "badgeClass": "badge-ready",
+          "description": "Previous portfolio site.",
+          "meta": ["Public"],
+          "path": "~/dev/archives/ari-dev-portfolio",
+          "url": "https://github.com/Adkr1989/ari-dev-portfolio"
+        },
+        {
+          "name": "Portfolio",
+          "badge": "Archived",
+          "badgeClass": "badge-ready",
+          "description": "AI Agent Developer portfolio — Claude SDK, Multi-Agent Orchestration.",
+          "meta": ["Public"],
+          "url": "https://github.com/Adkr1989/Portfolio"
+        },
+        {
+          "name": "flstudio-snappysnap-agent",
+          "badge": "Archived",
+          "badgeClass": "badge-ready",
+          "description": "FL Studio SnappySnap automation agent.",
+          "meta": ["Private"],
+          "url": "https://github.com/Adkr1989/flstudio-snappysnap-agent"
+        }
+      ]
     }
   ]
 }
