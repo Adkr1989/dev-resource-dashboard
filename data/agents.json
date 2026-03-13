@@ -55,7 +55,7 @@
     },
     {
       "name": "Agency Agents (msitarzewski/agency-agents)",
-      "count": 23,
+      "count": 48,
       "items": [
         {
           "name": "Security Engineer",
@@ -241,6 +241,206 @@
           "description": "Cross-functional coordination and timeline management. Use to manage the 4-week bizar-social-agents build and coordinate handoffs between build phases.",
           "meta": ["Project mgmt", "Timelines", "Coordination"],
           "tools": ["Timeline tracking", "Stakeholder coordination", "Phase handoffs", "Risk management"]
+        },
+        {
+          "name": "Backend Architect",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "API design, database architecture, and scalability. Critical for EVLV NLR migration — redesign API service layer and wire up SAM_GOV + Resend integrations.",
+          "meta": ["API design", "Architecture", "Microservices"],
+          "tools": ["API route design", "DB architecture", "Service layer", "Integration planning"]
+        },
+        {
+          "name": "Software Architect",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "System design, DDD, and architectural trade-off analysis. Use for EVLV data layer decisions and A_Dev platform architecture as it grows.",
+          "meta": ["System design", "DDD", "Architecture"],
+          "tools": ["Architecture decisions", "Domain modeling", "Trade-off analysis", "System evolution"]
+        },
+        {
+          "name": "SRE",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "SLOs, error budgets, observability, and chaos engineering. Use to establish production reliability standards for evlv.energy with LAW Ventures.",
+          "meta": ["SLOs", "Observability", "Reliability"],
+          "tools": ["SLO definition", "Error budgets", "Alerting setup", "Uptime monitoring"]
+        },
+        {
+          "name": "Data Engineer",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "Data pipelines, ETL, and structured data ingestion. Use for EVLV energy data from NLR API — normalize response shapes and build reliable data pipelines.",
+          "meta": ["Pipelines", "ETL", "Data modeling"],
+          "tools": ["NLR data pipelines", "Schema normalization", "Data ingestion", "Transformation logic"]
+        },
+        {
+          "name": "AI Engineer",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "ML models, AI integration, and agent deployment. Use to improve the AVA agent on EVLV — better prompts, tool use, structured outputs, and response quality.",
+          "meta": ["Claude API", "Agent design", "ML integration"],
+          "tools": ["AVA agent improvements", "Prompt engineering", "Tool design", "Structured outputs"]
+        },
+        {
+          "name": "Technical Writer",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "Developer docs, API reference, and tutorials. Use to document the EVLV NLR migration for the LAW Ventures team and create ADEV client handoff docs.",
+          "meta": ["Docs", "API reference", "Handoff"],
+          "tools": ["Migration docs", "API guides", "Client handoffs", "Architecture writeups"]
+        },
+        {
+          "name": "Autonomous Optimization Architect",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "LLM routing, cost optimization, and shadow testing. Use to optimize GoBot's fallback chain and reduce Claude API costs as Bizar social system scales.",
+          "meta": ["LLM routing", "Cost optimization", "Shadow testing"],
+          "tools": ["Fallback chain tuning", "API cost reduction", "Provider routing", "Shadow testing"]
+        },
+        {
+          "name": "API Tester",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "API validation and integration testing. Critical pre-April 30 — validates every EVLV endpoint switches cleanly from NREL to NLR with no regressions.",
+          "meta": ["API testing", "Integration QA", "Regression"],
+          "tools": ["Endpoint validation", "NLR migration tests", "Response comparison", "Integration QA"]
+        },
+        {
+          "name": "Accessibility Auditor",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "WCAG 2.1 auditing and assistive technology testing. Use on evlv.energy and adevelopment.dev to ensure compliance before client handoff.",
+          "meta": ["WCAG", "A11y", "Screen reader"],
+          "tools": ["WCAG audit", "Screen reader test", "Keyboard nav", "Contrast check"]
+        },
+        {
+          "name": "Performance Benchmarker",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "Performance testing and optimization. Use before Vercel deploys on EVLV and A_Dev — Lighthouse scores, load times, Core Web Vitals.",
+          "meta": ["Lighthouse", "Core Web Vitals", "Load testing"],
+          "tools": ["Lighthouse audit", "Load testing", "Performance budgets", "CWV benchmarks"]
+        },
+        {
+          "name": "Workflow Optimizer",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "Process analysis and workflow improvement. Use to analyze and tighten the Bizar Strategist→Curator→SEO pipeline before go-live.",
+          "meta": ["Process optimization", "Efficiency", "Automation"],
+          "tools": ["Pipeline analysis", "Bottleneck detection", "Workflow redesign", "Automation opportunities"]
+        },
+        {
+          "name": "Evidence Collector",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "Screenshot-based QA and visual proof. Use for Bizar post QA — visual evidence of generated content before client delivery, and UI regression checks.",
+          "meta": ["Screenshots", "Visual QA", "Evidence"],
+          "tools": ["Screenshot capture", "Visual regression", "QA evidence", "Bug documentation"]
+        },
+        {
+          "name": "Test Results Analyzer",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "Test evaluation and metrics analysis. Use to analyze Bizar agent output quality week-over-week and EVLV API test results after NLR migration.",
+          "meta": ["Test metrics", "Quality analysis", "Coverage"],
+          "tools": ["Test output analysis", "Quality metrics", "Coverage reporting", "Trend tracking"]
+        },
+        {
+          "name": "Infrastructure Maintainer",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "System reliability and performance optimization. Use for EVLV Vercel + NLR API monitoring, and GoBot uptime and health checks.",
+          "meta": ["Infrastructure", "Monitoring", "Reliability"],
+          "tools": ["Health monitoring", "Performance tuning", "Uptime checks", "System ops"]
+        },
+        {
+          "name": "Finance Tracker",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "Financial planning and budget management. Use to track ADEV revenue (Bizar $2,800/mo, EVLV contract), margins, and effective hourly rate across clients.",
+          "meta": ["Revenue tracking", "Margins", "Budget"],
+          "tools": ["Revenue tracking", "Cost analysis", "Margin reporting", "Cash flow"]
+        },
+        {
+          "name": "Sprint Prioritizer",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "Agile sprint planning and feature prioritization. Use to manage the EVLV NLR deadline sprint and Bizar build phases across weeks.",
+          "meta": ["Sprint planning", "Backlog", "Prioritization"],
+          "tools": ["Sprint planning", "Backlog grooming", "Feature prioritization", "Resource allocation"]
+        },
+        {
+          "name": "Behavioral Nudge Engine",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "Behavioral psychology and nudge design. Use to improve adevelopment.dev conversion — CTA design, lead form psychology, and engagement hooks.",
+          "meta": ["Psychology", "Conversion", "UX nudges"],
+          "tools": ["CTA optimization", "Lead form nudges", "Engagement design", "Conversion psychology"]
+        },
+        {
+          "name": "Studio Producer",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "High-level multi-project orchestration and portfolio management. Use when scaling from Bizar to 5 social media clients — resource allocation across projects.",
+          "meta": ["Portfolio mgmt", "Multi-client", "Orchestration"],
+          "tools": ["Multi-client oversight", "Resource allocation", "Strategic alignment", "Portfolio planning"]
+        },
+        {
+          "name": "Model QA Specialist",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "ML audits, feature analysis, and interpretability. Use to QA Bizar agent prompt quality — audit outputs for consistency, bias, and on-brand accuracy.",
+          "meta": ["Prompt QA", "Model audits", "Quality"],
+          "tools": ["Prompt auditing", "Output consistency", "Quality benchmarks", "Bias detection"]
+        },
+        {
+          "name": "UX Architect",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "Technical CSS architecture and developer-friendly design systems. Use for EVLV and A_Dev when building new UI sections with consistent component foundations.",
+          "meta": ["CSS systems", "Design systems", "UX architecture"],
+          "tools": ["CSS architecture", "Component foundations", "Design tokens", "Implementation guides"]
+        },
+        {
+          "name": "Discovery Coach",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "SPIN and Gap Selling question design for discovery calls. Use when qualifying new social media management prospects after Bizar — structure the sales call.",
+          "meta": ["Discovery calls", "SPIN selling", "Qualification"],
+          "tools": ["Call structure", "Question design", "Qualification frameworks", "Opportunity scoring"]
+        },
+        {
+          "name": "Deal Strategist",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "MEDDPICC qualification and win planning. Use for EVLV contract strategy with LAW Ventures and positioning the social media service for new clients.",
+          "meta": ["MEDDPICC", "Win planning", "Deal strategy"],
+          "tools": ["Deal scoring", "Risk exposure", "Win strategies", "Competitive positioning"]
+        },
+        {
+          "name": "Pipeline Analyst",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "Forecasting, pipeline health, and deal velocity. Use to track ADEV prospect pipeline — who's close to close, what's stalled, revenue forecast.",
+          "meta": ["Pipeline health", "Forecasting", "Deal velocity"],
+          "tools": ["Pipeline review", "Forecast accuracy", "Velocity tracking", "Revenue ops"]
+        },
+        {
+          "name": "Sales Engineer",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "Technical demos, POC scoping, and competitive battlecards. Use for pre-sales technical demos of the social media agent system to new prospects.",
+          "meta": ["Demo prep", "POC scoping", "Technical sales"],
+          "tools": ["Demo scripts", "POC design", "Battlecards", "Technical positioning"]
+        },
+        {
+          "name": "Paid Media Auditor",
+          "badge": "Installed",
+          "badgeClass": "badge-active",
+          "description": "200+ point ad account audits and competitive analysis. Potential ADEV upsell service — audit client ad accounts as an add-on to social media management.",
+          "meta": ["Ad audits", "PPC", "Competitive analysis"],
+          "tools": ["Account audits", "Waste elimination", "Competitive analysis", "Performance diagnosis"]
         }
       ]
     },
