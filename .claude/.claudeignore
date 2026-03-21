@@ -1,0 +1,24 @@
+# .claudeignore — Dev Resource Dashboard
+
+.env
+.env.*
+!.env.example
+.env.local
+*.pem
+*.key
+credentials.json
+node_modules/
+.next/
+build/
+dist/
+*.tsbuildinfo
+coverage/
+*.log
+.cache/
+.DS_Store
+Thumbs.db
+*.swp
+.git/
+*.zip
+*.tar.gz
+*.db

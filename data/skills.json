@@ -1,0 +1,232 @@
+{
+  "categories": [
+    {
+      "name": "ADEV Business Skills",
+      "count": 8,
+      "items": [
+        {
+          "name": "/case-study",
+          "badge": "Outreach",
+          "badgeClass": "badge-active",
+          "description": "Generate full prospect case study package — email, digital audit, security audit, internal docs.",
+          "meta": ["6 files", "HTML", "Dark theme"],
+          "tools": ["Email", "Case Study", "Security Audit", "Solutions", "Pitch Answers", "Contact Info"]
+        },
+        {
+          "name": "/case-study-auto",
+          "badge": "Automation",
+          "badgeClass": "badge-active",
+          "description": "Auto-generate case studies when new leads arrive via GoBot webhook pipeline.",
+          "meta": ["GoBot", "Webhook"]
+        },
+        {
+          "name": "/cold-email-campaigns",
+          "badge": "Outreach",
+          "badgeClass": "badge-active",
+          "description": "Create cold email campaigns in Instantly from client description and offers.",
+          "meta": ["Instantly", "Email sequences"]
+        },
+        {
+          "name": "/inbox-cleaner",
+          "badge": "Productivity",
+          "badgeClass": "badge-active",
+          "description": "AI-powered Gmail triage — identify important emails, mark noise as read.",
+          "meta": ["Gmail", "AI filter"]
+        },
+        {
+          "name": "/portfolio",
+          "badge": "Content",
+          "badgeClass": "badge-ready",
+          "description": "Manage professional portfolio content.",
+          "meta": ["Portfolio"]
+        },
+        {
+          "name": "/website-builder",
+          "badge": "Deploy",
+          "badgeClass": "badge-active",
+          "description": "Build cinematic landing pages from a brief and deploy live on Netlify.",
+          "meta": ["HTML", "Netlify", "Auto-deploy"]
+        },
+        {
+          "name": "/webpage",
+          "badge": "Dev",
+          "badgeClass": "badge-ready",
+          "description": "Portfolio website development session.",
+          "meta": ["Next.js", "adevelopment.dev"]
+        },
+        {
+          "name": "/vercel-deploy",
+          "badge": "Deploy",
+          "badgeClass": "badge-active",
+          "description": "Deploy A_Development website to Vercel with pre-flight checks.",
+          "meta": ["Vercel", "CI/CD"]
+        }
+      ]
+    },
+    {
+      "name": "DevOps & Code Quality",
+      "count": 7,
+      "items": [
+        {
+          "name": "/deploy",
+          "badge": "DevOps",
+          "badgeClass": "badge-active",
+          "description": "Deploy with pre-flight checks and validation.",
+          "meta": ["CI/CD"]
+        },
+        {
+          "name": "/github",
+          "badge": "DevOps",
+          "badgeClass": "badge-active",
+          "description": "GitHub expert — branching, PRs, Actions, interactive git execution.",
+          "meta": ["git", "PRs", "Actions"]
+        },
+        {
+          "name": "/code-review",
+          "badge": "Quality",
+          "badgeClass": "badge-ready",
+          "description": "Multi-perspective code review for quality.",
+          "meta": ["Review"]
+        },
+        {
+          "name": "/simplify",
+          "badge": "Quality",
+          "badgeClass": "badge-ready",
+          "description": "Review changed code for reuse, quality, and efficiency — fix issues found.",
+          "meta": ["Refactor"]
+        },
+        {
+          "name": "/audit",
+          "badge": "Security",
+          "badgeClass": "badge-ready",
+          "description": "Comprehensive security and compliance audit.",
+          "meta": ["OWASP", "Security"]
+        },
+        {
+          "name": "/security-check",
+          "badge": "Security",
+          "badgeClass": "badge-ready",
+          "description": "Quick security vulnerability scan.",
+          "meta": ["Fast scan"]
+        },
+        {
+          "name": "/version",
+          "badge": "Release",
+          "badgeClass": "badge-ready",
+          "description": "Assess repo, recommend version bump, execute release.",
+          "meta": ["SemVer"]
+        }
+      ]
+    },
+    {
+      "name": "Session & Tracking",
+      "count": 10,
+      "items": [
+        {
+          "name": "/autonomous",
+          "badge": "Planning",
+          "badgeClass": "badge-active",
+          "description": "Plan autonomous multi-step task sessions.",
+          "meta": ["Session"]
+        },
+        {
+          "name": "/autonomous-run",
+          "badge": "Execution",
+          "badgeClass": "badge-active",
+          "description": "Execute approved autonomous plans in looping sessions.",
+          "meta": ["Session"]
+        },
+        {
+          "name": "/roadmap",
+          "badge": "Planning",
+          "badgeClass": "badge-active",
+          "description": "Show today's priority tasks based on ADEV outreach focus.",
+          "meta": ["Tasks", "Priorities"]
+        },
+        {
+          "name": "/roadmap-report",
+          "badge": "Reports",
+          "badgeClass": "badge-ready",
+          "description": "Generate visual HTML roadmap report for any project.",
+          "meta": ["HTML", "Visual"]
+        },
+        {
+          "name": "/streak",
+          "badge": "Habits",
+          "badgeClass": "badge-active",
+          "description": "Daily check-in with active streak challenge.",
+          "meta": ["Tracking"]
+        },
+        {
+          "name": "/session-bookmark",
+          "badge": "Recovery",
+          "badgeClass": "badge-ready",
+          "description": "Save, list, and resume session bookmarks.",
+          "meta": ["Crash recovery"]
+        },
+        {
+          "name": "/session-analytics",
+          "badge": "Metrics",
+          "badgeClass": "badge-ready",
+          "description": "Generate session report with tool usage metrics.",
+          "meta": ["Analytics"]
+        },
+        {
+          "name": "/dashboard",
+          "badge": "UI",
+          "badgeClass": "badge-active",
+          "description": "Manage ADEV Resource Dashboard — open, add, edit, sync, stats.",
+          "meta": ["This dashboard"]
+        },
+        {
+          "name": "/gobot-start",
+          "badge": "Service",
+          "badgeClass": "badge-active",
+          "description": "Start GoBot server and dashboard.",
+          "meta": ["Port 3737"]
+        },
+        {
+          "name": "/gobot-stop",
+          "badge": "Service",
+          "badgeClass": "badge-ready",
+          "description": "Stop GoBot server.",
+          "meta": ["Cleanup"]
+        }
+      ]
+    },
+    {
+      "name": "Content & Marketing",
+      "count": 4,
+      "items": [
+        {
+          "name": "/study",
+          "badge": "Learning",
+          "badgeClass": "badge-ready",
+          "description": "Daily check-in with study recommendations.",
+          "meta": ["Education"]
+        },
+        {
+          "name": "/notebooklm",
+          "badge": "Research",
+          "badgeClass": "badge-ready",
+          "description": "Open ADEV NotebookLM in Google Colab.",
+          "meta": ["Colab", "AI"]
+        },
+        {
+          "name": "/plan-sources",
+          "badge": "Research",
+          "badgeClass": "badge-ready",
+          "description": "Plan new NotebookLM source documents.",
+          "meta": ["Content"]
+        },
+        {
+          "name": "/resumes",
+          "badge": "Career",
+          "badgeClass": "badge-ready",
+          "description": "Organize Resumes folder by company and sync job application files.",
+          "meta": ["Organization"]
+        }
+      ]
+    }
+  ]
+}

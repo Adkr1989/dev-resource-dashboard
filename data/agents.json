@@ -1,6 +1,75 @@
 {
   "categories": [
     {
+      "name": "GSD-2 Execution Agents",
+      "count": 7,
+      "items": [
+        {
+          "name": "GSD · Global",
+          "badge": "Universal",
+          "badgeClass": "badge-active",
+          "description": "Universal GSD-2 agent — Milestone→Slice→Task decomposition, context pyramid, token budgeting, LLM/deterministic split, build-verified delivery. Works across any project.",
+          "meta": ["Any project", "Opus 4.6", "GSD-2"],
+          "tools": ["Work decomposition", "Context engineering", "Execution", "Verification"],
+          "url": "file:///C:/Users/Arikl/.claude/agents/gsd.md"
+        },
+        {
+          "name": "GSD · EVLV Website",
+          "badge": "EVLV",
+          "badgeClass": "badge-active",
+          "description": "GSD-2 for evlv.energy — NLR migration awareness, 17-agent pipeline context, Next.js+Prisma+MongoDB patterns, build-verified.",
+          "meta": ["evlv.energy", "NLR-aware", "17 agents"],
+          "tools": ["Feature delivery", "Bug fixes", "Agent work", "NLR migration"],
+          "url": "file:///C:/Users/Arikl/dev/active/evlv-website/.claude/agents/gsd.md"
+        },
+        {
+          "name": "GSD · AVA Framework",
+          "badge": "EVLV App",
+          "badgeClass": "badge-active",
+          "description": "GSD-2 for EVLV AVA TypeScript agent framework — expert consensus, tool schema enforcement, LLM/deterministic split across 5 experts and 19+ tools.",
+          "meta": ["AVA agent", "TypeScript", "Expert system"],
+          "tools": ["New tools", "Expert updates", "Schema enforcement", "Fine-tuning"],
+          "url": "file:///C:/Users/Arikl/dev/active/evlv-app/EV_LV/.claude/agents/gsd.md"
+        },
+        {
+          "name": "GSD · ADEV Website",
+          "badge": "ADEV",
+          "badgeClass": "badge-active",
+          "description": "GSD-2 for adevelopment.dev — Next.js 15, Prisma, Resend, lead pipeline. Milestone→Slice→Task with bun build verification.",
+          "meta": ["Next.js 15", "Lead pipeline", "Bun"],
+          "tools": ["Feature delivery", "Lead pipeline", "Admin dashboard", "Bug fixes"],
+          "url": "file:///C:/Users/Arikl/dev/active/a-development-website/.claude/agents/gsd.md"
+        },
+        {
+          "name": "GSD · ADEV Platform",
+          "badge": "Platform",
+          "badgeClass": "badge-active",
+          "description": "GSD-2 for A_Development shared SDK — interface-first design, consumer impact analysis, TypeScript strict, no project coupling.",
+          "meta": ["Shared SDK", "Interface-first", "TypeScript strict"],
+          "tools": ["New components", "Interface design", "Consumer audit", "Platform exports"],
+          "url": "file:///C:/Users/Arikl/dev/active/a-development-platform/.claude/agents/gsd.md"
+        },
+        {
+          "name": "GSD · Bizar",
+          "badge": "Bizar",
+          "badgeClass": "badge-active",
+          "description": "GSD-2 for Bizar Entertainment pipeline — schema-first changes, brand-rule enforcement, JSON handoff validation, quality gate design.",
+          "meta": ["6-agent pipeline", "Brand rules", "Schema-first"],
+          "tools": ["Pipeline changes", "New formats", "Quality gates", "Brand validation"],
+          "url": "file:///C:/Users/Arikl/Desktop/Bizar Agents/bizaragentic/.claude/agents/gsd/AGENT.md"
+        },
+        {
+          "name": "GSD · Lori Workspace",
+          "badge": "Lori",
+          "badgeClass": "badge-active",
+          "description": "GSD-2 for Lori's multi-domain workspace — output-first agent design, domain accuracy, workflow handoff sequencing across healthcare, e-commerce, compliance, grants.",
+          "meta": ["Multi-domain", "Output-first", "Workflow design"],
+          "tools": ["New agents", "Agent improvements", "Workflow design", "Domain accuracy"],
+          "url": "file:///C:/Users/Arikl/dev/experiments/adev-workspace-lori/.claude/agents/gsd.md"
+        }
+      ]
+    },
+    {
       "name": "Production Agents",
       "count": 3,
       "items": [

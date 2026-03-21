@@ -2,8 +2,26 @@
   "categories": [
     {
       "name": "⚡ EVLV (evlv.energy)",
-      "count": 14,
+      "count": 16,
       "items": [
+        {
+          "name": "GSD Agent",
+          "badge": "GSD-2",
+          "badgeClass": "badge-active",
+          "description": "GSD-2 execution agent for evlv.energy — decomposes work into Milestones→Slices→Tasks, token-budgeted context, NLR migration tracking, build-verified delivery. Invoke for any EVLV website or app work.",
+          "meta": ["Milestone→Slice→Task", "Context engineering", "NLR-aware"],
+          "tools": ["Work decomposition", "Context budgeting", "Build verification", "NLR migration check"],
+          "url": "file:///C:/Users/Arikl/dev/active/evlv-website/.claude/agents/gsd.md"
+        },
+        {
+          "name": "GSD Agent · AVA Framework",
+          "badge": "GSD-2",
+          "badgeClass": "badge-active",
+          "description": "GSD-2 execution agent for the EVLV AVA TypeScript agent framework — LLM/deterministic split, expert consensus interface preservation, tool schema enforcement across 19+ tools and 5 experts.",
+          "meta": ["Expert system", "Tool schemas", "Interface-first"],
+          "tools": ["Tool design", "Expert interface", "Schema enforcement", "Consensus engine"],
+          "url": "file:///C:/Users/Arikl/dev/active/evlv-app/EV_LV/.claude/agents/gsd.md"
+        },
         {
           "name": "API Tester",
           "badge": "🔴 Critical",
@@ -120,8 +138,26 @@
     },
     {
       "name": "🌐 A_Development (ADEV)",
-      "count": 12,
+      "count": 14,
       "items": [
+        {
+          "name": "GSD Agent",
+          "badge": "GSD-2",
+          "badgeClass": "badge-active",
+          "description": "GSD-2 execution agent for adevelopment.dev (Next.js 15) — Milestone→Slice→Task decomposition, Prisma/Resend/MongoDB patterns, token-budgeted context, build-verified delivery via Bun.",
+          "meta": ["Next.js 15", "Milestone→Slice→Task", "Build-verified"],
+          "tools": ["Work decomposition", "Context budgeting", "Prisma patterns", "Build verification"],
+          "url": "file:///C:/Users/Arikl/dev/active/a-development-website/.claude/agents/gsd.md"
+        },
+        {
+          "name": "GSD Agent · Platform",
+          "badge": "GSD-2",
+          "badgeClass": "badge-active",
+          "description": "GSD-2 execution agent for the A_Development shared platform SDK — interface-first design, consumer impact analysis, minimal surface area, no project coupling, TypeScript strict.",
+          "meta": ["Platform SDK", "Interface-first", "Consumer-aware"],
+          "tools": ["Interface design", "Consumer audit", "TypeScript strict", "Module exports"],
+          "url": "file:///C:/Users/Arikl/dev/active/a-development-platform/.claude/agents/gsd.md"
+        },
         {
           "name": "Frontend Developer",
           "badge": "ADEV",
@@ -284,8 +320,17 @@
     },
     {
       "name": "🎭 Bizar — Core Agent Pipeline",
-      "count": 10,
+      "count": 11,
       "items": [
+        {
+          "name": "GSD Agent",
+          "badge": "GSD-2",
+          "badgeClass": "badge-active",
+          "description": "GSD-2 execution agent for Bizar Entertainment pipeline — schema-first changes, brand-rule enforcement, JSON handoff validation, quality gate design across the 6-agent weekly content workflow.",
+          "meta": ["6-agent pipeline", "Schema-first", "Brand rules"],
+          "tools": ["Pipeline changes", "Schema validation", "Brand enforcement", "Quality gates"],
+          "url": "file:///C:/Users/Arikl/Desktop/Bizar Agents/bizaragentic/.claude/agents/gsd/AGENT.md"
+        },
         {
           "name": "Social Media Strategist",
           "badge": "Step 1",
