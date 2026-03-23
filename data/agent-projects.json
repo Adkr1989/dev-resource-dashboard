@@ -562,6 +562,93 @@
       ]
     },
     {
+      "name": "🟠 Lori Workspace",
+      "count": 9,
+      "items": [
+        {
+          "name": "GSD Agent",
+          "badge": "GSD-2",
+          "badgeClass": "badge-active",
+          "description": "GSD-2 execution agent for Lori's multi-domain workspace — output-first agent design, domain accuracy enforcement, workflow handoff sequencing across healthcare, e-commerce, compliance, and grant domains.",
+          "meta": ["Output-first", "Multi-domain", "Workflow sequencing"],
+          "tools": ["Work decomposition", "Agent design", "Domain accuracy", "Workflow handoffs"],
+          "url": "file:///C:/Users/Arikl/dev/experiments/adev-workspace-lori/.claude/agents/gsd.md"
+        },
+        {
+          "name": "Agent Developer",
+          "badge": "Core",
+          "badgeClass": "badge-active",
+          "description": "Designs and creates new Claude Code agent definitions — YAML frontmatter, tool configuration, behavior instructions, and integration with existing workflows.",
+          "meta": ["Sonnet 4-6", "Claude Code", "Engineering"],
+          "tools": ["Agent design", "YAML frontmatter", "Workflow integration"],
+          "url": "file:///C:/Users/Arikl/dev/experiments/adev-workspace-lori/.claude/agents/agent-developer.md"
+        },
+        {
+          "name": "Compliance Expert",
+          "badge": "Core",
+          "badgeClass": "badge-active",
+          "description": "Analyzes compliance requirements across healthcare, e-commerce, and business domains. Reviews workflows against regulatory standards and flags gaps.",
+          "meta": ["Sonnet 4-6", "Claude Code", "Regulatory"],
+          "tools": ["Compliance review", "Gap analysis", "Regulatory standards"],
+          "url": "file:///C:/Users/Arikl/dev/experiments/adev-workspace-lori/.claude/agents/compliance-expert.md"
+        },
+        {
+          "name": "Documentation Writer",
+          "badge": "Core",
+          "badgeClass": "badge-active",
+          "description": "Writes clear technical documentation — user guides, API references, SOPs, and onboarding materials for non-technical business audiences.",
+          "meta": ["Sonnet 4-6", "Claude Code", "Engineering"],
+          "tools": ["User guides", "SOPs", "API references"],
+          "url": "file:///C:/Users/Arikl/dev/experiments/adev-workspace-lori/.claude/agents/documentation-writer.md"
+        },
+        {
+          "name": "E-Commerce Expert",
+          "badge": "Core",
+          "badgeClass": "badge-active",
+          "description": "Optimizes e-commerce workflows — product listings, checkout flows, conversion funnels, and customer journey mapping for online retail.",
+          "meta": ["Sonnet 4-6", "Claude Code", "Support"],
+          "tools": ["Product listings", "Checkout optimization", "Conversion funnels"],
+          "url": "file:///C:/Users/Arikl/dev/experiments/adev-workspace-lori/.claude/agents/ecommerce-expert.md"
+        },
+        {
+          "name": "Form Filler",
+          "badge": "Core",
+          "badgeClass": "badge-active",
+          "description": "Automates completion of web forms, applications, and data entry tasks using structured data inputs across platforms.",
+          "meta": ["Sonnet 4-6", "Claude Code", "Specialized"],
+          "tools": ["Form automation", "Data entry", "Application completion"],
+          "url": "file:///C:/Users/Arikl/dev/experiments/adev-workspace-lori/.claude/agents/form-filler.md"
+        },
+        {
+          "name": "Grant Researcher",
+          "badge": "Core",
+          "badgeClass": "badge-active",
+          "description": "Researches grant programs, funding opportunities, and eligibility requirements. Produces structured summaries with deadlines, amounts, and application guidance.",
+          "meta": ["Sonnet 4-6", "Claude Code", "Support"],
+          "tools": ["Grant research", "Eligibility check", "Application guidance"],
+          "url": "file:///C:/Users/Arikl/dev/experiments/adev-workspace-lori/.claude/agents/grant-researcher.md"
+        },
+        {
+          "name": "Healthcare Expert",
+          "badge": "Core",
+          "badgeClass": "badge-active",
+          "description": "Provides healthcare domain expertise — medical terminology, clinical workflows, HIPAA considerations, and healthcare-specific content guidance.",
+          "meta": ["Sonnet 4-6", "Claude Code", "Support"],
+          "tools": ["Medical terminology", "HIPAA guidance", "Clinical workflows"],
+          "url": "file:///C:/Users/Arikl/dev/experiments/adev-workspace-lori/.claude/agents/healthcare-expert.md"
+        },
+        {
+          "name": "Workflow Builder",
+          "badge": "Core",
+          "badgeClass": "badge-active",
+          "description": "Designs and documents automated workflows — maps process steps, identifies automation opportunities, and creates structured workflow definitions for Claude Code or n8n.",
+          "meta": ["Sonnet 4-6", "Claude Code", "Engineering"],
+          "tools": ["Process mapping", "Automation design", "n8n workflows"],
+          "url": "file:///C:/Users/Arikl/dev/experiments/adev-workspace-lori/.claude/agents/workflow-builder.md"
+        }
+      ]
+    },
+    {
       "name": "💼 ADEV Business Development",
       "count": 6,
       "items": [

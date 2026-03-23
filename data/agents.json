@@ -70,6 +70,303 @@
       ]
     },
     {
+      "name": "EVLV Pipeline Agents",
+      "count": 17,
+      "items": [
+        {
+          "name": "AVA",
+          "badge": "Realtime",
+          "badgeClass": "badge-active",
+          "description": "Streaming public chatbot on evlv.energy — answers clean energy questions, captures returning visitor context, routes to lead capture.",
+          "meta": ["Haiku 4-5", "Port /api/chat", "On-demand"],
+          "tools": ["Chat responses", "Lead routing", "Context capture"],
+          "url": "http://localhost:3001/api/chat"
+        },
+        {
+          "name": "Research Chat",
+          "badge": "Realtime",
+          "badgeClass": "badge-active",
+          "description": "Admin RAG chatbot — semantic grant search across 225 curated programs + 4 synced sources. Intent detection routes to federal/state/utility corpus.",
+          "meta": ["Sonnet 4-6", "Port /api/chat/research", "1500 tokens"],
+          "tools": ["Semantic search", "Intent detection", "Grant lookup"],
+          "url": "http://localhost:3001/api/chat/research"
+        },
+        {
+          "name": "Grants.gov Sync",
+          "badge": "Cron",
+          "badgeClass": "badge-active",
+          "description": "Fetches 8 clean energy keyword searches from Grants.gov daily. Upserts new opportunities as GrantChunks, writes GrantChangeLogs.",
+          "meta": ["Daily 07:00 UTC", "Cron", "8 keyword searches"],
+          "tools": ["Grant fetch", "GrantChunk upsert", "ChangeLog write"],
+          "url": "http://localhost:3001/api/cron/sync-grants-gov"
+        },
+        {
+          "name": "SAM.gov Sync",
+          "badge": "Pending",
+          "badgeClass": "badge-ready",
+          "description": "Pulls federal contract and grant opportunities from SAM.gov. Requires SAM_GOV_API_KEY — currently pending.",
+          "meta": ["Daily 07:30 UTC", "Cron", "Pending API key"],
+          "tools": ["Federal contracts", "Grant opportunities", "SAM.gov API"],
+          "url": "http://localhost:3001/api/cron/sync-sam-gov"
+        },
+        {
+          "name": "USAspending Sync",
+          "badge": "Cron",
+          "badgeClass": "badge-active",
+          "description": "Weekly pull of awarded federal grants by CFDA code and Illinois state. Builds awarded-grant intelligence for prospect matching.",
+          "meta": ["Weekly Mondays 08:00 UTC", "Cron", "CFDA codes"],
+          "tools": ["Awarded grant pull", "State filtering", "Prospect matching"],
+          "url": "http://localhost:3001/api/cron/sync-usaspending"
+        },
+        {
+          "name": "DSIRE Sync",
+          "badge": "Cron",
+          "badgeClass": "badge-active",
+          "description": "Syncs Illinois state incentive programs from the DSIRE API weekly. Covers solar, EV, efficiency rebates, and C-PACE programs.",
+          "meta": ["Weekly Sundays 09:00 UTC", "Cron", "Illinois incentives"],
+          "tools": ["Solar programs", "EV rebates", "C-PACE sync"],
+          "url": "http://localhost:3001/api/cron/sync-dsire"
+        },
+        {
+          "name": "Embedding Agent",
+          "badge": "Cron",
+          "badgeClass": "badge-active",
+          "description": "Runs Voyage AI voyage-3 embeddings (1024 dims) on all unembedded GrantChunks. Enables semantic search in Research Chat.",
+          "meta": ["Daily 09:00 UTC", "Voyage AI", "1024 dims"],
+          "tools": ["Voyage embeddings", "GrantChunk indexing", "Vector store"],
+          "url": "http://localhost:3001/api/cron/embed-new-chunks"
+        },
+        {
+          "name": "Change Notifier",
+          "badge": "Cron",
+          "badgeClass": "badge-active",
+          "description": "Checks GrantChangeLogs daily and sends alert emails when grant opportunities open, close, or change eligibility.",
+          "meta": ["Daily 10:00 UTC", "Email alerts", "ChangeLog watcher"],
+          "tools": ["ChangeLog scan", "Email alerts", "Eligibility tracking"],
+          "url": "http://localhost:3001/api/cron/notify-grant-changes"
+        },
+        {
+          "name": "Lead Scorer",
+          "badge": "Cron",
+          "badgeClass": "badge-active",
+          "description": "Recalculates all lead quality scores daily using 12-factor scoring model. Outputs scores that drive email sequence selection.",
+          "meta": ["Daily 06:00 UTC", "12-factor model", "Score-driven routing"],
+          "tools": ["Score calculation", "Factor weighting", "Sequence routing"],
+          "url": "http://localhost:3001/api/cron/recalculate-scores"
+        },
+        {
+          "name": "Email Drip Agent",
+          "badge": "Cron",
+          "badgeClass": "badge-active",
+          "description": "Manages 3-step drip email sequences for all leads. Selects templates based on lead score, industry, and energy type.",
+          "meta": ["Every 6h", "3-step drip", "Template selection"],
+          "tools": ["Drip sequencing", "Template matching", "Email delivery"],
+          "url": "http://localhost:3001/api/cron/email-sequences"
+        },
+        {
+          "name": "Monday Digest",
+          "badge": "Cron",
+          "badgeClass": "badge-active",
+          "description": "Compiles weekly summary email: new leads, grant opportunities, top prospects, pipeline metrics. Sent to the EVLV team.",
+          "meta": ["Weekly Mondays 09:00 UTC", "Team digest", "Pipeline metrics"],
+          "tools": ["Lead summary", "Grant highlights", "Pipeline report"],
+          "url": "http://localhost:3001/api/cron/monday-digest"
+        },
+        {
+          "name": "Prospect Researcher",
+          "badge": "Cron",
+          "badgeClass": "badge-active",
+          "description": "Runs market intelligence on leads daily using Sonnet-4-6 — company size, energy usage, existing incentive programs, outreach angle.",
+          "meta": ["Daily 11:00 UTC", "Sonnet 4-6", "Market intel"],
+          "tools": ["Company research", "Energy profiling", "Outreach angle"],
+          "url": "http://localhost:3001/api/cron/research-prospects"
+        },
+        {
+          "name": "Trigger Engine",
+          "badge": "Event",
+          "badgeClass": "badge-active",
+          "description": "Event-driven orchestrator — fires workflows when leads submit calculators, open emails, or cross score thresholds.",
+          "meta": ["Event-driven", "lib/agentic-triggers.ts", "Real-time"],
+          "tools": ["Calculator triggers", "Email open events", "Score threshold routing"],
+          "url": "http://localhost:3001"
+        },
+        {
+          "name": "Social Content",
+          "badge": "Marketing",
+          "badgeClass": "badge-active",
+          "description": "Generates LinkedIn + Instagram posts Mon/Wed/Fri targeting property managers, business owners, and energy consultants.",
+          "meta": ["Mon/Wed/Fri 08:00 UTC", "Sonnet 4-6", "Buffer drafts"],
+          "tools": ["LinkedIn posts", "Instagram posts", "Buffer queue"],
+          "url": "http://localhost:3001/api/cron/social-content"
+        },
+        {
+          "name": "Buffer Publisher",
+          "badge": "Pending",
+          "badgeClass": "badge-ready",
+          "description": "Reads draft SocialPosts and pushes approved content to Buffer for LinkedIn and Instagram. Pending BUFFER_ACCESS_TOKEN.",
+          "meta": ["Mon/Wed/Fri 09:00 UTC", "Pending token", "Buffer API"],
+          "tools": ["Buffer scheduling", "Post approval", "Status updates"],
+          "url": "http://localhost:3001/api/cron/buffer-publish"
+        },
+        {
+          "name": "LinkedIn Outreach",
+          "badge": "Marketing",
+          "badgeClass": "badge-active",
+          "description": "Generates personalized LinkedIn outreach copy for top-scored leads without prior outreach. Stored as SocialPost type=outreach for review.",
+          "meta": ["Weekly Mondays 10:00 UTC", "Sonnet 4-6", "Top leads"],
+          "tools": ["Personalized copy", "Lead selection", "Outreach drafting"],
+          "url": "http://localhost:3001/api/cron/linkedin-outreach"
+        },
+        {
+          "name": "Brand Monitor",
+          "badge": "Pending",
+          "badgeClass": "badge-ready",
+          "description": "Fetches Buffer post analytics daily. Scores engagement, surfaces top-performing content, updates SocialPost records.",
+          "meta": ["Daily 12:00 UTC", "Pending token", "Engagement scoring"],
+          "tools": ["Analytics fetch", "Engagement scoring", "Content ranking"],
+          "url": "http://localhost:3001/api/cron/brand-monitor"
+        }
+      ]
+    },
+    {
+      "name": "Bizar Entertainment Agents",
+      "count": 6,
+      "items": [
+        {
+          "name": "Social Strategist",
+          "badge": "Bizar",
+          "badgeClass": "badge-active",
+          "description": "Generates 15 weekly content concepts — 8 bar mitzvah, 5 wedding, 2 corporate. Balances 40% BTS / 30% celebration / 20% educational / 10% social proof.",
+          "meta": ["Sonnet 4-6", "Claude Code agent", "Weekly pipeline step 1"],
+          "tools": ["Content concepts", "Brand strategy", "Chicago context"],
+          "url": "file:///C:/Users/Arikl/Desktop/Bizar%20Agents/bizaragentic/.claude/agents/social-media-strategist/AGENT.md"
+        },
+        {
+          "name": "Instagram Curator",
+          "badge": "Bizar",
+          "badgeClass": "badge-active",
+          "description": "Transforms content concepts into 10 Instagram posts per week with captions and visual direction. Passes structured JSON to SEO specialist.",
+          "meta": ["Sonnet 4-6", "Claude Code agent", "Weekly pipeline step 2"],
+          "tools": ["Post design", "Caption writing", "Visual direction"],
+          "url": "file:///C:/Users/Arikl/Desktop/Bizar%20Agents/bizaragentic/.claude/agents/instagram-curator/AGENT.md"
+        },
+        {
+          "name": "SEO Specialist",
+          "badge": "Bizar",
+          "badgeClass": "badge-active",
+          "description": "Adds 20 hashtags per post — 5 high-volume, 10 medium, 5 niche. Tailored to parents planning events, engaged couples, and corporate planners.",
+          "meta": ["Sonnet 4-6", "Claude Code agent", "Weekly pipeline step 3"],
+          "tools": ["Hashtag research", "Volume analysis", "Audience targeting"],
+          "url": "file:///C:/Users/Arikl/Desktop/Bizar%20Agents/bizaragentic/.claude/agents/seo-specialist/AGENT.md"
+        },
+        {
+          "name": "Content Creator",
+          "badge": "Bizar",
+          "badgeClass": "badge-active",
+          "description": "Final pipeline step — polishes captions for emotional resonance, applies 5 quality gates, selects best 6 posts and assigns Mon/Tue/Thu/Fri/Sat/Sun schedule.",
+          "meta": ["Sonnet 4-6", "Claude Code agent", "Weekly pipeline step 4"],
+          "tools": ["Caption polish", "Quality gates", "Post scheduling"],
+          "url": "file:///C:/Users/Arikl/Desktop/Bizar%20Agents/bizaragentic/.claude/agents/content-creator/AGENT.md"
+        },
+        {
+          "name": "TikTok Strategist",
+          "badge": "Bizar",
+          "badgeClass": "badge-active",
+          "description": "Generates 15–30 second short-form video concepts for TikTok. Adapts weekly content themes into scroll-stopping vertical video scripts for Bizar Entertainment.",
+          "meta": ["Sonnet 4-6", "Claude Code agent", "Short-form video"],
+          "tools": ["Video concepts", "Script writing", "TikTok optimization"],
+          "url": "file:///C:/Users/Arikl/Desktop/Bizar%20Agents/bizaragentic/.claude/agents/tiktok-strategist/AGENT.md"
+        },
+        {
+          "name": "Analytics Reporter",
+          "badge": "Bizar",
+          "badgeClass": "badge-active",
+          "description": "Monthly performance analysis — follower growth, engagement rates, top-performing content, benchmarking against prior periods. Executive summary for Jeff Bizar.",
+          "meta": ["Sonnet 4-6", "Claude Code agent", "Monthly reporting"],
+          "tools": ["Growth analysis", "Engagement benchmarks", "Executive summary"],
+          "url": "file:///C:/Users/Arikl/Desktop/Bizar%20Agents/bizaragentic/.claude/agents/analytics-reporter/AGENT.md"
+        }
+      ]
+    },
+    {
+      "name": "Lori Workspace Agents",
+      "count": 8,
+      "items": [
+        {
+          "name": "Agent Developer",
+          "badge": "Lori",
+          "badgeClass": "badge-active",
+          "description": "Designs and creates new Claude Code agent definitions — YAML frontmatter, tool configuration, behavior instructions, and workflow integration.",
+          "meta": ["Sonnet 4-6", "Claude Code agent", "Engineering"],
+          "tools": ["Agent design", "YAML frontmatter", "Workflow integration"],
+          "url": "file:///C:/Users/Arikl/dev/experiments/adev-workspace-lori/.claude/agents/agent-developer.md"
+        },
+        {
+          "name": "Compliance Expert",
+          "badge": "Lori",
+          "badgeClass": "badge-active",
+          "description": "Analyzes compliance requirements across healthcare, e-commerce, and business domains. Reviews workflows against regulatory standards and flags gaps.",
+          "meta": ["Sonnet 4-6", "Claude Code agent", "Support"],
+          "tools": ["Compliance review", "Gap analysis", "Regulatory standards"],
+          "url": "file:///C:/Users/Arikl/dev/experiments/adev-workspace-lori/.claude/agents/compliance-expert.md"
+        },
+        {
+          "name": "Documentation Writer",
+          "badge": "Lori",
+          "badgeClass": "badge-active",
+          "description": "Writes clear technical documentation — user guides, API references, SOPs, and onboarding materials for non-technical business audiences.",
+          "meta": ["Sonnet 4-6", "Claude Code agent", "Engineering"],
+          "tools": ["User guides", "SOPs", "API references"],
+          "url": "file:///C:/Users/Arikl/dev/experiments/adev-workspace-lori/.claude/agents/documentation-writer.md"
+        },
+        {
+          "name": "E-Commerce Expert",
+          "badge": "Lori",
+          "badgeClass": "badge-active",
+          "description": "Optimizes e-commerce workflows — product listings, checkout flows, conversion funnels, and customer journey mapping for online retail.",
+          "meta": ["Sonnet 4-6", "Claude Code agent", "Support"],
+          "tools": ["Product listings", "Checkout optimization", "Conversion funnels"],
+          "url": "file:///C:/Users/Arikl/dev/experiments/adev-workspace-lori/.claude/agents/ecommerce-expert.md"
+        },
+        {
+          "name": "Form Filler",
+          "badge": "Lori",
+          "badgeClass": "badge-active",
+          "description": "Automates completion of web forms, applications, and data entry tasks using structured data inputs across platforms.",
+          "meta": ["Sonnet 4-6", "Claude Code agent", "Specialized"],
+          "tools": ["Form automation", "Data entry", "Application completion"],
+          "url": "file:///C:/Users/Arikl/dev/experiments/adev-workspace-lori/.claude/agents/form-filler.md"
+        },
+        {
+          "name": "Grant Researcher",
+          "badge": "Lori",
+          "badgeClass": "badge-active",
+          "description": "Researches grant programs, funding opportunities, and eligibility requirements. Produces structured summaries with deadlines, amounts, and application guidance.",
+          "meta": ["Sonnet 4-6", "Claude Code agent", "Support"],
+          "tools": ["Grant research", "Eligibility check", "Application guidance"],
+          "url": "file:///C:/Users/Arikl/dev/experiments/adev-workspace-lori/.claude/agents/grant-researcher.md"
+        },
+        {
+          "name": "Healthcare Expert",
+          "badge": "Lori",
+          "badgeClass": "badge-active",
+          "description": "Provides healthcare domain expertise — medical terminology, clinical workflows, HIPAA considerations, and healthcare-specific content guidance.",
+          "meta": ["Sonnet 4-6", "Claude Code agent", "Support"],
+          "tools": ["Medical terminology", "HIPAA guidance", "Clinical workflows"],
+          "url": "file:///C:/Users/Arikl/dev/experiments/adev-workspace-lori/.claude/agents/healthcare-expert.md"
+        },
+        {
+          "name": "Workflow Builder",
+          "badge": "Lori",
+          "badgeClass": "badge-active",
+          "description": "Designs and documents automated workflows — maps process steps, identifies automation opportunities, and creates structured workflow definitions for Claude Code or n8n.",
+          "meta": ["Sonnet 4-6", "Claude Code agent", "Engineering"],
+          "tools": ["Process mapping", "Automation design", "n8n workflows"],
+          "url": "file:///C:/Users/Arikl/dev/experiments/adev-workspace-lori/.claude/agents/workflow-builder.md"
+        }
+      ]
+    },
+    {
       "name": "Production Agents",
       "count": 3,
       "items": [
