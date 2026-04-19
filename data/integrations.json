@@ -1,9 +1,150 @@
 {
   "categories": [
     {
-      "name": "Connected Services",
-      "subtitle": "0 Connected",
-      "items": []
+      "name": "MCP Servers (GoBot)",
+      "subtitle": "5 Active",
+      "items": [
+        {
+          "name": "Playwright",
+          "badge": "Active",
+          "badgeClass": "badge-active",
+          "description": "Browser automation for web scraping, screenshots, and interaction. Used in prospect pipeline.",
+          "meta": ["stdio", "Browser"],
+          "tools": ["navigate", "screenshot", "click", "fill", "evaluate"]
+        },
+        {
+          "name": "SEO Research",
+          "badge": "Active",
+          "badgeClass": "badge-active",
+          "description": "SEO analysis — traffic data, keyword generation, backlinks, difficulty scores.",
+          "meta": ["stdio", "app-seo-ai"],
+          "tools": ["get_traffic", "keyword_generator", "get_backlinks_list", "keyword_difficulty"]
+        },
+        {
+          "name": "Fetch",
+          "badge": "Active",
+          "badgeClass": "badge-active",
+          "description": "HTTP fetch tool for API calls and web content retrieval.",
+          "meta": ["stdio", "HTTP"],
+          "tools": ["fetch"]
+        },
+        {
+          "name": "HTTP Headers Security",
+          "badge": "Active",
+          "badgeClass": "badge-active",
+          "description": "Security header analysis and OWASP scoring for prospect audits.",
+          "meta": ["stdio", "Security"],
+          "tools": ["scan_headers", "check_ssl"]
+        },
+        {
+          "name": "Nodriver",
+          "badge": "Active",
+          "badgeClass": "badge-active",
+          "description": "Undetectable browser automation — bypasses bot detection for scraping.",
+          "meta": ["stdio", "Stealth"],
+          "tools": ["navigate", "extract"]
+        }
+      ]
+    },
+    {
+      "name": "Claude Code MCP Servers",
+      "subtitle": "4 Connected",
+      "items": [
+        {
+          "name": "Gmail",
+          "badge": "Connected",
+          "badgeClass": "badge-active",
+          "description": "Gmail integration — read, search, draft emails directly from Claude Code.",
+          "meta": ["OAuth", "Google"],
+          "tools": ["gmail_search", "gmail_read", "gmail_create_draft", "gmail_get_profile"]
+        },
+        {
+          "name": "Canva",
+          "badge": "Connected",
+          "badgeClass": "badge-active",
+          "description": "Canva design platform — create, edit, export designs. Used for ADEV Instagram content.",
+          "meta": ["OAuth", "Design"],
+          "tools": ["generate-design", "export-design", "search-designs", "list-folder-items"]
+        },
+        {
+          "name": "Play Sheet Music",
+          "badge": "Connected",
+          "badgeClass": "badge-active",
+          "description": "Sheet music playback MCP server.",
+          "meta": ["Audio", "Music"]
+        },
+        {
+          "name": "Hugging Face",
+          "badge": "Plugin",
+          "badgeClass": "badge-active",
+          "description": "HuggingFace Hub operations — models, datasets, training, evaluation, compute jobs.",
+          "meta": ["Plugin", "ML"],
+          "tools": ["CLI", "Datasets", "Tool Builder", "Trackio", "Jobs", "Evaluation", "Model Trainer"]
+        }
+      ]
+    },
+    {
+      "name": "Deployment & Infrastructure",
+      "subtitle": "5 Services",
+      "items": [
+        {
+          "name": "Vercel",
+          "badge": "Hosting",
+          "badgeClass": "badge-active",
+          "description": "Primary deployment for adevelopment.dev — Next.js with automatic deploys from GitHub.",
+          "meta": ["Hosting", "CI/CD"]
+        },
+        {
+          "name": "Cloudflare",
+          "badge": "DNS/CDN",
+          "badgeClass": "badge-active",
+          "description": "DNS and CDN for adevelopment.dev domain.",
+          "meta": ["DNS", "CDN", "SSL"]
+        },
+        {
+          "name": "MongoDB Atlas",
+          "badge": "Database",
+          "badgeClass": "badge-active",
+          "description": "Cloud database for lead pipeline and prospect data via Prisma ORM.",
+          "meta": ["Database", "Cloud"]
+        },
+        {
+          "name": "Resend",
+          "badge": "Email",
+          "badgeClass": "badge-active",
+          "description": "Transactional email — leads@adevelopment.dev with DKIM + SPF verified.",
+          "meta": ["Email", "API"]
+        },
+        {
+          "name": "GitHub Pages",
+          "badge": "Hosting",
+          "badgeClass": "badge-active",
+          "description": "Static hosting for dev-resource-dashboard.",
+          "meta": ["Hosting", "Static"]
+        }
+      ]
+    },
+    {
+      "name": "Monitoring & Admin",
+      "subtitle": "2 Dashboards",
+      "items": [
+        {
+          "name": "Cronitor",
+          "badge": "Monitoring",
+          "badgeClass": "badge-active",
+          "description": "Uptime and heartbeat monitoring — 7 EVLV heartbeats tracked (NLR proxy, scheduled jobs).",
+          "meta": ["SaaS", "Uptime"],
+          "url": "https://cronitor.io"
+        },
+        {
+          "name": "EVLV Admin",
+          "badge": "Admin",
+          "badgeClass": "badge-active",
+          "description": "EVLV website admin dashboard — lead pipeline, analytics, and site management.",
+          "meta": ["Live", "EVLV"],
+          "url": "https://evlv.energy/admin"
+        }
+      ]
     }
   ]
 }
