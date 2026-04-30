@@ -1,6 +1,147 @@
 {
   "categories": [
     {
+      "name": "Local stdio MCP Servers",
+      "subtitle": "4 Active",
+      "items": [
+        {
+          "name": "claude-peers",
+          "badge": "Local",
+          "badgeClass": "badge-active",
+          "description": "Custom local MCP — claude-peers cooperation server.",
+          "meta": ["Bun", "stdio", "Custom"],
+          "tools": ["peer-review", "peer-suggest"]
+        },
+        {
+          "name": "ruflo (claude-flow)",
+          "badge": "Local",
+          "badgeClass": "badge-active",
+          "description": "Claude Flow MCP — agent swarms, memory, orchestration. Used by /swarm-orchestration.",
+          "meta": ["npx", "stdio", "60+ agents"],
+          "tools": ["swarm_init", "agent spawn", "memory store/get/search"]
+        },
+        {
+          "name": "playwright (stdio)",
+          "badge": "Local",
+          "badgeClass": "badge-active",
+          "description": "Browser automation in Microsoft Edge. Persistent sessions for multi-step workflows.",
+          "meta": ["@playwright/mcp", "stdio", "msedge"],
+          "tools": ["browser_navigate", "browser_click", "browser_fill", "browser_screenshot"]
+        },
+        {
+          "name": "vai",
+          "badge": "Local",
+          "badgeClass": "badge-active",
+          "description": "VAI (Visual AI) MCP server — local AI assistant.",
+          "meta": ["vai CLI", "stdio"],
+          "tools": ["vai-tools"]
+        }
+      ]
+    },
+    {
+      "name": "claude.ai Connectors",
+      "subtitle": "13 Connected",
+      "items": [
+        {
+          "name": "Gmail",
+          "badge": "Connected",
+          "badgeClass": "badge-active",
+          "description": "Gmail — read, search, draft, label messages and threads.",
+          "meta": ["OAuth", "Google"],
+          "tools": ["search_threads", "create_draft", "label_message", "list_drafts"]
+        },
+        {
+          "name": "Google Calendar",
+          "badge": "Connected",
+          "badgeClass": "badge-active",
+          "description": "Calendar — list/create/update events, suggest times, RSVP.",
+          "meta": ["OAuth", "Google"],
+          "tools": ["list_events", "create_event", "suggest_time", "respond_to_event"]
+        },
+        {
+          "name": "Google Drive",
+          "badge": "Connected",
+          "badgeClass": "badge-active",
+          "description": "Google Drive — file access and search.",
+          "meta": ["OAuth", "Google"]
+        },
+        {
+          "name": "Slack",
+          "badge": "Connected",
+          "badgeClass": "badge-active",
+          "description": "Slack workspace integration.",
+          "meta": ["OAuth"]
+        },
+        {
+          "name": "HubSpot",
+          "badge": "Connected",
+          "badgeClass": "badge-active",
+          "description": "HubSpot CRM integration — leads, contacts, deals.",
+          "meta": ["OAuth", "CRM"]
+        },
+        {
+          "name": "Vercel",
+          "badge": "Connected",
+          "badgeClass": "badge-active",
+          "description": "Vercel — deployments, projects, runtime logs, build logs, toolbar threads.",
+          "meta": ["OAuth", "Hosting"],
+          "tools": ["list_deployments", "deploy_to_vercel", "get_runtime_logs", "search_vercel_documentation"]
+        },
+        {
+          "name": "Supabase",
+          "badge": "Connected",
+          "badgeClass": "badge-active",
+          "description": "Supabase — projects, branches, SQL, migrations, edge functions, types, advisors.",
+          "meta": ["OAuth", "DB+Edge"],
+          "tools": ["execute_sql", "apply_migration", "deploy_edge_function", "list_projects", "search_docs"]
+        },
+        {
+          "name": "Cloudflare Developer Platform",
+          "badge": "Connected",
+          "badgeClass": "badge-active",
+          "description": "Cloudflare developer platform — Workers, R2, D1, KV via OAuth.",
+          "meta": ["OAuth", "Edge"]
+        },
+        {
+          "name": "Hugging Face",
+          "badge": "Plugin",
+          "badgeClass": "badge-active",
+          "description": "HF Hub operations — models, datasets, papers, spaces, repo search, doc search.",
+          "meta": ["Plugin", "ML", "user: Flavorneighbor"],
+          "tools": ["hub_repo_search", "paper_search", "space_search", "hf_doc_search", "hf_doc_fetch"]
+        },
+        {
+          "name": "Pipeboard",
+          "badge": "Connected",
+          "badgeClass": "badge-active",
+          "description": "Pipeboard pipeline integration.",
+          "meta": ["OAuth"]
+        },
+        {
+          "name": "Peec AI",
+          "badge": "Connected",
+          "badgeClass": "badge-active",
+          "description": "Peec AI integration.",
+          "meta": ["OAuth"]
+        },
+        {
+          "name": "Orion by Gravity",
+          "badge": "Connected",
+          "badgeClass": "badge-active",
+          "description": "Orion by Gravity integration.",
+          "meta": ["OAuth"]
+        },
+        {
+          "name": "Play Sheet Music",
+          "badge": "Connected",
+          "badgeClass": "badge-active",
+          "description": "Sheet music playback MCP server.",
+          "meta": ["Audio", "Music"],
+          "tools": ["play-sheet-music"]
+        }
+      ]
+    },
+    {
       "name": "MCP Servers (GoBot)",
       "subtitle": "5 Active",
       "items": [
@@ -47,43 +188,6 @@
       ]
     },
     {
-      "name": "Claude Code MCP Servers",
-      "subtitle": "4 Connected",
-      "items": [
-        {
-          "name": "Gmail",
-          "badge": "Connected",
-          "badgeClass": "badge-active",
-          "description": "Gmail integration — read, search, draft emails directly from Claude Code.",
-          "meta": ["OAuth", "Google"],
-          "tools": ["gmail_search", "gmail_read", "gmail_create_draft", "gmail_get_profile"]
-        },
-        {
-          "name": "Canva",
-          "badge": "Connected",
-          "badgeClass": "badge-active",
-          "description": "Canva design platform — create, edit, export designs. Used for ADEV Instagram content.",
-          "meta": ["OAuth", "Design"],
-          "tools": ["generate-design", "export-design", "search-designs", "list-folder-items"]
-        },
-        {
-          "name": "Play Sheet Music",
-          "badge": "Connected",
-          "badgeClass": "badge-active",
-          "description": "Sheet music playback MCP server.",
-          "meta": ["Audio", "Music"]
-        },
-        {
-          "name": "Hugging Face",
-          "badge": "Plugin",
-          "badgeClass": "badge-active",
-          "description": "HuggingFace Hub operations — models, datasets, training, evaluation, compute jobs.",
-          "meta": ["Plugin", "ML"],
-          "tools": ["CLI", "Datasets", "Tool Builder", "Trackio", "Jobs", "Evaluation", "Model Trainer"]
-        }
-      ]
-    },
-    {
       "name": "Deployment & Infrastructure",
       "subtitle": "5 Services",
       "items": [
@@ -91,7 +195,7 @@
           "name": "Vercel",
           "badge": "Hosting",
           "badgeClass": "badge-active",
-          "description": "Primary deployment for adevelopment.dev — Next.js with automatic deploys from GitHub.",
+          "description": "Primary deployment for adevelopment.dev and evlv.energy — Next.js with auto deploys from GitHub.",
           "meta": ["Hosting", "CI/CD"]
         },
         {
@@ -140,7 +244,7 @@
           "name": "EVLV Admin",
           "badge": "Admin",
           "badgeClass": "badge-active",
-          "description": "EVLV website admin dashboard — lead pipeline, analytics, and site management.",
+          "description": "EVLV website admin dashboard — lead pipeline, analytics, site management.",
           "meta": ["Live", "EVLV"],
           "url": "https://evlv.energy/admin"
         }
