@@ -2,7 +2,7 @@
   "categories": [
     {
       "name": "ADEV Business & Outreach",
-      "count": 10,
+      "count": 15,
       "items": [
         {
           "name": "/case-study",
@@ -102,6 +102,59 @@
           "meta": [
             "EVLV",
             "Migration"
+          ]
+        },
+        {
+          "name": "/client-onboard",
+          "badge": "Onboarding",
+          "badgeClass": "badge-active",
+          "description": "One-shot ADEV client onboarding — Drive folder, kickoff Doc, calendar event with invite, welcome Gmail.",
+          "meta": [
+            "Drive",
+            "Calendar",
+            "Gmail"
+          ]
+        },
+        {
+          "name": "/lead-intake",
+          "badge": "Pipeline",
+          "badgeClass": "badge-active",
+          "description": "Lead intake pipeline — Google Form → Sheets CRM → Obsidian Vault. Replaces retired GoBot webhook flow.",
+          "meta": [
+            "Form",
+            "Sheets",
+            "Vault"
+          ]
+        },
+        {
+          "name": "/inbox-alerts",
+          "badge": "Triage",
+          "badgeClass": "badge-active",
+          "description": "Scan unread Gmail for HIGH-signal prospect responses, label HOT/WARM, surface at top of chat.",
+          "meta": [
+            "Gmail",
+            "Hot leads"
+          ]
+        },
+        {
+          "name": "/meeting-prep",
+          "badge": "Prep",
+          "badgeClass": "badge-active",
+          "description": "Auto-generate prep Doc for next meeting — attendee dossier, prior Gmail thread, linked Drive assets, agenda.",
+          "meta": [
+            "Calendar",
+            "Docs"
+          ]
+        },
+        {
+          "name": "/receipt-tracker",
+          "badge": "Finance",
+          "badgeClass": "badge-active",
+          "description": "ADEV business receipts — upload to Drive, OCR merchant/amount/date, categorize, log to Sheet, monthly rollups.",
+          "meta": [
+            "OCR",
+            "Sheets",
+            "Tax"
           ]
         }
       ]
@@ -246,7 +299,7 @@
     },
     {
       "name": "Web & Research",
-      "count": 7,
+      "count": 8,
       "items": [
         {
           "name": "/firecrawl",
@@ -301,12 +354,22 @@
           "meta": [
             "Programmatic"
           ]
+        },
+        {
+          "name": "/kb",
+          "badge": "KB",
+          "badgeClass": "badge-active",
+          "description": "Read-only semantic query against the local LightRAG KG (ADEV-Vault concepts, connections, daily logs).",
+          "meta": [
+            "LightRAG",
+            "Read-only"
+          ]
         }
       ]
     },
     {
       "name": "Obsidian Vault",
-      "count": 4,
+      "count": 8,
       "items": [
         {
           "name": "/obsidian-note",
@@ -343,12 +406,48 @@
           "meta": [
             ".canvas"
           ]
+        },
+        {
+          "name": "/wiki-ingest",
+          "badge": "Wiki",
+          "badgeClass": "badge-active",
+          "description": "File a new source (path, URL, or pasted content) into the Persistent Memory wiki and log it.",
+          "meta": [
+            "Persistent Memory"
+          ]
+        },
+        {
+          "name": "/wiki-query",
+          "badge": "Wiki",
+          "badgeClass": "badge-active",
+          "description": "Answer a question against the Persistent Memory wiki with file-path citations.",
+          "meta": [
+            "Citations"
+          ]
+        },
+        {
+          "name": "/wiki-lint",
+          "badge": "Wiki",
+          "badgeClass": "badge-ready",
+          "description": "Health-check the Persistent Memory wiki — contradictions, stale claims, orphans, gaps.",
+          "meta": [
+            "Read-only"
+          ]
+        },
+        {
+          "name": "/compile-knowledge",
+          "badge": "Wiki",
+          "badgeClass": "badge-active",
+          "description": "Fold daily inbox files in the Persistent Memory wiki into permanent Ventures/Patterns/People/Decisions articles.",
+          "meta": [
+            "Compile pass"
+          ]
         }
       ]
     },
     {
       "name": "System & Meta",
-      "count": 14,
+      "count": 15,
       "items": [
         {
           "name": "/skill-builder",
@@ -402,6 +501,16 @@
           "description": "Open all active ADEV dev servers in Microsoft Edge.",
           "meta": [
             "Edge"
+          ]
+        },
+        {
+          "name": "/paper-trading",
+          "badge": "Finance",
+          "badgeClass": "badge-active",
+          "description": "Daily Paper Trading Lab P&L tracker — log trades to Sheets (Trades + Daily P&L rollup), compute P&L, running stats.",
+          "meta": [
+            "Sheets",
+            "P&L"
           ]
         }
       ]
