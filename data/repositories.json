@@ -2,25 +2,34 @@
   "categories": [
     {
       "name": "Active Projects",
-      "count": 4,
+      "count": 8,
       "items": [
         {
           "name": "a-development-website",
           "badge": "Active",
           "badgeClass": "badge-active",
-          "description": "Professional portfolio & lead pipeline — Next.js 15, Prisma, MongoDB, Resend emails. Deployed on Vercel + Cloudflare.",
-          "meta": ["Next.js 15", "TypeScript", "Vercel", "Public"],
+          "description": "Professional portfolio & lead pipeline — Next.js 15, Prisma, MongoDB, Resend emails. Deployed on Vercel + Cloudflare. Admin at /admin (20 prospects + 21 audit scores).",
+          "meta": ["Next.js 15", "TypeScript", "Vercel", "Private"],
           "path": "~/dev/active/a-development-website",
           "url": "https://github.com/Adkr1989/a-development-website"
         },
         {
-          "name": "claude-telegram-relay (GoBot)",
+          "name": "A-Development-Platform",
           "badge": "Active",
           "badgeClass": "badge-active",
-          "description": "Claude Telegram Relay — prospect pipeline, case studies, security audits. Bun runtime, port 3737.",
-          "meta": ["Bun", "TypeScript", "Private"],
-          "path": "~/dev/tools/claude-telegram-relay",
-          "url": "https://github.com/Adkr1989/ari-telegram-relay"
+          "description": "Base platform for A_Development services and agent orchestration.",
+          "meta": ["TypeScript", "Private"],
+          "path": "~/dev/active/a-development-platform",
+          "url": "https://github.com/Adkr1989/A-Development-Platform"
+        },
+        {
+          "name": "adev-backend",
+          "badge": "Active",
+          "badgeClass": "badge-active",
+          "description": "ADEV backend services and case-study workflow infrastructure.",
+          "meta": ["TypeScript", "Private"],
+          "path": "~/dev/active/adev-backend",
+          "url": "https://github.com/Adkr1989/adev-backend"
         },
         {
           "name": "dev-resource-dashboard",
@@ -32,49 +41,185 @@
           "url": "https://github.com/Adkr1989/dev-resource-dashboard"
         },
         {
-          "name": "A-Development-Platform",
-          "badge": "In Progress",
-          "badgeClass": "badge-pipeline",
-          "description": "Base platform for A_Development services and agent orchestration.",
-          "meta": ["TypeScript", "Private"],
-          "path": "~/dev/active/a-development-platform",
-          "url": "https://github.com/Adkr1989/A-Development-Platform"
+          "name": "persistent-memory-vault",
+          "badge": "Active",
+          "badgeClass": "badge-active",
+          "description": "Karpathy-style persistent memory vault for Claude Code. Obsidian-backed wiki at Documents/Claude/Projects/Persistent Memory.",
+          "meta": ["Obsidian", "Markdown", "Private"],
+          "url": "https://github.com/Adkr1989/persistent-memory-vault"
+        },
+        {
+          "name": "paper-trading-lab",
+          "badge": "Active",
+          "badgeClass": "badge-active",
+          "description": "Daily paper-trading P&L tracker. Powers the /paper-trading skill — Sheets-backed Trades + Daily P&L rollup.",
+          "meta": ["Sheets", "Private"],
+          "url": "https://github.com/Adkr1989/paper-trading-lab"
+        },
+        {
+          "name": "Maine-Scientific-Dev",
+          "badge": "Client",
+          "badgeClass": "badge-active",
+          "description": "Maine Scientific compliance/SOP project. CFR-111/117 work and database surface.",
+          "meta": ["Private", "Client"],
+          "url": "https://github.com/Adkr1989/Maine-Scientific-Dev"
+        },
+        {
+          "name": "adev-workspace-lori",
+          "badge": "Active",
+          "badgeClass": "badge-active",
+          "description": "Lori workspace — multi-domain agents (healthcare, e-commerce, compliance, grants). Synced with LAW-VENTURES-EVLV/adev-workspace_lori.",
+          "meta": ["Claude Code agents", "Private"],
+          "path": "~/dev/active/adev-workspace-lori",
+          "url": "https://github.com/LAW-VENTURES-EVLV/adev-workspace_lori"
         }
       ]
     },
     {
-      "name": "Reference Repos",
-      "count": 1,
+      "name": "EVLV Stack",
+      "count": 6,
       "items": [
         {
-          "name": "agency-agents",
-          "badge": "Reference",
+          "name": "evlv-website",
+          "badge": "Production",
+          "badgeClass": "badge-active",
+          "description": "evlv.energy — Next.js 16, NLR API proxy via Cloudflare Worker, MongoDB cache. 17-agent grant pipeline.",
+          "meta": ["Next.js 16", "Vercel", "Private"],
+          "path": "~/dev/active/evlv-website",
+          "url": "https://github.com/LAW-VENTURES-EVLV/evlv-website"
+        },
+        {
+          "name": "evlv-api-proxy",
+          "badge": "Production",
+          "badgeClass": "badge-active",
+          "description": "Cloudflare Worker proxying api.adevelopment.dev → NLR + DSIRE APIs. Auth via PROXY_SECRET.",
+          "meta": ["Cloudflare Workers", "Wrangler", "Private"],
+          "path": "~/dev/active/evlv-api-proxy"
+        },
+        {
+          "name": "EV_LV (evlv-app)",
+          "badge": "Active",
+          "badgeClass": "badge-active",
+          "description": "AVA agent framework — TypeScript, 5 experts, 19+ tools. EV charging infrastructure research and investment analysis.",
+          "meta": ["TypeScript", "Agent framework", "Private"],
+          "path": "~/dev/active/evlv-app/EV_LV",
+          "url": "https://github.com/Adkr1989/EV_LV"
+        },
+        {
+          "name": "evlv-capital",
+          "badge": "Active",
+          "badgeClass": "badge-active",
+          "description": "EVLV capital / financial modeling workspace.",
+          "meta": ["Private"],
+          "url": "https://github.com/Adkr1989/evlv-capital"
+        },
+        {
+          "name": "evlv-energy-mcp",
+          "badge": "MCP",
+          "badgeClass": "badge-active",
+          "description": "Local MCP server for EVLV energy data integration.",
+          "meta": ["stdio", "Local"],
+          "path": "~/dev/mcp-servers/evlv-energy-mcp"
+        },
+        {
+          "name": "LORI-EVLV-SETUP",
+          "badge": "Support",
           "badgeClass": "badge-ready",
-          "description": "142 specialized AI agent personalities across 12 divisions — 11 installed to ~/.claude/agents/. Use-case guide at ~/.claude/agents/ADEV-AGENT-USECASES.md.",
-          "meta": ["Markdown", "Claude Code", "142 agents"],
-          "path": "~/dev/agency-agents",
-          "url": "https://github.com/msitarzewski/agency-agents"
+          "description": "Setup/onboarding repo for Lori on EVLV workspace.",
+          "meta": ["External drive (E:)", "Private"],
+          "url": "https://github.com/Adkr1989/Lori-Claude-Code"
+        }
+      ]
+    },
+    {
+      "name": "Tools",
+      "count": 8,
+      "items": [
+        {
+          "name": "googleworkspace-cli (gws)",
+          "badge": "Tool",
+          "badgeClass": "badge-active",
+          "description": "gws CLI — Gmail, Calendar, Drive, Sheets, Docs, Slides, Chat, Tasks, Meet, Forms. Underlies all gws-* skills.",
+          "meta": ["CLI", "Workspace"],
+          "path": "~/dev/tools/googleworkspace-cli"
+        },
+        {
+          "name": "ruflo (claude-flow)",
+          "badge": "Tool",
+          "badgeClass": "badge-active",
+          "description": "Agent swarm orchestration. 60+ agent types, AgentDB memory. Powers /swarm-orchestration.",
+          "meta": ["npx", "Multi-agent"],
+          "path": "~/dev/tools/ruflo"
+        },
+        {
+          "name": "playwright-cli",
+          "badge": "Tool",
+          "badgeClass": "badge-active",
+          "description": "Token-efficient Playwright CLI for quick browser tasks. Microsoft Edge only.",
+          "meta": ["Edge", "CLI"],
+          "path": "~/dev/tools/playwright-cli"
+        },
+        {
+          "name": "playwright-mcp",
+          "badge": "Tool",
+          "badgeClass": "badge-active",
+          "description": "Stateful persistent Playwright sessions via MCP. Multi-step workflows in Edge.",
+          "meta": ["MCP", "Edge"],
+          "path": "~/dev/tools/playwright-mcp"
+        },
+        {
+          "name": "strudel-mcp-server",
+          "badge": "Tool",
+          "badgeClass": "badge-ready",
+          "description": "MCP server for Strudel music patterns.",
+          "meta": ["MCP", "Music"],
+          "path": "~/dev/tools/strudel-mcp-server"
+        },
+        {
+          "name": "scrapling",
+          "badge": "Tool",
+          "badgeClass": "badge-ready",
+          "description": "Adaptive web scraping library.",
+          "meta": ["Python", "Scraping"],
+          "path": "~/dev/tools/scrapling"
+        },
+        {
+          "name": "vercel-sdk",
+          "badge": "Tool",
+          "badgeClass": "badge-ready",
+          "description": "Vercel SDK integration workspace.",
+          "meta": ["SDK"],
+          "path": "~/dev/tools/vercel-sdk"
+        },
+        {
+          "name": "openvino-plugins-ai-audacity",
+          "badge": "Tool",
+          "badgeClass": "badge-ready",
+          "description": "OpenVINO-powered audio processing for Audacity.",
+          "meta": ["OpenVINO", "Audio"],
+          "path": "~/dev/tools/openvino-plugins-ai-audacity",
+          "url": "https://github.com/Adkr1989/openvino-audacity-deps"
         }
       ]
     },
     {
       "name": "MCP Servers",
-      "count": 4,
+      "count": 6,
       "items": [
         {
           "name": "app-seo-ai",
-          "badge": "Fork",
-          "badgeClass": "badge-ready",
-          "description": "SEO automation and AI-powered optimization — traffic, keywords, backlinks, difficulty analysis.",
+          "badge": "Active",
+          "badgeClass": "badge-active",
+          "description": "SEO automation and AI optimization — traffic, keywords, backlinks, difficulty. Powers /seo-report.",
           "meta": ["Python", "Public"],
           "path": "~/dev/mcp-servers/app-seo-ai",
           "url": "https://github.com/Adkr1989/app-seo-ai"
         },
         {
           "name": "firecrawl-mcp-server",
-          "badge": "Tool",
-          "badgeClass": "badge-ready",
-          "description": "Firecrawl MCP server for web scraping and crawling.",
+          "badge": "Active",
+          "badgeClass": "badge-active",
+          "description": "Firecrawl MCP — web scraping, crawling, search with full content.",
           "meta": ["TypeScript"],
           "path": "~/dev/mcp-servers/firecrawl-mcp-server"
         },
@@ -82,8 +227,8 @@
           "name": "mcp-gateway",
           "badge": "Tool",
           "badgeClass": "badge-ready",
-          "description": "MCP gateway for routing and aggregating MCP servers.",
-          "meta": ["TypeScript"],
+          "description": "Docker MCP gateway for routing and aggregating MCP servers.",
+          "meta": ["TypeScript", "Docker"],
           "path": "~/dev/mcp-servers/mcp-gateway"
         },
         {
@@ -93,18 +238,88 @@
           "description": "Google Search MCP server integration.",
           "meta": ["TypeScript"],
           "path": "~/dev/mcp-servers/mcp-google-search"
+        },
+        {
+          "name": "mcp-for-security",
+          "badge": "Tool",
+          "badgeClass": "badge-ready",
+          "description": "Security-focused MCP tooling — OWASP, header analysis, audits.",
+          "meta": ["Security"],
+          "path": "~/dev/mcp-servers/mcp-for-security"
+        },
+        {
+          "name": "cables-rl-mcp",
+          "badge": "Tool",
+          "badgeClass": "badge-ready",
+          "description": "MCP server bridging Cables.gl with RL for autonomous visual parameter optimization.",
+          "meta": ["Public", "Generative"],
+          "url": "https://github.com/Adkr1989/cables-rl-mcp"
         }
       ]
     },
     {
-      "name": "Utilities & Learning",
-      "count": 6,
+      "name": "Client & Partner Projects",
+      "count": 4,
       "items": [
+        {
+          "name": "bizar-agents",
+          "badge": "Client",
+          "badgeClass": "badge-active",
+          "description": "Bizar Entertainment 22-agent social media pipeline. Lives at Desktop/_Projects/Bizar Agents/bizaragentic.",
+          "meta": ["22 agents", "Private"],
+          "url": "https://github.com/Adkr1989/bizar-agents"
+        },
+        {
+          "name": "culextion-dev-dash",
+          "badge": "Partner",
+          "badgeClass": "badge-active",
+          "description": "Culextion stack dashboard — Vercel + Supabase. Partner project with FDA-GMP training overlap.",
+          "meta": ["Vercel", "Supabase", "Private"],
+          "url": "https://github.com/Adkr1989/culextion-dev-dash"
+        },
+        {
+          "name": "fda-cfr-111---117",
+          "badge": "Partner",
+          "badgeClass": "badge-ready",
+          "description": "FDA GMP training materials — CFR 111/117 cert prep for Culextion partnership.",
+          "meta": ["Training", "Private"],
+          "url": "https://github.com/Adkr1989/fda-cfr-111---117"
+        },
+        {
+          "name": "weavy-ai-design-workflows",
+          "badge": "Active",
+          "badgeClass": "badge-ready",
+          "description": "Weavy AI design workflow scaffolding.",
+          "meta": ["Local only"],
+          "path": "~/dev/active/weavy-ai-design-workflows"
+        }
+      ]
+    },
+    {
+      "name": "Reference & Learning",
+      "count": 5,
+      "items": [
+        {
+          "name": "visual-explainer",
+          "badge": "Reference",
+          "badgeClass": "badge-active",
+          "description": "Source clone for the visual-explainer skill — HTML diagram/plan generator.",
+          "meta": ["Skill source"],
+          "path": "~/dev/active/visual-explainer"
+        },
+        {
+          "name": "claude-code-source-code",
+          "badge": "Reference",
+          "badgeClass": "badge-ready",
+          "description": "Claude Code v2.1.88 source code mirror.",
+          "meta": ["Public", "Reference"],
+          "url": "https://github.com/Adkr1989/claude-code-source-code"
+        },
         {
           "name": "claude-agent-sdk-intro",
           "badge": "Learning",
-          "badgeClass": "badge-pipeline",
-          "description": "ADEV Personal Assistant — Claude Agent SDK workspace.",
+          "badgeClass": "badge-ready",
+          "description": "Claude Agent SDK workspace and AVA grant intelligence wiring.",
           "meta": ["Python", "Private"],
           "url": "https://github.com/Adkr1989/claude-agent-sdk-intro"
         },
@@ -117,59 +332,72 @@
           "url": "https://github.com/Adkr1989/agent-scripts"
         },
         {
-          "name": "gogcli",
-          "badge": "Utility",
-          "badgeClass": "badge-ready",
-          "description": "Google Suite CLI — Gmail, GCal, GDrive, GContacts.",
-          "meta": ["Go", "Public"],
-          "url": "https://github.com/Adkr1989/gogcli"
-        },
-        {
-          "name": "EV_LV",
-          "badge": "Research",
-          "badgeClass": "badge-pipeline",
-          "description": "EV Charging Infrastructure Research & Investment Analysis Platform.",
-          "meta": ["Private"],
-          "url": "https://github.com/Adkr1989/EV_LV"
-        },
-        {
-          "name": "Light_RL",
-          "badge": "Fork",
-          "badgeClass": "badge-ready",
-          "description": "Lightweight deep reinforcement learning implementation.",
-          "meta": ["Python", "Public"],
-          "url": "https://github.com/Adkr1989/Light_RL"
-        },
-        {
-          "name": "aris-notebook",
+          "name": "lang-models",
           "badge": "Learning",
-          "badgeClass": "badge-pipeline",
-          "description": "Personal Python Learning Workshop — 30 Days of Python mapped to ADEV ecosystem.",
-          "meta": ["Python", "Private"],
-          "url": "https://github.com/Adkr1989/aris-notebook"
+          "badgeClass": "badge-ready",
+          "description": "Language model experimentation workspace.",
+          "meta": ["Private"],
+          "url": "https://github.com/Adkr1989/lang-models"
+        }
+      ]
+    },
+    {
+      "name": "Experiments",
+      "count": 3,
+      "items": [
+        {
+          "name": "gesture-instrument",
+          "badge": "Experiment",
+          "badgeClass": "badge-ready",
+          "description": "Hand-gesture music instrument — MIDI bridge into VCV Rack. Resume via Desktop session continuer.",
+          "meta": ["MIDI", "VCV"],
+          "path": "~/dev/experiments/gesture-instrument"
+        },
+        {
+          "name": "MuGeVI",
+          "badge": "Experiment",
+          "badgeClass": "badge-ready",
+          "description": "Music gesture / vision experiment.",
+          "meta": ["Experiment"],
+          "path": "~/dev/experiments/MuGeVI"
+        },
+        {
+          "name": "cronitor-bootstrap",
+          "badge": "Experiment",
+          "badgeClass": "badge-ready",
+          "description": "Cronitor heartbeat bootstrap scaffolding.",
+          "meta": ["Monitoring"],
+          "path": "~/dev/experiments/cronitor-bootstrap"
         }
       ]
     },
     {
       "name": "Archives",
-      "count": 3,
+      "count": 4,
       "items": [
-        {
-          "name": "ari-dev-portfolio",
-          "badge": "Archived",
-          "badgeClass": "badge-ready",
-          "description": "Previous portfolio site.",
-          "meta": ["Public"],
-          "path": "~/dev/archives/ari-dev-portfolio",
-          "url": "https://github.com/Adkr1989/ari-dev-portfolio"
-        },
         {
           "name": "Portfolio",
           "badge": "Archived",
           "badgeClass": "badge-ready",
-          "description": "AI Agent Developer portfolio — Claude SDK, Multi-Agent Orchestration.",
+          "description": "Previous AI Agent Developer portfolio site.",
           "meta": ["Public"],
           "url": "https://github.com/Adkr1989/Portfolio"
+        },
+        {
+          "name": "ari-dev-portfolio",
+          "badge": "Archived",
+          "badgeClass": "badge-ready",
+          "description": "Earlier dev portfolio iteration.",
+          "meta": ["Public"],
+          "url": "https://github.com/Adkr1989/ari-dev-portfolio"
+        },
+        {
+          "name": "portfolio-html",
+          "badge": "Archived",
+          "badgeClass": "badge-ready",
+          "description": "Static HTML portfolio.",
+          "meta": ["Local only"],
+          "path": "~/dev/archives/portfolio-html"
         },
         {
           "name": "flstudio-snappysnap-agent",
