@@ -1,9 +1,121 @@
 {
   "categories": [
     {
-      "name": "My Commands",
-      "count": 0,
-      "items": []
+      "name": "GoBot Telegram Commands",
+      "count": 7,
+      "items": [
+        {
+          "name": "/prospect <url>",
+          "badge": "Pipeline",
+          "badgeClass": "badge-active",
+          "description": "Full prospect pipeline — scrape site, generate all 6 case study files.",
+          "meta": ["GoBot", "Full pipeline"]
+        },
+        {
+          "name": "/prospect audit",
+          "badge": "Security",
+          "badgeClass": "badge-active",
+          "description": "Run security audit only — OWASP headers, SSL, DNS checks.",
+          "meta": ["GoBot", "Security"]
+        },
+        {
+          "name": "/prospect search",
+          "badge": "Research",
+          "badgeClass": "badge-active",
+          "description": "Search and discover prospect information.",
+          "meta": ["GoBot", "Discovery"]
+        },
+        {
+          "name": "/prospect email",
+          "badge": "Outreach",
+          "badgeClass": "badge-active",
+          "description": "Generate outreach email for a prospect.",
+          "meta": ["GoBot", "Email"]
+        },
+        {
+          "name": "/prospect pipeline",
+          "badge": "Status",
+          "badgeClass": "badge-active",
+          "description": "View current prospect pipeline status.",
+          "meta": ["GoBot", "Dashboard"]
+        },
+        {
+          "name": "/prospect band",
+          "badge": "Niche",
+          "badgeClass": "badge-ready",
+          "description": "Band/entertainment-specific prospect pipeline.",
+          "meta": ["GoBot", "Entertainment"]
+        },
+        {
+          "name": "/prospect pitch",
+          "badge": "Sales",
+          "badgeClass": "badge-active",
+          "description": "Generate pitch deck / talking points for a prospect.",
+          "meta": ["GoBot", "Sales"]
+        }
+      ]
+    },
+    {
+      "name": "Quick Actions",
+      "count": 6,
+      "items": [
+        {
+          "name": "/open-all-apps",
+          "badge": "Launcher",
+          "badgeClass": "badge-ready",
+          "description": "Open all ADEV apps in Microsoft Edge.",
+          "meta": ["Edge", "All apps"]
+        },
+        {
+          "name": "/open-adev-dashboard",
+          "badge": "Launcher",
+          "badgeClass": "badge-ready",
+          "description": "Open this dashboard only.",
+          "meta": ["Edge", "localhost:8765"]
+        },
+        {
+          "name": "/create-shortcut",
+          "badge": "Utility",
+          "badgeClass": "badge-ready",
+          "description": "Create desktop shortcut for quick access.",
+          "meta": ["Windows", "Desktop"]
+        },
+        {
+          "name": "/token-report",
+          "badge": "Analytics",
+          "badgeClass": "badge-ready",
+          "description": "Report on token optimizer status, cache health, and savings.",
+          "meta": ["Tokens", "Cost"]
+        },
+        {
+          "name": "/claude-updates",
+          "badge": "Info",
+          "badgeClass": "badge-ready",
+          "description": "Check for new Claude Code features and changelog.",
+          "meta": ["Updates"]
+        },
+        {
+          "name": "/update-commands-reference",
+          "badge": "Docs",
+          "badgeClass": "badge-ready",
+          "description": "Regenerate the HTML commands reference.",
+          "meta": ["Documentation"]
+        }
+      ]
+    },
+    {
+      "name": "Visual Explainer Sub-commands",
+      "count": 8,
+      "items": [
+        { "name": "/visual-explainer diff-review", "badge": "Diagram", "badgeClass": "badge-active", "description": "Generate visual diff review for code changes.", "meta": ["SVG", "HTML"] },
+        { "name": "/visual-explainer fact-check", "badge": "Diagram", "badgeClass": "badge-active", "description": "Generate visual fact-checking diagram.", "meta": ["SVG", "HTML"] },
+        { "name": "/visual-explainer generate-slides", "badge": "Slides", "badgeClass": "badge-active", "description": "Generate HTML-based presentation slides.", "meta": ["HTML"] },
+        { "name": "/visual-explainer generate-visual-plan", "badge": "Diagram", "badgeClass": "badge-active", "description": "Generate visual execution plan diagram.", "meta": ["SVG", "HTML"] },
+        { "name": "/visual-explainer generate-web-diagram", "badge": "Diagram", "badgeClass": "badge-active", "description": "Generate web architecture diagram.", "meta": ["SVG", "HTML"] },
+        { "name": "/visual-explainer plan-review", "badge": "Diagram", "badgeClass": "badge-active", "description": "Generate visual plan review diagram.", "meta": ["SVG", "HTML"] },
+        { "name": "/visual-explainer project-recap", "badge": "Diagram", "badgeClass": "badge-active", "description": "Generate visual project recap diagram.", "meta": ["SVG", "HTML"] },
+        { "name": "/visual-explainer share-page", "badge": "Web", "badgeClass": "badge-active", "description": "Generate shareable HTML page for the visual explainer.", "meta": ["HTML"] }
+      ]
     }
   ]
 }
