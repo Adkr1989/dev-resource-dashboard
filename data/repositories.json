@@ -297,7 +297,7 @@
     },
     {
       "name": "Reference & Learning",
-      "count": 5,
+      "count": 7,
       "items": [
         {
           "name": "visual-explainer",
@@ -338,6 +338,24 @@
           "description": "Language model experimentation workspace.",
           "meta": ["Private"],
           "url": "https://github.com/Adkr1989/lang-models"
+        },
+        {
+          "name": "superpowers",
+          "badge": "Reference",
+          "badgeClass": "badge-ready",
+          "description": "Jesse Vincent's coding-agent methodology — skills + hooks framework (brainstorming, TDD, systematic debugging, plan execution). Installed as Claude plugin (superpowers@superpowers-marketplace).",
+          "meta": ["Markdown", "Skills", "Plugin"],
+          "path": "~/dev/superpowers",
+          "url": "https://github.com/obra/superpowers"
+        },
+        {
+          "name": "Quansloth",
+          "badge": "Reference",
+          "badgeClass": "badge-ready",
+          "description": "TurboQuant-based local LLM server — Gradio UI + llama.cpp CUDA backend. Claims 75% KV cache compression for 32k+ contexts on RTX 3060. Linux/WSL2.",
+          "meta": ["Python", "Gradio", "CUDA", "WSL2"],
+          "path": "~/dev/Quansloth",
+          "url": "https://github.com/PacifAIst/Quansloth"
         }
       ]
     },
