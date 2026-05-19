@@ -328,7 +328,7 @@
           "badgeClass": "badge-active",
           "description": "GSD-2 for Lori's multi-domain workspace — output-first agent design, domain accuracy, workflow handoff sequencing across healthcare, e-commerce, compliance, grants.",
           "meta": [
-            "Multi-domain",
+            "Multi-domain + gitclaw harness",
             "Output-first",
             "Workflow design"
           ],
@@ -338,7 +338,7 @@
             "Workflow design",
             "Domain accuracy"
           ],
-          "url": "file:///C:/Users/Arikl/dev/experiments/adev-workspace-lori/.claude/agents/gsd.md"
+          "url": "file:///C:/Users/Arikl/dev/active/adev-workspace-lori/.claude/agents/gsd.md"
         }
       ]
     },
@@ -756,7 +756,7 @@
           "description": "Designs and creates new Claude Code agent definitions — YAML frontmatter, tool configuration, behavior instructions, and workflow integration.",
           "meta": [
             "Sonnet 4-6",
-            "Claude Code agent",
+            "Claude Code agent + gitclaw harness",
             "Engineering"
           ],
           "tools": [
@@ -764,7 +764,7 @@
             "YAML frontmatter",
             "Workflow integration"
           ],
-          "url": "file:///C:/Users/Arikl/dev/experiments/adev-workspace-lori/.claude/agents/agent-developer.md"
+          "url": "file:///C:/Users/Arikl/dev/active/adev-workspace-lori/.claude/agents/agent-developer.md"
         },
         {
           "name": "Compliance Expert",
@@ -773,7 +773,7 @@
           "description": "Analyzes compliance requirements across healthcare, e-commerce, and business domains. Reviews workflows against regulatory standards and flags gaps.",
           "meta": [
             "Sonnet 4-6",
-            "Claude Code agent",
+            "Claude Code agent + gitclaw harness",
             "Support"
           ],
           "tools": [
@@ -781,7 +781,7 @@
             "Gap analysis",
             "Regulatory standards"
           ],
-          "url": "file:///C:/Users/Arikl/dev/experiments/adev-workspace-lori/.claude/agents/compliance-expert.md"
+          "url": "file:///C:/Users/Arikl/dev/active/adev-workspace-lori/.claude/agents/compliance-expert.md"
         },
         {
           "name": "Documentation Writer",
@@ -790,7 +790,7 @@
           "description": "Writes clear technical documentation — user guides, API references, SOPs, and onboarding materials for non-technical business audiences.",
           "meta": [
             "Sonnet 4-6",
-            "Claude Code agent",
+            "Claude Code agent + gitclaw harness",
             "Engineering"
           ],
           "tools": [
@@ -798,7 +798,7 @@
             "SOPs",
             "API references"
           ],
-          "url": "file:///C:/Users/Arikl/dev/experiments/adev-workspace-lori/.claude/agents/documentation-writer.md"
+          "url": "file:///C:/Users/Arikl/dev/active/adev-workspace-lori/.claude/agents/documentation-writer.md"
         },
         {
           "name": "E-Commerce Expert",
@@ -807,7 +807,7 @@
           "description": "Optimizes e-commerce workflows — product listings, checkout flows, conversion funnels, and customer journey mapping for online retail.",
           "meta": [
             "Sonnet 4-6",
-            "Claude Code agent",
+            "Claude Code agent + gitclaw harness",
             "Support"
           ],
           "tools": [
@@ -815,7 +815,7 @@
             "Checkout optimization",
             "Conversion funnels"
           ],
-          "url": "file:///C:/Users/Arikl/dev/experiments/adev-workspace-lori/.claude/agents/ecommerce-expert.md"
+          "url": "file:///C:/Users/Arikl/dev/active/adev-workspace-lori/.claude/agents/ecommerce-expert.md"
         },
         {
           "name": "Form Filler",
@@ -824,7 +824,7 @@
           "description": "Automates completion of web forms, applications, and data entry tasks using structured data inputs across platforms.",
           "meta": [
             "Sonnet 4-6",
-            "Claude Code agent",
+            "Claude Code agent + gitclaw harness",
             "Specialized"
           ],
           "tools": [
@@ -832,7 +832,7 @@
             "Data entry",
             "Application completion"
           ],
-          "url": "file:///C:/Users/Arikl/dev/experiments/adev-workspace-lori/.claude/agents/form-filler.md"
+          "url": "file:///C:/Users/Arikl/dev/active/adev-workspace-lori/.claude/agents/form-filler.md"
         },
         {
           "name": "Grant Researcher",
@@ -841,7 +841,7 @@
           "description": "Researches grant programs, funding opportunities, and eligibility requirements. Produces structured summaries with deadlines, amounts, and application guidance.",
           "meta": [
             "Sonnet 4-6",
-            "Claude Code agent",
+            "Claude Code agent + gitclaw harness",
             "Support"
           ],
           "tools": [
@@ -849,7 +849,7 @@
             "Eligibility check",
             "Application guidance"
           ],
-          "url": "file:///C:/Users/Arikl/dev/experiments/adev-workspace-lori/.claude/agents/grant-researcher.md"
+          "url": "file:///C:/Users/Arikl/dev/active/adev-workspace-lori/.claude/agents/grant-researcher.md"
         },
         {
           "name": "Healthcare Expert",
@@ -858,7 +858,7 @@
           "description": "Provides healthcare domain expertise — medical terminology, clinical workflows, HIPAA considerations, and healthcare-specific content guidance.",
           "meta": [
             "Sonnet 4-6",
-            "Claude Code agent",
+            "Claude Code agent + gitclaw harness",
             "Support"
           ],
           "tools": [
@@ -866,7 +866,7 @@
             "HIPAA guidance",
             "Clinical workflows"
           ],
-          "url": "file:///C:/Users/Arikl/dev/experiments/adev-workspace-lori/.claude/agents/healthcare-expert.md"
+          "url": "file:///C:/Users/Arikl/dev/active/adev-workspace-lori/.claude/agents/healthcare-expert.md"
         },
         {
           "name": "Workflow Builder",
@@ -875,7 +875,7 @@
           "description": "Designs and documents automated workflows — maps process steps, identifies automation opportunities, and creates structured workflow definitions for Claude Code or n8n.",
           "meta": [
             "Sonnet 4-6",
-            "Claude Code agent",
+            "Claude Code agent + gitclaw harness",
             "Engineering"
           ],
           "tools": [
@@ -883,7 +883,7 @@
             "Automation design",
             "n8n workflows"
           ],
-          "url": "file:///C:/Users/Arikl/dev/experiments/adev-workspace-lori/.claude/agents/workflow-builder.md"
+          "url": "file:///C:/Users/Arikl/dev/active/adev-workspace-lori/.claude/agents/workflow-builder.md"
         }
       ]
     },
