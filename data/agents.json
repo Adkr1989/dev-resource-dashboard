@@ -1,6 +1,216 @@
 {
   "categories": [
     {
+      "name": "Gitagent Scaffolds (Phase B pilot)",
+      "count": 12,
+      "items": [
+        {
+          "name": "Bizar Social Pipeline",
+          "badge": "Phase B Complete",
+          "badgeClass": "badge-active",
+          "description": "Phase B Week 1 run complete 2026-05-19. Full Monday workflow (strategist → curator → SEO → content-creator) produced 10 posts with 20-hashtag sets, best-6 scheduled. New angles surfaced: Highland Park temple sound check BTS, chair lift POV, 28-year multi-gen testimonial. Memory committed at a1fad3c.",
+          "meta": [
+            "gitclaw v1.5.0",
+            "Sonnet 4-5",
+            "Memory a1fad3c"
+          ],
+          "tools": [
+            "Monday workflow",
+            "Caption polish",
+            "Monthly analytics",
+            "Session resume"
+          ],
+          "url": "file:///C:/Users/Arikl/Desktop/_Projects/Bizar%20Agents/bizaragentic/output/weekly/2026-05-19_weekly_content_bizar.md"
+        },
+        {
+          "name": "ADEV Umbrella Agent",
+          "badge": "Scaffolded",
+          "badgeClass": "badge-ready",
+          "description": "Cross-portfolio agent for Case Studies, GoBot, client onboarding, prospect outreach. Memory accrues active prospect state, audit decisions, lifecycle events.",
+          "meta": [
+            "gitclaw",
+            "Sonnet 4-5",
+            "Nested commit 7b7069f"
+          ],
+          "tools": [
+            "Portfolio coordination",
+            "Prospect tracking",
+            "Audit history"
+          ],
+          "url": "file:///C:/Users/Arikl/Desktop/_Projects/ADEV/.gitagent/"
+        },
+        {
+          "name": "ADEV Office (Agent Command Center)",
+          "badge": "Scaffolded",
+          "badgeClass": "badge-ready",
+          "description": "Meta-coordination across the agent fleet. Memory tracks agent invocation history and orchestration lessons. Integrated layout (parent already git-tracked).",
+          "meta": [
+            "gitclaw",
+            "Sonnet 4-5",
+            "Integrated commit 2815913"
+          ],
+          "tools": [
+            "Agent orchestration",
+            "Fleet status",
+            "Operational lessons"
+          ],
+          "url": "file:///C:/Users/Arikl/Desktop/_Projects/AGENTS/.gitagent/"
+        },
+        {
+          "name": "A_Production",
+          "badge": "Scaffolded",
+          "badgeClass": "badge-ready",
+          "description": "A_Development production work bucket — client deliverables, publishing-grade artifacts. Five quality tests inherited from Bizar SOUL.md.",
+          "meta": [
+            "gitclaw",
+            "Sonnet 4-5",
+            "Nested commit 3135575"
+          ],
+          "tools": [
+            "Quality gates",
+            "Deliverable polish",
+            "Production tracking"
+          ],
+          "url": "file:///C:/Users/Arikl/Desktop/_Projects/A_Production/.gitagent/"
+        },
+        {
+          "name": "Bloom",
+          "badge": "Scaffolded",
+          "badgeClass": "badge-ready",
+          "description": "Bloom project scaffold. Project identity not yet codified — agent reads README + CLAUDE.md on first run.",
+          "meta": [
+            "gitclaw",
+            "Sonnet 4-5",
+            "Nested commit 27c0596"
+          ],
+          "tools": [
+            "Read project context",
+            "Memory init"
+          ],
+          "url": "file:///C:/Users/Arikl/Desktop/_Projects/Bloom/.gitagent/"
+        },
+        {
+          "name": "DISPATCH (Claude Desktop)",
+          "badge": "Scaffolded",
+          "badgeClass": "badge-ready",
+          "description": "Claude Desktop's Dispatch operations agent. Memory tracks Cowork session handoffs, async approvals, remote-trigger orchestration patterns.",
+          "meta": [
+            "gitclaw",
+            "Sonnet 4-5",
+            "Nested commit e304f8d"
+          ],
+          "tools": [
+            "Session handoff",
+            "Remote-trigger ops",
+            "Cost surfacing"
+          ],
+          "url": "file:///C:/Users/Arikl/Desktop/_Projects/DISPATCH/.gitagent/"
+        },
+        {
+          "name": "EVLV Umbrella Agent",
+          "badge": "Scaffolded",
+          "badgeClass": "badge-ready",
+          "description": "Cross-portfolio EVLV work — website ops, NLR watchdog, Lori Workspace, IL Climate Bank, OBBBA tracking. Honors 30C accuracy + positive-framing rules.",
+          "meta": [
+            "gitclaw",
+            "Sonnet 4-5",
+            "Nested commit 0fc5b62"
+          ],
+          "tools": [
+            "30C accuracy",
+            "Positive framing",
+            "Regulatory deadline tracking"
+          ],
+          "url": "file:///C:/Users/Arikl/Desktop/_Projects/EVLV/.gitagent/"
+        },
+        {
+          "name": "FDA-GMP-Training",
+          "badge": "Scaffolded",
+          "badgeClass": "badge-ready",
+          "description": "FDA CFR 111/117/GMP cert prep + training curriculum for Culextion partnership. Three phases — match README phase strictly.",
+          "meta": [
+            "gitclaw",
+            "Sonnet 4-5",
+            "Nested commit 0a0c5d2"
+          ],
+          "tools": [
+            "Curriculum modules",
+            "Cert deadline tracking",
+            "Culextion progress"
+          ],
+          "url": "file:///C:/Users/Arikl/Desktop/_Projects/FDA-GMP-Training/.gitagent/"
+        },
+        {
+          "name": "MiroFish",
+          "badge": "Scaffolded",
+          "badgeClass": "badge-ready",
+          "description": "OASIS-style market simulation pipeline for EVLV. Memory tracks sim run history, NotebookLM artifact status, market insights.",
+          "meta": [
+            "gitclaw",
+            "Sonnet 4-5",
+            "Nested commit 36d8e66"
+          ],
+          "tools": [
+            "Sim run logging",
+            "NotebookLM artifact generation",
+            "Market intel"
+          ],
+          "url": "file:///C:/Users/Arikl/Desktop/_Projects/MiroFish/.gitagent/"
+        },
+        {
+          "name": "SANA",
+          "badge": "Scaffolded",
+          "badgeClass": "badge-ready",
+          "description": "LED wall shader pool + content management. Memory tracks shader catalog state, performance metrics, visual programming sessions.",
+          "meta": [
+            "gitclaw",
+            "Sonnet 4-5",
+            "Nested commit 1bca874"
+          ],
+          "tools": [
+            "Shader catalog",
+            "TouchDesigner wiring",
+            "Performance tracking"
+          ],
+          "url": "file:///C:/Users/Arikl/Desktop/_Projects/Sana/.gitagent/"
+        },
+        {
+          "name": "Sidecar (Claude+Gemini)",
+          "badge": "Scaffolded",
+          "badgeClass": "badge-ready",
+          "description": "Claude Code + Gemini CLI integration. Pattern C scout-then-execute is canonical (Gemini reads 1M context, Claude writes). Memory tracks scout sessions.",
+          "meta": [
+            "gitclaw",
+            "Sonnet 4-5",
+            "Nested commit 364ca96"
+          ],
+          "tools": [
+            "Pattern C scout",
+            "Worktree isolation",
+            "Dual-write experiments"
+          ],
+          "url": "file:///C:/Users/Arikl/Desktop/_Projects/Sidecar/.gitagent/"
+        },
+        {
+          "name": "WebGL-MCP-Workflow",
+          "badge": "Scaffolded",
+          "badgeClass": "badge-ready",
+          "description": "WebGL MCP server development + tool composition patterns. Memory tracks MCP build progress, integration experiments.",
+          "meta": [
+            "gitclaw",
+            "Sonnet 4-5",
+            "Nested commit 265c29e"
+          ],
+          "tools": [
+            "MCP design",
+            "WebGL integration",
+            "Tool composition"
+          ],
+          "url": "file:///C:/Users/Arikl/Desktop/_Projects/WebGL-MCP-Workflow/.gitagent/"
+        }
+      ]
+    },
+    {
       "name": "GSD-2 Execution Agents",
       "count": 7,
       "items": [
@@ -9,8 +219,17 @@
           "badge": "Universal",
           "badgeClass": "badge-active",
           "description": "Universal GSD-2 agent — Milestone→Slice→Task decomposition, context pyramid, token budgeting, LLM/deterministic split, build-verified delivery. Works across any project.",
-          "meta": ["Any project", "Opus 4.6", "GSD-2"],
-          "tools": ["Work decomposition", "Context engineering", "Execution", "Verification"],
+          "meta": [
+            "Any project",
+            "Opus 4.6",
+            "GSD-2"
+          ],
+          "tools": [
+            "Work decomposition",
+            "Context engineering",
+            "Execution",
+            "Verification"
+          ],
           "url": "file:///C:/Users/Arikl/.claude/agents/gsd.md"
         },
         {
@@ -18,8 +237,17 @@
           "badge": "EVLV",
           "badgeClass": "badge-active",
           "description": "GSD-2 for evlv.energy — NLR migration awareness, 17-agent pipeline context, Next.js+Prisma+MongoDB patterns, build-verified.",
-          "meta": ["evlv.energy", "NLR-aware", "17 agents"],
-          "tools": ["Feature delivery", "Bug fixes", "Agent work", "NLR migration"],
+          "meta": [
+            "evlv.energy",
+            "NLR-aware",
+            "17 agents"
+          ],
+          "tools": [
+            "Feature delivery",
+            "Bug fixes",
+            "Agent work",
+            "NLR migration"
+          ],
           "url": "file:///C:/Users/Arikl/dev/active/evlv-website/.claude/agents/gsd.md"
         },
         {
@@ -27,8 +255,17 @@
           "badge": "EVLV App",
           "badgeClass": "badge-active",
           "description": "GSD-2 for EVLV AVA TypeScript agent framework — expert consensus, tool schema enforcement, LLM/deterministic split across 5 experts and 19+ tools.",
-          "meta": ["AVA agent", "TypeScript", "Expert system"],
-          "tools": ["New tools", "Expert updates", "Schema enforcement", "Fine-tuning"],
+          "meta": [
+            "AVA agent",
+            "TypeScript",
+            "Expert system"
+          ],
+          "tools": [
+            "New tools",
+            "Expert updates",
+            "Schema enforcement",
+            "Fine-tuning"
+          ],
           "url": "file:///C:/Users/Arikl/dev/active/evlv-app/EV_LV/.claude/agents/gsd.md"
         },
         {
@@ -36,8 +273,17 @@
           "badge": "ADEV",
           "badgeClass": "badge-active",
           "description": "GSD-2 for adevelopment.dev — Next.js 15, Prisma, Resend, lead pipeline. Milestone→Slice→Task with bun build verification.",
-          "meta": ["Next.js 15", "Lead pipeline", "Bun"],
-          "tools": ["Feature delivery", "Lead pipeline", "Admin dashboard", "Bug fixes"],
+          "meta": [
+            "Next.js 15",
+            "Lead pipeline",
+            "Bun"
+          ],
+          "tools": [
+            "Feature delivery",
+            "Lead pipeline",
+            "Admin dashboard",
+            "Bug fixes"
+          ],
           "url": "file:///C:/Users/Arikl/dev/active/a-development-website/.claude/agents/gsd.md"
         },
         {
@@ -45,8 +291,17 @@
           "badge": "Platform",
           "badgeClass": "badge-active",
           "description": "GSD-2 for A_Development shared SDK — interface-first design, consumer impact analysis, TypeScript strict, no project coupling.",
-          "meta": ["Shared SDK", "Interface-first", "TypeScript strict"],
-          "tools": ["New components", "Interface design", "Consumer audit", "Platform exports"],
+          "meta": [
+            "Shared SDK",
+            "Interface-first",
+            "TypeScript strict"
+          ],
+          "tools": [
+            "New components",
+            "Interface design",
+            "Consumer audit",
+            "Platform exports"
+          ],
           "url": "file:///C:/Users/Arikl/dev/active/a-development-platform/.claude/agents/gsd.md"
         },
         {
@@ -54,8 +309,17 @@
           "badge": "Bizar",
           "badgeClass": "badge-active",
           "description": "GSD-2 for Bizar Entertainment pipeline — schema-first changes, brand-rule enforcement, JSON handoff validation, quality gate design.",
-          "meta": ["6-agent pipeline", "Brand rules", "Schema-first"],
-          "tools": ["Pipeline changes", "New formats", "Quality gates", "Brand validation"],
+          "meta": [
+            "6-agent pipeline",
+            "Brand rules + gitclaw harness",
+            "Schema-first"
+          ],
+          "tools": [
+            "Pipeline changes",
+            "New formats",
+            "Quality gates",
+            "Brand validation"
+          ],
           "url": "file:///C:/Users/Arikl/Desktop/Bizar Agents/bizaragentic/.claude/agents/gsd/AGENT.md"
         },
         {
@@ -63,8 +327,17 @@
           "badge": "Lori",
           "badgeClass": "badge-active",
           "description": "GSD-2 for Lori's multi-domain workspace — output-first agent design, domain accuracy, workflow handoff sequencing across healthcare, e-commerce, compliance, grants.",
-          "meta": ["Multi-domain", "Output-first", "Workflow design"],
-          "tools": ["New agents", "Agent improvements", "Workflow design", "Domain accuracy"],
+          "meta": [
+            "Multi-domain",
+            "Output-first",
+            "Workflow design"
+          ],
+          "tools": [
+            "New agents",
+            "Agent improvements",
+            "Workflow design",
+            "Domain accuracy"
+          ],
           "url": "file:///C:/Users/Arikl/dev/experiments/adev-workspace-lori/.claude/agents/gsd.md"
         }
       ]
@@ -78,8 +351,16 @@
           "badge": "Realtime",
           "badgeClass": "badge-active",
           "description": "Streaming public chatbot on evlv.energy — answers clean energy questions, captures returning visitor context, routes to lead capture.",
-          "meta": ["Haiku 4-5", "Port /api/chat", "On-demand"],
-          "tools": ["Chat responses", "Lead routing", "Context capture"],
+          "meta": [
+            "Haiku 4-5",
+            "Port /api/chat",
+            "On-demand"
+          ],
+          "tools": [
+            "Chat responses",
+            "Lead routing",
+            "Context capture"
+          ],
           "url": "http://localhost:3001/api/chat"
         },
         {
@@ -87,8 +368,16 @@
           "badge": "Realtime",
           "badgeClass": "badge-active",
           "description": "Admin RAG chatbot — semantic grant search across 225 curated programs + 4 synced sources. Intent detection routes to federal/state/utility corpus.",
-          "meta": ["Sonnet 4-6", "Port /api/chat/research", "1500 tokens"],
-          "tools": ["Semantic search", "Intent detection", "Grant lookup"],
+          "meta": [
+            "Sonnet 4-6",
+            "Port /api/chat/research",
+            "1500 tokens"
+          ],
+          "tools": [
+            "Semantic search",
+            "Intent detection",
+            "Grant lookup"
+          ],
           "url": "http://localhost:3001/api/chat/research"
         },
         {
@@ -96,8 +385,16 @@
           "badge": "Cron",
           "badgeClass": "badge-active",
           "description": "Fetches 8 clean energy keyword searches from Grants.gov daily. Upserts new opportunities as GrantChunks, writes GrantChangeLogs.",
-          "meta": ["Daily 07:00 UTC", "Cron", "8 keyword searches"],
-          "tools": ["Grant fetch", "GrantChunk upsert", "ChangeLog write"],
+          "meta": [
+            "Daily 07:00 UTC",
+            "Cron",
+            "8 keyword searches"
+          ],
+          "tools": [
+            "Grant fetch",
+            "GrantChunk upsert",
+            "ChangeLog write"
+          ],
           "url": "http://localhost:3001/api/cron/sync-grants-gov"
         },
         {
@@ -105,8 +402,16 @@
           "badge": "Pending",
           "badgeClass": "badge-ready",
           "description": "Pulls federal contract and grant opportunities from SAM.gov. Requires SAM_GOV_API_KEY — currently pending.",
-          "meta": ["Daily 07:30 UTC", "Cron", "Pending API key"],
-          "tools": ["Federal contracts", "Grant opportunities", "SAM.gov API"],
+          "meta": [
+            "Daily 07:30 UTC",
+            "Cron",
+            "Pending API key"
+          ],
+          "tools": [
+            "Federal contracts",
+            "Grant opportunities",
+            "SAM.gov API"
+          ],
           "url": "http://localhost:3001/api/cron/sync-sam-gov"
         },
         {
@@ -114,8 +419,16 @@
           "badge": "Cron",
           "badgeClass": "badge-active",
           "description": "Weekly pull of awarded federal grants by CFDA code and Illinois state. Builds awarded-grant intelligence for prospect matching.",
-          "meta": ["Weekly Mondays 08:00 UTC", "Cron", "CFDA codes"],
-          "tools": ["Awarded grant pull", "State filtering", "Prospect matching"],
+          "meta": [
+            "Weekly Mondays 08:00 UTC",
+            "Cron",
+            "CFDA codes"
+          ],
+          "tools": [
+            "Awarded grant pull",
+            "State filtering",
+            "Prospect matching"
+          ],
           "url": "http://localhost:3001/api/cron/sync-usaspending"
         },
         {
@@ -123,8 +436,16 @@
           "badge": "Cron",
           "badgeClass": "badge-active",
           "description": "Syncs Illinois state incentive programs from the DSIRE API weekly. Covers solar, EV, efficiency rebates, and C-PACE programs.",
-          "meta": ["Weekly Sundays 09:00 UTC", "Cron", "Illinois incentives"],
-          "tools": ["Solar programs", "EV rebates", "C-PACE sync"],
+          "meta": [
+            "Weekly Sundays 09:00 UTC",
+            "Cron",
+            "Illinois incentives"
+          ],
+          "tools": [
+            "Solar programs",
+            "EV rebates",
+            "C-PACE sync"
+          ],
           "url": "http://localhost:3001/api/cron/sync-dsire"
         },
         {
@@ -132,8 +453,16 @@
           "badge": "Cron",
           "badgeClass": "badge-active",
           "description": "Runs Voyage AI voyage-3 embeddings (1024 dims) on all unembedded GrantChunks. Enables semantic search in Research Chat.",
-          "meta": ["Daily 09:00 UTC", "Voyage AI", "1024 dims"],
-          "tools": ["Voyage embeddings", "GrantChunk indexing", "Vector store"],
+          "meta": [
+            "Daily 09:00 UTC",
+            "Voyage AI",
+            "1024 dims"
+          ],
+          "tools": [
+            "Voyage embeddings",
+            "GrantChunk indexing",
+            "Vector store"
+          ],
           "url": "http://localhost:3001/api/cron/embed-new-chunks"
         },
         {
@@ -141,8 +470,16 @@
           "badge": "Cron",
           "badgeClass": "badge-active",
           "description": "Checks GrantChangeLogs daily and sends alert emails when grant opportunities open, close, or change eligibility.",
-          "meta": ["Daily 10:00 UTC", "Email alerts", "ChangeLog watcher"],
-          "tools": ["ChangeLog scan", "Email alerts", "Eligibility tracking"],
+          "meta": [
+            "Daily 10:00 UTC",
+            "Email alerts",
+            "ChangeLog watcher"
+          ],
+          "tools": [
+            "ChangeLog scan",
+            "Email alerts",
+            "Eligibility tracking"
+          ],
           "url": "http://localhost:3001/api/cron/notify-grant-changes"
         },
         {
@@ -150,8 +487,16 @@
           "badge": "Cron",
           "badgeClass": "badge-active",
           "description": "Recalculates all lead quality scores daily using 12-factor scoring model. Outputs scores that drive email sequence selection.",
-          "meta": ["Daily 06:00 UTC", "12-factor model", "Score-driven routing"],
-          "tools": ["Score calculation", "Factor weighting", "Sequence routing"],
+          "meta": [
+            "Daily 06:00 UTC",
+            "12-factor model",
+            "Score-driven routing"
+          ],
+          "tools": [
+            "Score calculation",
+            "Factor weighting",
+            "Sequence routing"
+          ],
           "url": "http://localhost:3001/api/cron/recalculate-scores"
         },
         {
@@ -159,8 +504,16 @@
           "badge": "Cron",
           "badgeClass": "badge-active",
           "description": "Manages 3-step drip email sequences for all leads. Selects templates based on lead score, industry, and energy type.",
-          "meta": ["Every 6h", "3-step drip", "Template selection"],
-          "tools": ["Drip sequencing", "Template matching", "Email delivery"],
+          "meta": [
+            "Every 6h",
+            "3-step drip",
+            "Template selection"
+          ],
+          "tools": [
+            "Drip sequencing",
+            "Template matching",
+            "Email delivery"
+          ],
           "url": "http://localhost:3001/api/cron/email-sequences"
         },
         {
@@ -168,8 +521,16 @@
           "badge": "Cron",
           "badgeClass": "badge-active",
           "description": "Compiles weekly summary email: new leads, grant opportunities, top prospects, pipeline metrics. Sent to the EVLV team.",
-          "meta": ["Weekly Mondays 09:00 UTC", "Team digest", "Pipeline metrics"],
-          "tools": ["Lead summary", "Grant highlights", "Pipeline report"],
+          "meta": [
+            "Weekly Mondays 09:00 UTC",
+            "Team digest",
+            "Pipeline metrics"
+          ],
+          "tools": [
+            "Lead summary",
+            "Grant highlights",
+            "Pipeline report"
+          ],
           "url": "http://localhost:3001/api/cron/monday-digest"
         },
         {
@@ -177,8 +538,16 @@
           "badge": "Cron",
           "badgeClass": "badge-active",
           "description": "Runs market intelligence on leads daily using Sonnet-4-6 — company size, energy usage, existing incentive programs, outreach angle.",
-          "meta": ["Daily 11:00 UTC", "Sonnet 4-6", "Market intel"],
-          "tools": ["Company research", "Energy profiling", "Outreach angle"],
+          "meta": [
+            "Daily 11:00 UTC",
+            "Sonnet 4-6",
+            "Market intel"
+          ],
+          "tools": [
+            "Company research",
+            "Energy profiling",
+            "Outreach angle"
+          ],
           "url": "http://localhost:3001/api/cron/research-prospects"
         },
         {
@@ -186,8 +555,16 @@
           "badge": "Event",
           "badgeClass": "badge-active",
           "description": "Event-driven orchestrator — fires workflows when leads submit calculators, open emails, or cross score thresholds.",
-          "meta": ["Event-driven", "lib/agentic-triggers.ts", "Real-time"],
-          "tools": ["Calculator triggers", "Email open events", "Score threshold routing"],
+          "meta": [
+            "Event-driven",
+            "lib/agentic-triggers.ts",
+            "Real-time"
+          ],
+          "tools": [
+            "Calculator triggers",
+            "Email open events",
+            "Score threshold routing"
+          ],
           "url": "http://localhost:3001"
         },
         {
@@ -195,8 +572,16 @@
           "badge": "Marketing",
           "badgeClass": "badge-active",
           "description": "Generates LinkedIn + Instagram posts Mon/Wed/Fri targeting property managers, business owners, and energy consultants.",
-          "meta": ["Mon/Wed/Fri 08:00 UTC", "Sonnet 4-6", "Buffer drafts"],
-          "tools": ["LinkedIn posts", "Instagram posts", "Buffer queue"],
+          "meta": [
+            "Mon/Wed/Fri 08:00 UTC",
+            "Sonnet 4-6",
+            "Buffer drafts"
+          ],
+          "tools": [
+            "LinkedIn posts",
+            "Instagram posts",
+            "Buffer queue"
+          ],
           "url": "http://localhost:3001/api/cron/social-content"
         },
         {
@@ -204,8 +589,16 @@
           "badge": "Pending",
           "badgeClass": "badge-ready",
           "description": "Reads draft SocialPosts and pushes approved content to Buffer for LinkedIn and Instagram. Pending BUFFER_ACCESS_TOKEN.",
-          "meta": ["Mon/Wed/Fri 09:00 UTC", "Pending token", "Buffer API"],
-          "tools": ["Buffer scheduling", "Post approval", "Status updates"],
+          "meta": [
+            "Mon/Wed/Fri 09:00 UTC",
+            "Pending token",
+            "Buffer API"
+          ],
+          "tools": [
+            "Buffer scheduling",
+            "Post approval",
+            "Status updates"
+          ],
           "url": "http://localhost:3001/api/cron/buffer-publish"
         },
         {
@@ -213,8 +606,16 @@
           "badge": "Marketing",
           "badgeClass": "badge-active",
           "description": "Generates personalized LinkedIn outreach copy for top-scored leads without prior outreach. Stored as SocialPost type=outreach for review.",
-          "meta": ["Weekly Mondays 10:00 UTC", "Sonnet 4-6", "Top leads"],
-          "tools": ["Personalized copy", "Lead selection", "Outreach drafting"],
+          "meta": [
+            "Weekly Mondays 10:00 UTC",
+            "Sonnet 4-6",
+            "Top leads"
+          ],
+          "tools": [
+            "Personalized copy",
+            "Lead selection",
+            "Outreach drafting"
+          ],
           "url": "http://localhost:3001/api/cron/linkedin-outreach"
         },
         {
@@ -222,8 +623,16 @@
           "badge": "Pending",
           "badgeClass": "badge-ready",
           "description": "Fetches Buffer post analytics daily. Scores engagement, surfaces top-performing content, updates SocialPost records.",
-          "meta": ["Daily 12:00 UTC", "Pending token", "Engagement scoring"],
-          "tools": ["Analytics fetch", "Engagement scoring", "Content ranking"],
+          "meta": [
+            "Daily 12:00 UTC",
+            "Pending token",
+            "Engagement scoring"
+          ],
+          "tools": [
+            "Analytics fetch",
+            "Engagement scoring",
+            "Content ranking"
+          ],
           "url": "http://localhost:3001/api/cron/brand-monitor"
         }
       ]
@@ -237,8 +646,16 @@
           "badge": "Bizar",
           "badgeClass": "badge-active",
           "description": "Generates 15 weekly content concepts — 8 bar mitzvah, 5 wedding, 2 corporate. Balances 40% BTS / 30% celebration / 20% educational / 10% social proof.",
-          "meta": ["Sonnet 4-6", "Claude Code agent", "Weekly pipeline step 1"],
-          "tools": ["Content concepts", "Brand strategy", "Chicago context"],
+          "meta": [
+            "Sonnet 4-6",
+            "Claude Code agent + gitclaw harness",
+            "Weekly pipeline step 1"
+          ],
+          "tools": [
+            "Content concepts",
+            "Brand strategy",
+            "Chicago context"
+          ],
           "url": "file:///C:/Users/Arikl/Desktop/Bizar%20Agents/bizaragentic/.claude/agents/social-media-strategist/AGENT.md"
         },
         {
@@ -246,8 +663,16 @@
           "badge": "Bizar",
           "badgeClass": "badge-active",
           "description": "Transforms content concepts into 10 Instagram posts per week with captions and visual direction. Passes structured JSON to SEO specialist.",
-          "meta": ["Sonnet 4-6", "Claude Code agent", "Weekly pipeline step 2"],
-          "tools": ["Post design", "Caption writing", "Visual direction"],
+          "meta": [
+            "Sonnet 4-6",
+            "Claude Code agent + gitclaw harness",
+            "Weekly pipeline step 2"
+          ],
+          "tools": [
+            "Post design",
+            "Caption writing",
+            "Visual direction"
+          ],
           "url": "file:///C:/Users/Arikl/Desktop/Bizar%20Agents/bizaragentic/.claude/agents/instagram-curator/AGENT.md"
         },
         {
@@ -255,8 +680,16 @@
           "badge": "Bizar",
           "badgeClass": "badge-active",
           "description": "Adds 20 hashtags per post — 5 high-volume, 10 medium, 5 niche. Tailored to parents planning events, engaged couples, and corporate planners.",
-          "meta": ["Sonnet 4-6", "Claude Code agent", "Weekly pipeline step 3"],
-          "tools": ["Hashtag research", "Volume analysis", "Audience targeting"],
+          "meta": [
+            "Sonnet 4-6",
+            "Claude Code agent + gitclaw harness",
+            "Weekly pipeline step 3"
+          ],
+          "tools": [
+            "Hashtag research",
+            "Volume analysis",
+            "Audience targeting"
+          ],
           "url": "file:///C:/Users/Arikl/Desktop/Bizar%20Agents/bizaragentic/.claude/agents/seo-specialist/AGENT.md"
         },
         {
@@ -264,8 +697,16 @@
           "badge": "Bizar",
           "badgeClass": "badge-active",
           "description": "Final pipeline step — polishes captions for emotional resonance, applies 5 quality gates, selects best 6 posts and assigns Mon/Tue/Thu/Fri/Sat/Sun schedule.",
-          "meta": ["Sonnet 4-6", "Claude Code agent", "Weekly pipeline step 4"],
-          "tools": ["Caption polish", "Quality gates", "Post scheduling"],
+          "meta": [
+            "Sonnet 4-6",
+            "Claude Code agent + gitclaw harness",
+            "Weekly pipeline step 4"
+          ],
+          "tools": [
+            "Caption polish",
+            "Quality gates",
+            "Post scheduling"
+          ],
           "url": "file:///C:/Users/Arikl/Desktop/Bizar%20Agents/bizaragentic/.claude/agents/content-creator/AGENT.md"
         },
         {
@@ -273,8 +714,16 @@
           "badge": "Bizar",
           "badgeClass": "badge-active",
           "description": "Generates 15–30 second short-form video concepts for TikTok. Adapts weekly content themes into scroll-stopping vertical video scripts for Bizar Entertainment.",
-          "meta": ["Sonnet 4-6", "Claude Code agent", "Short-form video"],
-          "tools": ["Video concepts", "Script writing", "TikTok optimization"],
+          "meta": [
+            "Sonnet 4-6",
+            "Claude Code agent + gitclaw harness",
+            "Short-form video"
+          ],
+          "tools": [
+            "Video concepts",
+            "Script writing",
+            "TikTok optimization"
+          ],
           "url": "file:///C:/Users/Arikl/Desktop/Bizar%20Agents/bizaragentic/.claude/agents/tiktok-strategist/AGENT.md"
         },
         {
@@ -282,8 +731,16 @@
           "badge": "Bizar",
           "badgeClass": "badge-active",
           "description": "Monthly performance analysis — follower growth, engagement rates, top-performing content, benchmarking against prior periods. Executive summary for Jeff Bizar.",
-          "meta": ["Sonnet 4-6", "Claude Code agent", "Monthly reporting"],
-          "tools": ["Growth analysis", "Engagement benchmarks", "Executive summary"],
+          "meta": [
+            "Sonnet 4-6",
+            "Claude Code agent + gitclaw harness",
+            "Monthly reporting"
+          ],
+          "tools": [
+            "Growth analysis",
+            "Engagement benchmarks",
+            "Executive summary"
+          ],
           "url": "file:///C:/Users/Arikl/Desktop/Bizar%20Agents/bizaragentic/.claude/agents/analytics-reporter/AGENT.md"
         }
       ]
@@ -297,8 +754,16 @@
           "badge": "Lori",
           "badgeClass": "badge-active",
           "description": "Designs and creates new Claude Code agent definitions — YAML frontmatter, tool configuration, behavior instructions, and workflow integration.",
-          "meta": ["Sonnet 4-6", "Claude Code agent", "Engineering"],
-          "tools": ["Agent design", "YAML frontmatter", "Workflow integration"],
+          "meta": [
+            "Sonnet 4-6",
+            "Claude Code agent",
+            "Engineering"
+          ],
+          "tools": [
+            "Agent design",
+            "YAML frontmatter",
+            "Workflow integration"
+          ],
           "url": "file:///C:/Users/Arikl/dev/experiments/adev-workspace-lori/.claude/agents/agent-developer.md"
         },
         {
@@ -306,8 +771,16 @@
           "badge": "Lori",
           "badgeClass": "badge-active",
           "description": "Analyzes compliance requirements across healthcare, e-commerce, and business domains. Reviews workflows against regulatory standards and flags gaps.",
-          "meta": ["Sonnet 4-6", "Claude Code agent", "Support"],
-          "tools": ["Compliance review", "Gap analysis", "Regulatory standards"],
+          "meta": [
+            "Sonnet 4-6",
+            "Claude Code agent",
+            "Support"
+          ],
+          "tools": [
+            "Compliance review",
+            "Gap analysis",
+            "Regulatory standards"
+          ],
           "url": "file:///C:/Users/Arikl/dev/experiments/adev-workspace-lori/.claude/agents/compliance-expert.md"
         },
         {
@@ -315,8 +788,16 @@
           "badge": "Lori",
           "badgeClass": "badge-active",
           "description": "Writes clear technical documentation — user guides, API references, SOPs, and onboarding materials for non-technical business audiences.",
-          "meta": ["Sonnet 4-6", "Claude Code agent", "Engineering"],
-          "tools": ["User guides", "SOPs", "API references"],
+          "meta": [
+            "Sonnet 4-6",
+            "Claude Code agent",
+            "Engineering"
+          ],
+          "tools": [
+            "User guides",
+            "SOPs",
+            "API references"
+          ],
           "url": "file:///C:/Users/Arikl/dev/experiments/adev-workspace-lori/.claude/agents/documentation-writer.md"
         },
         {
@@ -324,8 +805,16 @@
           "badge": "Lori",
           "badgeClass": "badge-active",
           "description": "Optimizes e-commerce workflows — product listings, checkout flows, conversion funnels, and customer journey mapping for online retail.",
-          "meta": ["Sonnet 4-6", "Claude Code agent", "Support"],
-          "tools": ["Product listings", "Checkout optimization", "Conversion funnels"],
+          "meta": [
+            "Sonnet 4-6",
+            "Claude Code agent",
+            "Support"
+          ],
+          "tools": [
+            "Product listings",
+            "Checkout optimization",
+            "Conversion funnels"
+          ],
           "url": "file:///C:/Users/Arikl/dev/experiments/adev-workspace-lori/.claude/agents/ecommerce-expert.md"
         },
         {
@@ -333,8 +822,16 @@
           "badge": "Lori",
           "badgeClass": "badge-active",
           "description": "Automates completion of web forms, applications, and data entry tasks using structured data inputs across platforms.",
-          "meta": ["Sonnet 4-6", "Claude Code agent", "Specialized"],
-          "tools": ["Form automation", "Data entry", "Application completion"],
+          "meta": [
+            "Sonnet 4-6",
+            "Claude Code agent",
+            "Specialized"
+          ],
+          "tools": [
+            "Form automation",
+            "Data entry",
+            "Application completion"
+          ],
           "url": "file:///C:/Users/Arikl/dev/experiments/adev-workspace-lori/.claude/agents/form-filler.md"
         },
         {
@@ -342,8 +839,16 @@
           "badge": "Lori",
           "badgeClass": "badge-active",
           "description": "Researches grant programs, funding opportunities, and eligibility requirements. Produces structured summaries with deadlines, amounts, and application guidance.",
-          "meta": ["Sonnet 4-6", "Claude Code agent", "Support"],
-          "tools": ["Grant research", "Eligibility check", "Application guidance"],
+          "meta": [
+            "Sonnet 4-6",
+            "Claude Code agent",
+            "Support"
+          ],
+          "tools": [
+            "Grant research",
+            "Eligibility check",
+            "Application guidance"
+          ],
           "url": "file:///C:/Users/Arikl/dev/experiments/adev-workspace-lori/.claude/agents/grant-researcher.md"
         },
         {
@@ -351,8 +856,16 @@
           "badge": "Lori",
           "badgeClass": "badge-active",
           "description": "Provides healthcare domain expertise — medical terminology, clinical workflows, HIPAA considerations, and healthcare-specific content guidance.",
-          "meta": ["Sonnet 4-6", "Claude Code agent", "Support"],
-          "tools": ["Medical terminology", "HIPAA guidance", "Clinical workflows"],
+          "meta": [
+            "Sonnet 4-6",
+            "Claude Code agent",
+            "Support"
+          ],
+          "tools": [
+            "Medical terminology",
+            "HIPAA guidance",
+            "Clinical workflows"
+          ],
           "url": "file:///C:/Users/Arikl/dev/experiments/adev-workspace-lori/.claude/agents/healthcare-expert.md"
         },
         {
@@ -360,8 +873,16 @@
           "badge": "Lori",
           "badgeClass": "badge-active",
           "description": "Designs and documents automated workflows — maps process steps, identifies automation opportunities, and creates structured workflow definitions for Claude Code or n8n.",
-          "meta": ["Sonnet 4-6", "Claude Code agent", "Engineering"],
-          "tools": ["Process mapping", "Automation design", "n8n workflows"],
+          "meta": [
+            "Sonnet 4-6",
+            "Claude Code agent",
+            "Engineering"
+          ],
+          "tools": [
+            "Process mapping",
+            "Automation design",
+            "n8n workflows"
+          ],
           "url": "file:///C:/Users/Arikl/dev/experiments/adev-workspace-lori/.claude/agents/workflow-builder.md"
         }
       ]
@@ -375,8 +896,20 @@
           "badge": "Running",
           "badgeClass": "badge-active",
           "description": "Telegram-to-Claude relay with prospect pipeline, case study generation, security audits, and multi-provider LLM fallback.",
-          "meta": ["Bun", "Port 3737", "Multi-Provider"],
-          "tools": ["/prospect", "/prospect audit", "/prospect email", "/prospect search", "/prospect pipeline", "/prospect band", "/prospect pitch"],
+          "meta": [
+            "Bun",
+            "Port 3737",
+            "Multi-Provider"
+          ],
+          "tools": [
+            "/prospect",
+            "/prospect audit",
+            "/prospect email",
+            "/prospect search",
+            "/prospect pipeline",
+            "/prospect band",
+            "/prospect pitch"
+          ],
           "url": "http://localhost:3737"
         },
         {
@@ -384,16 +917,33 @@
           "badge": "Active",
           "badgeClass": "badge-active",
           "description": "Automated lead capture on adevelopment.dev — Prisma + MongoDB + Resend email notifications to arik@adevelopment.dev.",
-          "meta": ["Next.js API", "Prisma", "MongoDB", "Resend"],
-          "tools": ["/api/leads", "Email alerts", "Admin dashboard"]
+          "meta": [
+            "Next.js API",
+            "Prisma",
+            "MongoDB",
+            "Resend"
+          ],
+          "tools": [
+            "/api/leads",
+            "Email alerts",
+            "Admin dashboard"
+          ]
         },
         {
           "name": "DevDash Assistant",
           "badge": "Built-in",
           "badgeClass": "badge-active",
           "description": "Dashboard companion agent — scans repos, detects integrations, syncs data, and exports config.",
-          "meta": ["Auto-discovery", "JSON sync"],
-          "tools": ["Scan repos", "Add resources", "Sync data", "Export config"]
+          "meta": [
+            "Auto-discovery",
+            "JSON sync"
+          ],
+          "tools": [
+            "Scan repos",
+            "Add resources",
+            "Sync data",
+            "Export config"
+          ]
         }
       ]
     },
@@ -406,448 +956,32 @@
           "badge": "Skill",
           "badgeClass": "badge-ready",
           "description": "Plans and executes multi-step autonomous task sessions with progress tracking and crash recovery.",
-          "meta": ["Claude Code", "Session mgmt"],
-          "tools": ["/autonomous", "/autonomous-run", "/autonomous-status", "/autonomous-cancel"]
+          "meta": [
+            "Claude Code",
+            "Session mgmt"
+          ],
+          "tools": [
+            "/autonomous",
+            "/autonomous-run",
+            "/autonomous-status",
+            "/autonomous-cancel"
+          ]
         },
         {
           "name": "Bloom Evaluator",
           "badge": "Skill",
           "badgeClass": "badge-ready",
           "description": "LLM behavioral evaluation framework — runs evals, tracks trends, generates HTML reports.",
-          "meta": ["Evaluation", "Reports"],
-          "tools": ["/bloom", "/bloom-check", "/bloom-config", "/bloom-report"]
-        }
-      ]
-    },
-    {
-      "name": "Agency Agents (msitarzewski/agency-agents)",
-      "count": 48,
-      "items": [
-        {
-          "name": "Security Engineer",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "Threat modeling, OWASP audits, secure code review, and security architecture. Use for GoBot case study audits, EVLV API hardening, and A_Dev lead API reviews.",
-          "meta": ["OWASP", "STRIDE", "SAST/DAST"],
-          "tools": ["Threat model", "Vulnerability assessment", "Security headers", "CI/CD scanning"],
-          "url": "https://github.com/msitarzewski/agency-agents"
-        },
-        {
-          "name": "Frontend Developer",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "React/Next.js specialist covering Core Web Vitals, accessibility, and component architecture. Use for EVLV NLR migration audit and A_Dev dashboard work.",
-          "meta": ["React", "Next.js", "TypeScript", "WCAG"],
-          "tools": ["Component review", "Performance audit", "Accessibility check", "Migration checklist"]
-        },
-        {
-          "name": "DevOps Automator",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "CI/CD pipelines, infrastructure automation, deployment strategies. Use for GoBot auto-restart, Vercel workflows, and EVLV migration deadline CI gates.",
-          "meta": ["GitHub Actions", "Vercel", "CI/CD"],
-          "tools": ["Deploy pipelines", "Auto-restart config", "Build guards", "Rollback automation"]
-        },
-        {
-          "name": "Rapid Prototyper",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "Fast POC and MVP development. Use for new GoBot Telegram commands and quick A_Dev platform features.",
-          "meta": ["Fast iteration", "POC", "MVP"],
-          "tools": ["Quick features", "Telegram commands", "Webhook prototypes"]
-        },
-        {
-          "name": "Code Reviewer",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "Constructive PR reviews covering security, maintainability, and correctness. Use before any GoBot release or EVLV migration merge.",
-          "meta": ["PR review", "Security", "TypeScript"],
-          "tools": ["PR review", "Security audit", "Diff analysis"]
-        },
-        {
-          "name": "Instagram Curator",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "Visual storytelling, content calendars, and community building for Instagram. Use for ADEV monthly content planning and Reel scripts.",
-          "meta": ["Content calendar", "Reels", "Hashtags"],
-          "tools": ["30-day calendar", "Reel scripts", "Post critique", "Hashtag strategy"]
-        },
-        {
-          "name": "SEO Specialist",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "Technical SEO, content strategy, and link authority. Use for GoBot prospect digital audits and adevelopment.dev organic growth.",
-          "meta": ["Technical SEO", "Core Web Vitals", "Local SEO"],
-          "tools": ["Site audit", "Keyword gaps", "Competitor analysis", "Structured data"]
-        },
-        {
-          "name": "Outbound Strategist",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "Signal-based multi-channel outreach sequences and ICP targeting. Use for North Shore venue prospects and entertainment niche LinkedIn outreach.",
-          "meta": ["Cold email", "LinkedIn", "ICP"],
-          "tools": ["Email sequences", "LinkedIn plays", "Signal triggers", "Follow-up playbooks"]
-        },
-        {
-          "name": "MCP Builder",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "Builds production MCP servers with typed tools, error handling, and Zod validation. Use to extend GoBot with new tools and build lead-alert servers.",
-          "meta": ["MCP", "TypeScript", "Zod"],
-          "tools": ["Tool design", "MCP server scaffold", "API integration", "Error handling"]
-        },
-        {
-          "name": "Agents Orchestrator",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "Coordinates multi-agent dev pipelines from spec to ship with quality gates. Use to run full GoBot prospect pipelines and EVLV launch readiness checks.",
-          "meta": ["Multi-agent", "Pipeline", "Quality gates"],
-          "tools": ["Full pipeline runs", "Agent handoffs", "Dev-QA loops", "Launch checklists"]
-        },
-        {
-          "name": "Reality Checker",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "Evidence-based production readiness certification — defaults to NEEDS WORK. Use as the final gate before any deploy to Vercel or GoBot release.",
-          "meta": ["QA", "Pre-deploy", "Evidence-based"],
-          "tools": ["Deploy certification", "User journey testing", "Spec vs. reality check", "Screenshot QA"]
-        },
-        {
-          "name": "Social Media Strategist",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "Monthly strategy, content calendar planning, and platform optimization. Core agent in the Bizar social system — runs Monday morning to generate 15 content concepts.",
-          "meta": ["Strategy", "Content calendar", "Multi-platform"],
-          "tools": ["Weekly concept generation", "Competitive positioning", "Platform optimization", "Calendar planning"]
-        },
-        {
-          "name": "Content Creator",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "Cross-platform content adaptation and caption writing from raw client copy. Use to polish captions and create content variations for Bizar/Boom brands.",
-          "meta": ["Captions", "Multi-platform", "Brand voice"],
-          "tools": ["Caption writing", "Content adaptation", "Copy variations", "Platform formatting"]
-        },
-        {
-          "name": "Analytics Reporter",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "Performance tracking, competitive analysis, and monthly reporting. End-of-month agent — generates client-ready insights, growth recommendations, and competitor benchmarks.",
-          "meta": ["Analytics", "Monthly reports", "KPIs"],
-          "tools": ["Performance summaries", "Competitor benchmarks", "Growth recommendations", "Dashboard data"]
-        },
-        {
-          "name": "TikTok Strategist",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "Viral content strategy, algorithm optimization, and short-form video planning. Relevant for Bizar Reels/TikTok crossover content and younger demographic reach.",
-          "meta": ["TikTok", "Reels", "Short-form video"],
-          "tools": ["Viral content strategy", "Algorithm optimization", "Audio trends", "Reels crossover"]
-        },
-        {
-          "name": "LinkedIn Content Creator",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "Personal branding, thought leadership, and professional content for B2B audiences. Use for Bizar corporate event planner targeting and ADEV agency positioning.",
-          "meta": ["LinkedIn", "B2B", "Thought leadership"],
-          "tools": ["Professional posts", "Thought leadership", "B2B audience", "Personal branding"]
-        },
-        {
-          "name": "Carousel Growth Engine",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "TikTok/Instagram carousel generation with autonomous publishing support. Use for Bizar educational/event-recap carousels and ADEV Instagram carousel posts.",
-          "meta": ["Carousels", "Instagram", "TikTok"],
-          "tools": ["Carousel scripts", "Slide structure", "Publishing automation", "Engagement hooks"]
-        },
-        {
-          "name": "Growth Hacker",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "Rapid user acquisition, viral loops, and conversion experiments. Use to design growth tactics for Bizar's Instagram follower growth and ADEV lead generation.",
-          "meta": ["Growth", "Acquisition", "Experiments"],
-          "tools": ["Viral loop design", "Conversion optimization", "A/B experiments", "Growth tactics"]
-        },
-        {
-          "name": "Executive Summary Generator",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "C-suite communication and strategic summaries. Use to generate the monthly client-facing report narrative for Bizar and future social media management clients.",
-          "meta": ["Client reports", "Executive comms", "Summaries"],
-          "tools": ["Monthly client reports", "Strategic summaries", "Decision support", "Executive narratives"]
-        },
-        {
-          "name": "Document Generator",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "PDF, PPTX, DOCX, XLSX generation from code. Use to produce polished monthly reports and client deliverables from agent JSON outputs in bizar-social-agents.",
-          "meta": ["PDF", "PPTX", "DOCX", "Reports"],
-          "tools": ["PDF reports", "PowerPoint decks", "Excel exports", "Client deliverables"]
-        },
-        {
-          "name": "Proposal Strategist",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "RFP responses, win themes, and persuasive proposal narratives. Use when pitching the social media management service to clients 2-5 beyond Bizar.",
-          "meta": ["Proposals", "Sales", "Win themes"],
-          "tools": ["RFP responses", "Win narratives", "Proposal structure", "Competitive positioning"]
-        },
-        {
-          "name": "Feedback Synthesizer",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "User feedback analysis and insight extraction. Use after Bizar client meetings to synthesize feedback into actionable content adjustments for next month.",
-          "meta": ["Feedback", "Insights", "Product priorities"],
-          "tools": ["Client feedback analysis", "Theme extraction", "Content adjustments", "Priority mapping"]
-        },
-        {
-          "name": "Project Shepherd",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "Cross-functional coordination and timeline management. Use to manage the 4-week bizar-social-agents build and coordinate handoffs between build phases.",
-          "meta": ["Project mgmt", "Timelines", "Coordination"],
-          "tools": ["Timeline tracking", "Stakeholder coordination", "Phase handoffs", "Risk management"]
-        },
-        {
-          "name": "Backend Architect",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "API design, database architecture, and scalability. Critical for EVLV NLR migration — redesign API service layer and wire up SAM_GOV + Resend integrations.",
-          "meta": ["API design", "Architecture", "Microservices"],
-          "tools": ["API route design", "DB architecture", "Service layer", "Integration planning"]
-        },
-        {
-          "name": "Software Architect",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "System design, DDD, and architectural trade-off analysis. Use for EVLV data layer decisions and A_Dev platform architecture as it grows.",
-          "meta": ["System design", "DDD", "Architecture"],
-          "tools": ["Architecture decisions", "Domain modeling", "Trade-off analysis", "System evolution"]
-        },
-        {
-          "name": "SRE",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "SLOs, error budgets, observability, and chaos engineering. Use to establish production reliability standards for evlv.energy with LAW Ventures.",
-          "meta": ["SLOs", "Observability", "Reliability"],
-          "tools": ["SLO definition", "Error budgets", "Alerting setup", "Uptime monitoring"]
-        },
-        {
-          "name": "Data Engineer",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "Data pipelines, ETL, and structured data ingestion. Use for EVLV energy data from NLR API — normalize response shapes and build reliable data pipelines.",
-          "meta": ["Pipelines", "ETL", "Data modeling"],
-          "tools": ["NLR data pipelines", "Schema normalization", "Data ingestion", "Transformation logic"]
-        },
-        {
-          "name": "AI Engineer",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "ML models, AI integration, and agent deployment. Use to improve the AVA agent on EVLV — better prompts, tool use, structured outputs, and response quality.",
-          "meta": ["Claude API", "Agent design", "ML integration"],
-          "tools": ["AVA agent improvements", "Prompt engineering", "Tool design", "Structured outputs"]
-        },
-        {
-          "name": "Technical Writer",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "Developer docs, API reference, and tutorials. Use to document the EVLV NLR migration for the LAW Ventures team and create ADEV client handoff docs.",
-          "meta": ["Docs", "API reference", "Handoff"],
-          "tools": ["Migration docs", "API guides", "Client handoffs", "Architecture writeups"]
-        },
-        {
-          "name": "Autonomous Optimization Architect",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "LLM routing, cost optimization, and shadow testing. Use to optimize GoBot's fallback chain and reduce Claude API costs as Bizar social system scales.",
-          "meta": ["LLM routing", "Cost optimization", "Shadow testing"],
-          "tools": ["Fallback chain tuning", "API cost reduction", "Provider routing", "Shadow testing"]
-        },
-        {
-          "name": "API Tester",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "API validation and integration testing. Critical pre-April 30 — validates every EVLV endpoint switches cleanly from NREL to NLR with no regressions.",
-          "meta": ["API testing", "Integration QA", "Regression"],
-          "tools": ["Endpoint validation", "NLR migration tests", "Response comparison", "Integration QA"]
-        },
-        {
-          "name": "Accessibility Auditor",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "WCAG 2.1 auditing and assistive technology testing. Use on evlv.energy and adevelopment.dev to ensure compliance before client handoff.",
-          "meta": ["WCAG", "A11y", "Screen reader"],
-          "tools": ["WCAG audit", "Screen reader test", "Keyboard nav", "Contrast check"]
-        },
-        {
-          "name": "Performance Benchmarker",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "Performance testing and optimization. Use before Vercel deploys on EVLV and A_Dev — Lighthouse scores, load times, Core Web Vitals.",
-          "meta": ["Lighthouse", "Core Web Vitals", "Load testing"],
-          "tools": ["Lighthouse audit", "Load testing", "Performance budgets", "CWV benchmarks"]
-        },
-        {
-          "name": "Workflow Optimizer",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "Process analysis and workflow improvement. Use to analyze and tighten the Bizar Strategist→Curator→SEO pipeline before go-live.",
-          "meta": ["Process optimization", "Efficiency", "Automation"],
-          "tools": ["Pipeline analysis", "Bottleneck detection", "Workflow redesign", "Automation opportunities"]
-        },
-        {
-          "name": "Evidence Collector",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "Screenshot-based QA and visual proof. Use for Bizar post QA — visual evidence of generated content before client delivery, and UI regression checks.",
-          "meta": ["Screenshots", "Visual QA", "Evidence"],
-          "tools": ["Screenshot capture", "Visual regression", "QA evidence", "Bug documentation"]
-        },
-        {
-          "name": "Test Results Analyzer",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "Test evaluation and metrics analysis. Use to analyze Bizar agent output quality week-over-week and EVLV API test results after NLR migration.",
-          "meta": ["Test metrics", "Quality analysis", "Coverage"],
-          "tools": ["Test output analysis", "Quality metrics", "Coverage reporting", "Trend tracking"]
-        },
-        {
-          "name": "Infrastructure Maintainer",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "System reliability and performance optimization. Use for EVLV Vercel + NLR API monitoring, and GoBot uptime and health checks.",
-          "meta": ["Infrastructure", "Monitoring", "Reliability"],
-          "tools": ["Health monitoring", "Performance tuning", "Uptime checks", "System ops"]
-        },
-        {
-          "name": "Finance Tracker",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "Financial planning and budget management. Use to track ADEV revenue (Bizar $2,800/mo, EVLV contract), margins, and effective hourly rate across clients.",
-          "meta": ["Revenue tracking", "Margins", "Budget"],
-          "tools": ["Revenue tracking", "Cost analysis", "Margin reporting", "Cash flow"]
-        },
-        {
-          "name": "Sprint Prioritizer",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "Agile sprint planning and feature prioritization. Use to manage the EVLV NLR deadline sprint and Bizar build phases across weeks.",
-          "meta": ["Sprint planning", "Backlog", "Prioritization"],
-          "tools": ["Sprint planning", "Backlog grooming", "Feature prioritization", "Resource allocation"]
-        },
-        {
-          "name": "Behavioral Nudge Engine",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "Behavioral psychology and nudge design. Use to improve adevelopment.dev conversion — CTA design, lead form psychology, and engagement hooks.",
-          "meta": ["Psychology", "Conversion", "UX nudges"],
-          "tools": ["CTA optimization", "Lead form nudges", "Engagement design", "Conversion psychology"]
-        },
-        {
-          "name": "Studio Producer",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "High-level multi-project orchestration and portfolio management. Use when scaling from Bizar to 5 social media clients — resource allocation across projects.",
-          "meta": ["Portfolio mgmt", "Multi-client", "Orchestration"],
-          "tools": ["Multi-client oversight", "Resource allocation", "Strategic alignment", "Portfolio planning"]
-        },
-        {
-          "name": "Model QA Specialist",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "ML audits, feature analysis, and interpretability. Use to QA Bizar agent prompt quality — audit outputs for consistency, bias, and on-brand accuracy.",
-          "meta": ["Prompt QA", "Model audits", "Quality"],
-          "tools": ["Prompt auditing", "Output consistency", "Quality benchmarks", "Bias detection"]
-        },
-        {
-          "name": "UX Architect",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "Technical CSS architecture and developer-friendly design systems. Use for EVLV and A_Dev when building new UI sections with consistent component foundations.",
-          "meta": ["CSS systems", "Design systems", "UX architecture"],
-          "tools": ["CSS architecture", "Component foundations", "Design tokens", "Implementation guides"]
-        },
-        {
-          "name": "Discovery Coach",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "SPIN and Gap Selling question design for discovery calls. Use when qualifying new social media management prospects after Bizar — structure the sales call.",
-          "meta": ["Discovery calls", "SPIN selling", "Qualification"],
-          "tools": ["Call structure", "Question design", "Qualification frameworks", "Opportunity scoring"]
-        },
-        {
-          "name": "Deal Strategist",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "MEDDPICC qualification and win planning. Use for EVLV contract strategy with LAW Ventures and positioning the social media service for new clients.",
-          "meta": ["MEDDPICC", "Win planning", "Deal strategy"],
-          "tools": ["Deal scoring", "Risk exposure", "Win strategies", "Competitive positioning"]
-        },
-        {
-          "name": "Pipeline Analyst",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "Forecasting, pipeline health, and deal velocity. Use to track ADEV prospect pipeline — who's close to close, what's stalled, revenue forecast.",
-          "meta": ["Pipeline health", "Forecasting", "Deal velocity"],
-          "tools": ["Pipeline review", "Forecast accuracy", "Velocity tracking", "Revenue ops"]
-        },
-        {
-          "name": "Sales Engineer",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "Technical demos, POC scoping, and competitive battlecards. Use for pre-sales technical demos of the social media agent system to new prospects.",
-          "meta": ["Demo prep", "POC scoping", "Technical sales"],
-          "tools": ["Demo scripts", "POC design", "Battlecards", "Technical positioning"]
-        },
-        {
-          "name": "Paid Media Auditor",
-          "badge": "Installed",
-          "badgeClass": "badge-active",
-          "description": "200+ point ad account audits and competitive analysis. Potential ADEV upsell service — audit client ad accounts as an add-on to social media management.",
-          "meta": ["Ad audits", "PPC", "Competitive analysis"],
-          "tools": ["Account audits", "Waste elimination", "Competitive analysis", "Performance diagnosis"]
-        }
-      ]
-    },
-    {
-      "name": "LLM Providers (GoBot Fallback Chain)",
-      "count": 5,
-      "items": [
-        {
-          "name": "Ollama (Local)",
-          "badge": "Primary",
-          "badgeClass": "badge-active",
-          "description": "Local LLM inference — first in fallback chain.",
-          "meta": ["Local", "Free"]
-        },
-        {
-          "name": "Mistral",
-          "badge": "Fallback 1",
-          "badgeClass": "badge-ready",
-          "description": "Mistral API — second in fallback chain.",
-          "meta": ["Cloud", "API"]
-        },
-        {
-          "name": "Qwen Coder",
-          "badge": "Fallback 2",
-          "badgeClass": "badge-ready",
-          "description": "Qwen Coder — third in fallback chain.",
-          "meta": ["Cloud", "API"]
-        },
-        {
-          "name": "Groq",
-          "badge": "Fallback 3",
-          "badgeClass": "badge-ready",
-          "description": "Groq API — fast inference, fourth in chain.",
-          "meta": ["Cloud", "Fast"]
-        },
-        {
-          "name": "OpenRouter",
-          "badge": "Fallback 4",
-          "badgeClass": "badge-ready",
-          "description": "OpenRouter — multi-model gateway, last resort.",
-          "meta": ["Cloud", "Multi-model"]
+          "meta": [
+            "Evaluation",
+            "Reports"
+          ],
+          "tools": [
+            "/bloom",
+            "/bloom-check",
+            "/bloom-config",
+            "/bloom-report"
+          ]
         }
       ]
     }
