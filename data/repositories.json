@@ -133,7 +133,7 @@
     },
     {
       "name": "Tools",
-      "count": 8,
+      "count": 9,
       "items": [
         {
           "name": "googleworkspace-cli (gws)",
@@ -199,6 +199,15 @@
           "meta": ["OpenVINO", "Audio"],
           "path": "~/dev/tools/openvino-plugins-ai-audacity",
           "url": "https://github.com/Adkr1989/openvino-audacity-deps"
+        },
+        {
+          "name": "phomber",
+          "badge": "Tool",
+          "badgeClass": "badge-ready",
+          "description": "OSINT recon framework — phone/IP/MAC/WHOIS/DNS lookups + username scan across ~100 sites. Headless wrapper at phomber_cli.py bypasses prompt_toolkit for Claude. Tied into /phomber skill + /case-study Phase 2 OSINT step.",
+          "meta": ["Python", "OSINT", "Skill: /phomber"],
+          "path": "~/dev/tools/phomber",
+          "url": "https://github.com/s41r4j/phomber"
         }
       ]
     },
