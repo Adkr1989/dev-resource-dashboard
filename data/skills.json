@@ -9,525 +9,242 @@
           "badge": "Outreach",
           "badgeClass": "badge-active",
           "description": "Generate prospect case study package — email, digital audit, security audit, internal docs.",
-          "meta": [
-            "6 files",
-            "HTML",
-            "WebFetch"
-          ]
+          "meta": ["6 files", "HTML", "WebFetch"]
         },
         {
           "name": "/case-study-auto",
           "badge": "Automation",
           "badgeClass": "badge-active",
           "description": "Auto-generate case studies when new leads arrive via GoBot webhook pipeline.",
-          "meta": [
-            "GoBot",
-            "Webhook"
-          ]
+          "meta": ["GoBot", "Webhook"]
         },
         {
           "name": "/gmail-outreach",
           "badge": "Outreach",
           "badgeClass": "badge-active",
           "description": "Send or draft outreach emails to prospects from case study output via Gmail MCP.",
-          "meta": [
-            "Gmail MCP",
-            "Drafts"
-          ]
+          "meta": ["Gmail MCP", "Drafts"]
         },
         {
           "name": "/prospect-follow-up",
           "badge": "CRM",
           "badgeClass": "badge-active",
           "description": "CRM-lite tracking for the ADEV prospect outreach pipeline — log contact dates, status, follow-ups.",
-          "meta": [
-            "Pipeline",
-            "Status"
-          ]
+          "meta": ["Pipeline", "Status"]
         },
         {
           "name": "/adev-weekly-review",
           "badge": "Reporting",
           "badgeClass": "badge-active",
           "description": "Weekly ADEV business metrics — pipeline, case studies, leads, Instagram, GoBot activity.",
-          "meta": [
-            "Weekly",
-            "Metrics"
-          ]
+          "meta": ["Weekly", "Metrics"]
         },
         {
           "name": "/inbox-cleaner",
           "badge": "Productivity",
           "badgeClass": "badge-active",
           "description": "AI-powered Gmail triage — identify important emails, mark noise as read.",
-          "meta": [
-            "Gmail",
-            "AI filter"
-          ]
+          "meta": ["Gmail", "AI filter"]
         },
         {
           "name": "/social-calendar",
           "badge": "Marketing",
           "badgeClass": "badge-active",
           "description": "30-day social media content calendar — posts, hooks, captions, hashtags, repurposing.",
-          "meta": [
-            "30 days",
-            "Multi-platform"
-          ]
+          "meta": ["30 days", "Multi-platform"]
         },
         {
           "name": "/canva-post",
           "badge": "Design",
           "badgeClass": "badge-active",
           "description": "Create, update, export Instagram post designs using the Canva MCP.",
-          "meta": [
-            "Canva MCP",
-            "Instagram"
-          ]
+          "meta": ["Canva MCP", "Instagram"]
         },
         {
           "name": "/seo-report",
           "badge": "Research",
           "badgeClass": "badge-active",
           "description": "SEO analysis — traffic, keywords, backlinks, difficulty via seo-research MCP.",
-          "meta": [
-            "SEO MCP"
-          ]
+          "meta": ["SEO MCP"]
         },
         {
           "name": "/evlv-status",
           "badge": "Migration",
           "badgeClass": "badge-active",
           "description": "Check EVLV codebase NREL-to-NLR domain migration status. Deadline 2026-04-30.",
-          "meta": [
-            "EVLV",
-            "Migration"
-          ]
+          "meta": ["EVLV", "Migration"]
         },
         {
           "name": "/client-onboard",
           "badge": "Onboarding",
           "badgeClass": "badge-active",
           "description": "One-shot ADEV client onboarding — Drive folder, kickoff Doc, calendar event with invite, welcome Gmail.",
-          "meta": [
-            "Drive",
-            "Calendar",
-            "Gmail"
-          ]
+          "meta": ["Drive", "Calendar", "Gmail"]
         },
         {
           "name": "/lead-intake",
           "badge": "Pipeline",
           "badgeClass": "badge-active",
           "description": "Lead intake pipeline — Google Form → Sheets CRM → Obsidian Vault. Replaces retired GoBot webhook flow.",
-          "meta": [
-            "Form",
-            "Sheets",
-            "Vault"
-          ]
+          "meta": ["Form", "Sheets", "Vault"]
         },
         {
           "name": "/inbox-alerts",
           "badge": "Triage",
           "badgeClass": "badge-active",
           "description": "Scan unread Gmail for HIGH-signal prospect responses, label HOT/WARM, surface at top of chat.",
-          "meta": [
-            "Gmail",
-            "Hot leads"
-          ]
+          "meta": ["Gmail", "Hot leads"]
         },
         {
           "name": "/meeting-prep",
           "badge": "Prep",
           "badgeClass": "badge-active",
           "description": "Auto-generate prep Doc for next meeting — attendee dossier, prior Gmail thread, linked Drive assets, agenda.",
-          "meta": [
-            "Calendar",
-            "Docs"
-          ]
+          "meta": ["Calendar", "Docs"]
         },
         {
           "name": "/receipt-tracker",
           "badge": "Finance",
           "badgeClass": "badge-active",
           "description": "ADEV business receipts — upload to Drive, OCR merchant/amount/date, categorize, log to Sheet, monthly rollups.",
-          "meta": [
-            "OCR",
-            "Sheets",
-            "Tax"
-          ]
+          "meta": ["OCR", "Sheets", "Tax"]
         }
+      ]
+    },
+    {
+      "name": "Google Workspace (GWS)",
+      "count": 16,
+      "items": [
+        { "name": "/gws-gmail", "badge": "Gmail", "badgeClass": "badge-active", "description": "Manage Gmail — read, search, draft, label.", "meta": ["OAuth", "GWS"] },
+        { "name": "/gws-calendar", "badge": "Calendar", "badgeClass": "badge-active", "description": "Manage Calendar — events, agenda, RSVP.", "meta": ["OAuth", "GWS"] },
+        { "name": "/gws-drive", "badge": "Drive", "badgeClass": "badge-active", "description": "Manage Drive — search, upload, sharing.", "meta": ["OAuth", "GWS"] },
+        { "name": "/gws-docs", "badge": "Docs", "badgeClass": "badge-active", "description": "Manage Docs — read, write, export.", "meta": ["OAuth", "GWS"] },
+        { "name": "/gws-sheets", "badge": "Sheets", "badgeClass": "badge-active", "description": "Manage Sheets — read, append, formulas.", "meta": ["OAuth", "GWS"] },
+        { "name": "/gws-slides", "badge": "Slides", "badgeClass": "badge-active", "description": "Manage Slides — presentations, export.", "meta": ["OAuth", "GWS"] },
+        { "name": "/gws-chat", "badge": "Chat", "badgeClass": "badge-active", "description": "Manage Chat — messages, spaces.", "meta": ["OAuth", "GWS"] },
+        { "name": "/gws-tasks", "badge": "Tasks", "badgeClass": "badge-active", "description": "Manage Tasks — lists, items.", "meta": ["OAuth", "GWS"] },
+        { "name": "/gws-meet", "badge": "Meet", "badgeClass": "badge-active", "description": "Manage Meet — spaces, participants.", "meta": ["OAuth", "GWS"] },
+        { "name": "/gws-forms", "badge": "Forms", "badgeClass": "badge-active", "description": "Manage Forms — create, responses.", "meta": ["OAuth", "GWS"] },
+        { "name": "/gws-people", "badge": "People", "badgeClass": "badge-active", "description": "Manage Contacts — sync, list.", "meta": ["OAuth", "GWS"] },
+        { "name": "/gws-keep", "badge": "Keep", "badgeClass": "badge-active", "description": "Manage Keep notes.", "meta": ["OAuth", "GWS"] },
+        { "name": "/gws-workflow", "badge": "Workflow", "badgeClass": "badge-active", "description": "Cross-app GWS workflows (email-to-task, meeting-prep).", "meta": ["Workflow", "GWS"] },
+        { "name": "/gws-admin-reports", "badge": "Admin", "badgeClass": "badge-active", "description": "GWS usage and audit reports.", "meta": ["Admin", "GWS"] },
+        { "name": "/gws-modelarmor", "badge": "Security", "badgeClass": "badge-active", "description": "Sanitize prompts and responses via Model Armor.", "meta": ["Security", "GWS"] },
+        { "name": "/gws-classroom", "badge": "Classroom", "badgeClass": "badge-active", "description": "Manage Classroom courses and students.", "meta": ["OAuth", "GWS"] }
+      ]
+    },
+    {
+      "name": "AI Personas",
+      "count": 10,
+      "items": [
+        { "name": "/persona-exec-assistant", "badge": "Active", "badgeClass": "badge-active", "description": "Executive Assistant persona — scheduling, comms, organization.", "meta": ["Persona"] },
+        { "name": "/persona-project-manager", "badge": "Active", "badgeClass": "badge-active", "description": "Project Manager persona — timelines, resources, handoffs.", "meta": ["Persona"] },
+        { "name": "/persona-content-creator", "badge": "Active", "badgeClass": "badge-active", "description": "Content Creator persona — social, blog, marketing copy.", "meta": ["Persona"] },
+        { "name": "/persona-researcher", "badge": "Active", "badgeClass": "badge-active", "description": "Researcher persona — deep dives, market intel, synthesis.", "meta": ["Persona"] },
+        { "name": "/persona-customer-support", "badge": "Active", "badgeClass": "badge-active", "description": "Customer Support persona — empathetic, problem-solving.", "meta": ["Persona"] },
+        { "name": "/persona-sales-ops", "badge": "Active", "badgeClass": "badge-active", "description": "Sales Ops persona — pipeline, MEDDPICC, deal strategy.", "meta": ["Persona"] },
+        { "name": "/persona-it-admin", "badge": "Active", "badgeClass": "badge-active", "description": "IT Admin persona — security, configuration, infra.", "meta": ["Persona"] },
+        { "name": "/persona-team-lead", "badge": "Active", "badgeClass": "badge-active", "description": "Team Lead persona — mentoring, standups, blockers.", "meta": ["Persona"] },
+        { "name": "/persona-event-coordinator", "badge": "Active", "badgeClass": "badge-active", "description": "Event Coordinator persona — logistics, vendors, Bizar context.", "meta": ["Persona"] },
+        { "name": "/persona-hr-coordinator", "badge": "Active", "badgeClass": "badge-active", "description": "HR Coordinator persona — onboarding, compliance, people.", "meta": ["Persona"] }
+      ]
+    },
+    {
+      "name": "Workflow Recipes",
+      "count": 12,
+      "items": [
+        { "name": "/recipe-backup-sheet-as-csv", "badge": "Active", "badgeClass": "badge-active", "description": "Backup GWS Sheet tab as CSV to local or Drive.", "meta": ["Recipe"] },
+        { "name": "/recipe-bulk-download-folder", "badge": "Active", "badgeClass": "badge-active", "description": "Download entire GWS Drive folder contents locally.", "meta": ["Recipe"] },
+        { "name": "/recipe-create-doc-from-template", "badge": "Active", "badgeClass": "badge-active", "description": "Generate new GWS Doc based on existing template placeholders.", "meta": ["Recipe"] },
+        { "name": "/recipe-plan-weekly-schedule", "badge": "Active", "badgeClass": "badge-active", "description": "Draft weekly Calendar blocks from priority list.", "meta": ["Recipe"] },
+        { "name": "/recipe-review-overdue-tasks", "badge": "Active", "badgeClass": "badge-active", "description": "Audit GWS Tasks and flag overdue or stalled items.", "meta": ["Recipe"] },
+        { "name": "/recipe-save-email-attachments", "badge": "Active", "badgeClass": "badge-active", "description": "Auto-save attachments from labeled Gmail threads to Drive.", "meta": ["Recipe"] },
+        { "name": "/recipe-share-doc-and-notify", "badge": "Active", "badgeClass": "badge-active", "description": "One-shot share GWS Doc + Gmail notification to recipient.", "meta": ["Recipe"] },
+        { "name": "/recipe-sync-contacts-to-sheet", "badge": "Active", "badgeClass": "badge-active", "description": "Sync GWS People contacts to a master GWS Sheet.", "meta": ["Recipe"] },
+        { "name": "/recipe-watch-drive-changes", "badge": "Active", "badgeClass": "badge-active", "description": "Notify of changes in a specific GWS Drive folder.", "meta": ["Recipe"] },
+        { "name": "/recipe-log-deal-update", "badge": "Active", "badgeClass": "badge-active", "description": "Sync LinkedIn/Gmail deal signals to ADEV Sheets CRM.", "meta": ["Recipe"] },
+        { "name": "/recipe-find-free-time", "badge": "Active", "badgeClass": "badge-active", "description": "Scan Calendar for shared free blocks between attendees.", "meta": ["Recipe"] },
+        { "name": "/recipe-generate-report-from-sheet", "badge": "Active", "badgeClass": "badge-active", "description": "Transform Sheet data into structured Markdown or PDF report.", "meta": ["Recipe"] }
       ]
     },
     {
       "name": "Session & Autonomous Workflow",
-      "count": 10,
+      "count": 4,
       "items": [
-        {
-          "name": "/autonomous",
-          "badge": "Planning",
-          "badgeClass": "badge-active",
-          "description": "Plan an autonomous multi-step task session before execution.",
-          "meta": [
-            "Session"
-          ]
-        },
-        {
-          "name": "/session-bookmark",
-          "badge": "Recovery",
-          "badgeClass": "badge-ready",
-          "description": "Save, list, and resume session bookmarks.",
-          "meta": [
-            "Crash recovery"
-          ]
-        },
-        {
-          "name": "/session-analytics",
-          "badge": "Metrics",
-          "badgeClass": "badge-ready",
-          "description": "Generate session report with tool usage metrics.",
-          "meta": [
-            "Analytics"
-          ]
-        },
-        {
-          "name": "/session-notebooklm-suite",
-          "badge": "Export",
-          "badgeClass": "badge-ready",
-          "description": "Generate rich NotebookLM source from current session work.",
-          "meta": [
-            "NotebookLM"
-          ]
-        }
+        { "name": "/autonomous", "badge": "Planning", "badgeClass": "badge-active", "description": "Plan an autonomous multi-step task session before execution.", "meta": ["Session"] },
+        { "name": "/session-bookmark", "badge": "Recovery", "badgeClass": "badge-ready", "description": "Save, list, and resume session bookmarks.", "meta": ["Crash recovery"] },
+        { "name": "/session-analytics", "badge": "Metrics", "badgeClass": "badge-ready", "description": "Generate session report with tool usage metrics.", "meta": ["Analytics"] },
+        { "name": "/session-notebooklm-suite", "badge": "Export", "badgeClass": "badge-ready", "description": "Generate rich NotebookLM source from current session work.", "meta": ["NotebookLM"] }
       ]
     },
     {
       "name": "Roadmap & Planning",
-      "count": 6,
+      "count": 1,
       "items": [
-        {
-          "name": "/roadmap",
-          "badge": "Today",
-          "badgeClass": "badge-active",
-          "description": "Today's priority tasks based on ADEV outreach focus.",
-          "meta": [
-            "Daily"
-          ]
-        }
+        { "name": "/roadmap", "badge": "Today", "badgeClass": "badge-active", "description": "Today's priority tasks based on ADEV outreach focus.", "meta": ["Daily"] }
       ]
     },
     {
       "name": "Dev & Code Quality",
-      "count": 14,
+      "count": 9,
       "items": [
-        {
-          "name": "/code-review",
-          "badge": "Quality",
-          "badgeClass": "badge-active",
-          "description": "Multi-perspective code review — correctness, perf, security, maintainability, tests.",
-          "meta": [
-            "Review"
-          ]
-        },
-        {
-          "name": "/deploy",
-          "badge": "DevOps",
-          "badgeClass": "badge-active",
-          "description": "Deploy with pre-flight checks and validation.",
-          "meta": [
-            "CI/CD"
-          ]
-        },
-        {
-          "name": "/version",
-          "badge": "Release",
-          "badgeClass": "badge-active",
-          "description": "Assess repo, recommend version bump, execute release.",
-          "meta": [
-            "SemVer"
-          ]
-        },
-        {
-          "name": "/github",
-          "badge": "Git",
-          "badgeClass": "badge-active",
-          "description": "GitHub expert — branching, PRs, Actions, interactive git execution. Includes gr sub-command.",
-          "meta": [
-            "Git",
-            "Actions"
-          ]
-        },
-        {
-          "name": "/swarm-orchestration",
-          "badge": "Multi-Agent",
-          "badgeClass": "badge-active",
-          "description": "Multi-agent swarm coordination for 3+ file changes, refactors, schema work.",
-          "meta": [
-            "Claude Flow"
-          ]
-        },
-        {
-          "name": "/frontend-design",
-          "badge": "UI",
-          "badgeClass": "badge-active",
-          "description": "Distinctive, production-grade frontend interfaces with high design quality.",
-          "meta": [
-            "Design"
-          ]
-        },
-        {
-          "name": "/website-builder",
-          "badge": "Deploy",
-          "badgeClass": "badge-active",
-          "description": "Build cinematic landing pages from a brief and deploy live on Netlify.",
-          "meta": [
-            "Netlify"
-          ]
-        },
-        {
-          "name": "/security",
-          "badge": "Active",
-          "badgeClass": "badge-active",
-          "description": "Comprehensive security scanning. Subcommands: quick (fast scan), deep (full audit, default). Replaces /security-audit and /security-check.",
-          "meta": [
-            "Quick + Deep modes",
-            "CVE detection",
-            "OWASP checks"
-          ]
-        }
+        { "name": "/visual-explainer", "badge": "Diagrams", "badgeClass": "badge-active", "description": "Generate visual diagrams, slides, and project recaps.", "meta": ["SVG", "HTML", "Canvas"] },
+        { "name": "/code-review", "badge": "Quality", "badgeClass": "badge-active", "description": "Multi-perspective code review — correctness, perf, security, maintainability, tests.", "meta": ["Review"] },
+        { "name": "/deploy", "badge": "DevOps", "badgeClass": "badge-active", "description": "Deploy with pre-flight checks and validation.", "meta": ["CI/CD"] },
+        { "name": "/version", "badge": "Release", "badgeClass": "badge-active", "description": "Assess repo, recommend version bump, execute release.", "meta": ["SemVer"] },
+        { "name": "/github", "badge": "Git", "badgeClass": "badge-active", "description": "GitHub expert — branching, PRs, Actions, interactive git execution.", "meta": ["Git", "Actions"] },
+        { "name": "/swarm-orchestration", "badge": "Multi-Agent", "badgeClass": "badge-active", "description": "Multi-agent swarm coordination for 3+ file changes, refactors.", "meta": ["Claude Flow"] },
+        { "name": "/frontend-design", "badge": "UI", "badgeClass": "badge-active", "description": "Distinctive, production-grade frontend interfaces.", "meta": ["Design"] },
+        { "name": "/website-builder", "badge": "Deploy", "badgeClass": "badge-active", "description": "Build cinematic landing pages and deploy on Netlify.", "meta": ["Netlify"] },
+        { "name": "/security", "badge": "Active", "badgeClass": "badge-active", "description": "Comprehensive security scanning (Quick + Deep modes).", "meta": ["CVE", "OWASP"] }
       ]
     },
     {
       "name": "Web & Research",
       "count": 8,
       "items": [
-        {
-          "name": "/firecrawl",
-          "badge": "Web",
-          "badgeClass": "badge-active",
-          "description": "Full Firecrawl CLI — search, scrape, crawl, page interaction.",
-          "meta": [
-            "CLI"
-          ]
-        },
-        {
-          "name": "/firecrawl-scrape",
-          "badge": "Web",
-          "badgeClass": "badge-active",
-          "description": "Extract clean markdown from any URL, including JS-rendered SPAs.",
-          "meta": [
-            "Markdown"
-          ]
-        },
-        {
-          "name": "/firecrawl-search",
-          "badge": "Web",
-          "badgeClass": "badge-active",
-          "description": "Web search with full page content extraction.",
-          "meta": [
-            "Search"
-          ]
-        },
-        {
-          "name": "/playwright",
-          "badge": "Browser",
-          "badgeClass": "badge-active",
-          "description": "Browser automation in Microsoft Edge — testing, scraping, forms, screenshots.",
-          "meta": [
-            "Edge only"
-          ]
-        },
-        {
-          "name": "/web-to-note",
-          "badge": "Capture",
-          "badgeClass": "badge-active",
-          "description": "Convert URL to clean Obsidian markdown note with frontmatter.",
-          "meta": [
-            "Obsidian"
-          ]
-        },
-        {
-          "name": "/notebooklm",
-          "badge": "Research",
-          "badgeClass": "badge-active",
-          "description": "Complete NotebookLM API — notebooks, sources, podcasts, quizzes, summaries.",
-          "meta": [
-            "Programmatic"
-          ]
-        },
-        {
-          "name": "/kb",
-          "badge": "KB",
-          "badgeClass": "badge-active",
-          "description": "Read-only semantic query against the local LightRAG KG (ADEV-Vault concepts, connections, daily logs).",
-          "meta": [
-            "LightRAG",
-            "Read-only"
-          ]
-        }
+        { "name": "/firecrawl", "badge": "Web", "badgeClass": "badge-active", "description": "Full Firecrawl CLI — search, scrape, crawl, interaction.", "meta": ["CLI"] },
+        { "name": "/firecrawl-scrape", "badge": "Web", "badgeClass": "badge-active", "description": "Extract clean markdown from any URL.", "meta": ["Markdown"] },
+        { "name": "/firecrawl-search", "badge": "Web", "badgeClass": "badge-active", "description": "Web search with full page content extraction.", "meta": ["Search"] },
+        { "name": "/playwright", "badge": "Browser", "badgeClass": "badge-active", "description": "Browser automation in Microsoft Edge.", "meta": ["Edge only"] },
+        { "name": "/web-to-note", "badge": "Capture", "badgeClass": "badge-active", "description": "Convert URL to clean Obsidian markdown note.", "meta": ["Obsidian"] },
+        { "name": "/notebooklm", "badge": "Research", "badgeClass": "badge-active", "description": "NotebookLM API — notebooks, podcasts, summaries.", "meta": ["Programmatic"] },
+        { "name": "/kb", "badge": "KB", "badgeClass": "badge-active", "description": "Semantic query against local LightRAG Knowledge Graph.", "meta": ["LightRAG"] },
+        { "name": "/firecrawl-parse", "badge": "Local", "badgeClass": "badge-active", "description": "Convert local PDFs/Docs to markdown.", "meta": ["Parse"] }
       ]
     },
     {
       "name": "Obsidian Vault",
       "count": 8,
       "items": [
-        {
-          "name": "/obsidian-note",
-          "badge": "Vault",
-          "badgeClass": "badge-active",
-          "description": "Create/edit Obsidian notes — frontmatter, wikilinks, embeds, callouts, tags, tasks.",
-          "meta": [
-            "Markdown"
-          ]
-        },
-        {
-          "name": "/obsidian-vault",
-          "badge": "Vault",
-          "badgeClass": "badge-active",
-          "description": "Vault CLI — list/search/open notes, manage folders, switch default vault, backlink/tag queries.",
-          "meta": [
-            "CLI"
-          ]
-        },
-        {
-          "name": "/obsidian-bases",
-          "badge": "Database",
-          "badgeClass": "badge-ready",
-          "description": "Create/edit Obsidian Bases (.base) — DB-like views with filters, formulas, view configs.",
-          "meta": [
-            ".base"
-          ]
-        },
-        {
-          "name": "/obsidian-canvas",
-          "badge": "Visual",
-          "badgeClass": "badge-ready",
-          "description": "Create/edit Obsidian Canvas (.canvas JSON) — nodes, edges, mind maps.",
-          "meta": [
-            ".canvas"
-          ]
-        },
-        {
-          "name": "/wiki-ingest",
-          "badge": "Wiki",
-          "badgeClass": "badge-active",
-          "description": "File a new source (path, URL, or pasted content) into the Persistent Memory wiki and log it.",
-          "meta": [
-            "Persistent Memory"
-          ]
-        },
-        {
-          "name": "/wiki-query",
-          "badge": "Wiki",
-          "badgeClass": "badge-active",
-          "description": "Answer a question against the Persistent Memory wiki with file-path citations.",
-          "meta": [
-            "Citations"
-          ]
-        },
-        {
-          "name": "/wiki-lint",
-          "badge": "Wiki",
-          "badgeClass": "badge-ready",
-          "description": "Health-check the Persistent Memory wiki — contradictions, stale claims, orphans, gaps.",
-          "meta": [
-            "Read-only"
-          ]
-        },
-        {
-          "name": "/compile-knowledge",
-          "badge": "Wiki",
-          "badgeClass": "badge-active",
-          "description": "Fold daily inbox files in the Persistent Memory wiki into permanent Ventures/Patterns/People/Decisions articles.",
-          "meta": [
-            "Compile pass"
-          ]
-        }
+        { "name": "/obsidian-note", "badge": "Vault", "badgeClass": "badge-active", "description": "Create/edit Obsidian notes.", "meta": ["Markdown"] },
+        { "name": "/obsidian-vault", "badge": "Vault", "badgeClass": "badge-active", "description": "Vault CLI — search, manage folders.", "meta": ["CLI"] },
+        { "name": "/obsidian-bases", "badge": "Database", "badgeClass": "badge-ready", "description": "Create/edit Obsidian Bases (.base) views.", "meta": [".base"] },
+        { "name": "/obsidian-canvas", "badge": "Visual", "badgeClass": "badge-ready", "description": "Create/edit Obsidian Canvas (.canvas JSON).", "meta": [".canvas"] },
+        { "name": "/wiki-ingest", "badge": "Wiki", "badgeClass": "badge-active", "description": "File source into Persistent Memory wiki.", "meta": ["Persistent Memory"] },
+        { "name": "/wiki-query", "badge": "Wiki", "badgeClass": "badge-active", "description": "Answer question against Persistent Memory wiki.", "meta": ["Citations"] },
+        { "name": "/wiki-lint", "badge": "Wiki", "badgeClass": "badge-ready", "description": "Health-check Persistent Memory wiki.", "meta": ["Read-only"] },
+        { "name": "/compile-knowledge", "badge": "Wiki", "badgeClass": "badge-active", "description": "Fold inbox files into permanent articles.", "meta": ["Compile"] }
       ]
     },
     {
       "name": "System & Meta",
-      "count": 15,
+      "count": 7,
       "items": [
-        {
-          "name": "/skill-builder",
-          "badge": "Meta",
-          "badgeClass": "badge-active",
-          "description": "Create new Claude Code Skills — YAML frontmatter, progressive disclosure, directory layout.",
-          "meta": [
-            "Templates"
-          ]
-        },
-        {
-          "name": "/skill-doctor",
-          "badge": "Meta",
-          "badgeClass": "badge-active",
-          "description": "Audit all skills against best practices — trigger phrases, allowed-tools, stale paths.",
-          "meta": [
-            "Audit"
-          ]
-        },
-        {
-          "name": "/dashboard",
-          "badge": "UI",
-          "badgeClass": "badge-active",
-          "description": "Manage ADEV Resource Dashboard — open, add, edit, sync, stats.",
-          "meta": [
-            "This dashboard"
-          ]
-        },
-        {
-          "name": "/repos",
-          "badge": "Inventory",
-          "badgeClass": "badge-active",
-          "description": "Show Git Repository Library and manage repositories.",
-          "meta": [
-            "Browse"
-          ]
-        },
-        {
-          "name": "/add-mcp",
-          "badge": "MCP",
-          "badgeClass": "badge-active",
-          "description": "Add a new MCP server via mcp2cli — discover tools, plan, register on approval.",
-          "meta": [
-            "mcp2cli"
-          ]
-        },
-        {
-          "name": "/open-all-apps",
-          "badge": "Launcher",
-          "badgeClass": "badge-ready",
-          "description": "Open all active ADEV dev servers in Microsoft Edge.",
-          "meta": [
-            "Edge"
-          ]
-        },
-        {
-          "name": "/paper-trading",
-          "badge": "Finance",
-          "badgeClass": "badge-active",
-          "description": "Daily Paper Trading Lab P&L tracker — log trades to Sheets (Trades + Daily P&L rollup), compute P&L, running stats.",
-          "meta": [
-            "Sheets",
-            "P&L"
-          ]
-        }
+        { "name": "/skill-builder", "badge": "Meta", "badgeClass": "badge-active", "description": "Create new Claude Code Skills templates.", "meta": ["Templates"] },
+        { "name": "/skill-doctor", "badge": "Meta", "badgeClass": "badge-active", "description": "Audit all skills against best practices.", "meta": ["Audit"] },
+        { "name": "/dashboard", "badge": "UI", "badgeClass": "badge-active", "description": "Manage ADEV Resource Dashboard.", "meta": ["This dashboard"] },
+        { "name": "/repos", "badge": "Inventory", "badgeClass": "badge-active", "description": "Browse and manage Git Repository Library.", "meta": ["Inventory"] },
+        { "name": "/add-mcp", "badge": "MCP", "badgeClass": "badge-active", "description": "Add a new MCP server via mcp2cli.", "meta": ["mcp2cli"] },
+        { "name": "/open-all-apps", "badge": "Launcher", "badgeClass": "badge-ready", "description": "Open all active ADEV dev servers in Edge.", "meta": ["Edge"] },
+        { "name": "/paper-trading", "badge": "Finance", "badgeClass": "badge-active", "description": "Daily Paper Trading Lab P&L tracker.", "meta": ["Sheets", "P&L"] }
       ]
     },
     {
       "name": "Communication Mode",
       "count": 1,
       "items": [
-        {
-          "name": "/caveman",
-          "badge": "Mode",
-          "badgeClass": "badge-active",
-          "description": "Ultra-compressed caveman speech — slash token usage ~75% while keeping technical accuracy.",
-          "meta": [
-            "Always on"
-          ]
-        }
+        { "name": "/caveman", "badge": "Mode", "badgeClass": "badge-active", "description": "Ultra-compressed caveman speech mode.", "meta": ["Always on"] }
       ]
     }
   ]

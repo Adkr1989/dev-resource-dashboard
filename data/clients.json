@@ -1,9 +1,40 @@
 {
   "categories": [
     {
-      "name": "My Clients",
-      "count": 0,
-      "items": []
+      "name": "Entertainment Prospects (Feb 2026)",
+      "subtitle": "10 Case Studies",
+      "display": "table",
+      "columns": ["Prospect", "Contact", "OWASP", "Accent", "Relationship"],
+      "items": [
+        { "Prospect": "Bizar Entertainment", "Contact": "Jeff Bizar", "OWASP": "—", "Accent": "#e040fb", "Relationship": "Cold" },
+        { "Prospect": "B.A.S.H Entertainment", "Contact": "CJ (owner)", "OWASP": "36/100", "Accent": "#ff6d00", "Relationship": "WARM (Blair)" },
+        { "Prospect": "BeatMix Music", "Contact": "Becca Kaufman", "OWASP": "0/100", "Accent": "#2979ff", "Relationship": "Cold" },
+        { "Prospect": "Bingo Loco", "Contact": "Craig Reynolds", "OWASP": "18/100", "Accent": "#76ff03", "Relationship": "Cold" },
+        { "Prospect": "Charizma Entertainment", "Contact": "Marz Lawhorn", "OWASP": "0/100", "Accent": "#ffd600", "Relationship": "Cold" },
+        { "Prospect": "Paul Michaels Events", "Contact": "Paul Michaels", "OWASP": "36/100", "Accent": "#ff5252", "Relationship": "Cold" },
+        { "Prospect": "FAMOS DJ Entertainment", "Contact": "\"Famos\"", "OWASP": "18/100", "Accent": "#00bcd4", "Relationship": "Cold" },
+        { "Prospect": "Stitely Music", "Contact": "Jeff Stitely", "OWASP": "9/100", "Accent": "#7c4dff", "Relationship": "Cold" },
+        { "Prospect": "Vibe Entertainment", "Contact": "Arianna Rozen", "OWASP": "0/100", "Accent": "#ff4081", "Relationship": "Cold" },
+        { "Prospect": "Studio One Events", "Contact": "Carey Weiman", "OWASP": "0/100", "Accent": "#448aff", "Relationship": "Cold" }
+      ]
+    },
+    {
+      "name": "North Shore Venue Prospects (Mar 2026)",
+      "subtitle": "10 Venues",
+      "display": "table",
+      "columns": ["Venue", "Contact", "Location", "OWASP", "Case Study"],
+      "items": [
+        { "Venue": "Studio One Events", "Contact": "Carey Weiman", "Location": "Highland Park", "OWASP": "0", "Case Study": "Yes" },
+        { "Venue": "Winnetka Community House", "Contact": "Sahra Ballowe", "Location": "Winnetka", "OWASP": "18", "Case Study": "No" },
+        { "Venue": "Deer Path Inn", "Contact": "James Barnett", "Location": "Lake Forest", "OWASP": "45", "Case Study": "No" },
+        { "Venue": "The Birchstone", "Contact": "Shelly Saletta", "Location": "Lincolnshire", "OWASP": "0", "Case Study": "No" },
+        { "Venue": "Halim Time & Glass Museum", "Contact": "Ward Henline", "Location": "Evanston", "OWASP": "18", "Case Study": "No" },
+        { "Venue": "HP Community House", "Contact": "Wendy Horwitch", "Location": "Highland Park", "OWASP": "9", "Case Study": "No" },
+        { "Venue": "Ariella's (Max & Benny's)", "Contact": "Ben Schlan", "Location": "Northbrook", "OWASP": "36", "Case Study": "No" },
+        { "Venue": "Winter Club of Lake Forest", "Contact": "Alisa Levey", "Location": "Lake Forest", "OWASP": "18", "Case Study": "No" },
+        { "Venue": "Armour House (LFA)", "Contact": "Christine Gaither", "Location": "Lake Forest", "OWASP": "18", "Case Study": "No" },
+        { "Venue": "The Forester Hotel", "Contact": "Dino Simoncelli", "Location": "Lake Forest", "OWASP": "18", "Case Study": "No" }
+      ]
     }
   ]
 }

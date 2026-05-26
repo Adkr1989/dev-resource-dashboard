@@ -188,6 +188,44 @@
       ]
     },
     {
+      "name": "Local LLM Stack (Integrated)",
+      "subtitle": "4 Services Active",
+      "items": [
+        {
+          "name": "Ollama",
+          "badge": "Active",
+          "badgeClass": "badge-active",
+          "description": "Local LLM runner — DeepSeek-R1, Llama 3, and skill-baked models.",
+          "meta": ["Local", "GPU", "RTX 5060"],
+          "tools": ["ollama serve", "ollama run", "ollama create"]
+        },
+        {
+          "name": "LightRAG",
+          "badge": "Active",
+          "badgeClass": "badge-active",
+          "description": "Graph-based RAG system for knowledge retrieval.",
+          "meta": ["Python", "API", "Port 9621"],
+          "tools": ["query", "insert"]
+        },
+        {
+          "name": "Vault Watcher",
+          "badge": "Active",
+          "badgeClass": "badge-active",
+          "description": "Multi-vault watcher for ADEV-Vault and Lang Models.",
+          "meta": ["Python", "Obsidian"],
+          "tools": ["watch-vault"]
+        },
+        {
+          "name": "Lang Models Workflow",
+          "badge": "Codebase",
+          "badgeClass": "badge-active",
+          "description": "Integrated skill mirroring and model baking workflow.",
+          "meta": ["Integrated", "Commands", "Skills"],
+          "tools": ["Refresh_Skills.ps1", "Start_Local_LLMs.bat"]
+        }
+      ]
+    },
+    {
       "name": "Deployment & Infrastructure",
       "subtitle": "5 Services",
       "items": [

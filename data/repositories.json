@@ -133,7 +133,7 @@
     },
     {
       "name": "Tools",
-      "count": 9,
+      "count": 11,
       "items": [
         {
           "name": "googleworkspace-cli (gws)",
@@ -203,17 +203,33 @@
         {
           "name": "phomber",
           "badge": "Tool",
-          "badgeClass": "badge-ready",
-          "description": "OSINT recon framework — phone/IP/MAC/WHOIS/DNS lookups + username scan across ~100 sites. Headless wrapper at phomber_cli.py bypasses prompt_toolkit for Claude. Tied into /phomber skill + /case-study Phase 2 OSINT step.",
-          "meta": ["Python", "OSINT", "Skill: /phomber"],
+          "badgeClass": "badge-active",
+          "description": "OSINT recon framework — phone/IP/MAC/WHOIS/DNS lookups + username scan across ~100 sites. Tied into /phomber skill.",
+          "meta": ["Python", "OSINT"],
           "path": "~/dev/tools/phomber",
           "url": "https://github.com/s41r4j/phomber"
+        },
+        {
+          "name": "ac_types",
+          "badge": "Tool",
+          "badgeClass": "badge-ready",
+          "description": "Algorithmic C (AC) datatypes for High-Level Synthesis (FPGA C++).",
+          "meta": ["C++", "FPGA"],
+          "url": "https://github.com/hlslibs/ac_types"
+        },
+        {
+          "name": "ac_math",
+          "badge": "Tool",
+          "badgeClass": "badge-ready",
+          "description": "Algorithmic C (AC) math library for HLS (FPGA C++).",
+          "meta": ["C++", "FPGA", "Math"],
+          "url": "https://github.com/hlslibs/ac_math"
         }
       ]
     },
     {
       "name": "MCP Servers",
-      "count": 6,
+      "count": 9,
       "items": [
         {
           "name": "app-seo-ai",
@@ -263,6 +279,100 @@
           "description": "MCP server bridging Cables.gl with RL for autonomous visual parameter optimization.",
           "meta": ["Public", "Generative"],
           "url": "https://github.com/Adkr1989/cables-rl-mcp"
+        },
+        {
+          "name": "mcp-google-map-stdio",
+          "badge": "Tool",
+          "badgeClass": "badge-ready",
+          "description": "Google Maps integration for spatial queries and metadata.",
+          "meta": ["TypeScript", "Maps"],
+          "url": "https://github.com/vicente-alvarado/mcp-google-map-stdio"
+        },
+        {
+          "name": "threejs-devtools-mcp",
+          "badge": "Tool",
+          "badgeClass": "badge-ready",
+          "description": "MCP server for Three.js devtools integration and scene inspection.",
+          "meta": ["TypeScript", "Three.js"],
+          "url": "https://github.com/DmitriyGolub/threejs-devtools-mcp"
+        },
+        {
+          "name": "three-js-mcp",
+          "badge": "Tool",
+          "badgeClass": "badge-ready",
+          "description": "Standard Three.js MCP server for 3D scene manipulation.",
+          "meta": ["TypeScript", "Three.js"],
+          "url": "https://github.com/locchung/three-js-mcp"
+        }
+      ]
+    },
+    {
+      "name": "Shaders & Graphics",
+      "count": 8,
+      "items": [
+        {
+          "name": "DirectXShaderCompiler",
+          "badge": "Active",
+          "badgeClass": "badge-active",
+          "description": "HLSL->SPIR-V/DXIL compiler (dxc). Source ref for the WebGL-MCP-Workflow HLSL art pipeline.",
+          "meta": ["C++", "HLSL"],
+          "url": "https://github.com/microsoft/DirectXShaderCompiler"
+        },
+        {
+          "name": "lygia",
+          "badge": "Library",
+          "badgeClass": "badge-ready",
+          "description": "Multi-language (GLSL, HLSL, WGSL) shader library.",
+          "meta": ["Shader", "Library"],
+          "url": "https://github.com/patriciogonzalezvivo/lygia"
+        },
+        {
+          "name": "glslang",
+          "badge": "Tool",
+          "badgeClass": "badge-ready",
+          "description": "Khronos glslang reference compiler and validator.",
+          "meta": ["C++", "GLSL"],
+          "url": "https://github.com/KhronosGroup/glslang"
+        },
+        {
+          "name": "thebookofshaders",
+          "badge": "Reference",
+          "badgeClass": "badge-ready",
+          "description": "Reference material and source for The Book of Shaders.",
+          "meta": ["GLSL", "Learning"],
+          "url": "https://github.com/patriciogonzalezvivo/thebookofshaders"
+        },
+        {
+          "name": "webgl-noise",
+          "badge": "Library",
+          "badgeClass": "badge-ready",
+          "description": "Procedural noise functions for WebGL.",
+          "meta": ["GLSL", "Noise"],
+          "url": "https://github.com/ashima/webgl-noise"
+        },
+        {
+          "name": "glslify",
+          "badge": "Tool",
+          "badgeClass": "badge-ready",
+          "description": "A node.js-style module system for GLSL shaders.",
+          "meta": ["Node.js", "GLSL"],
+          "url": "https://github.com/stackgl/glslify"
+        },
+        {
+          "name": "hydra-synth",
+          "badge": "Experiment",
+          "badgeClass": "badge-ready",
+          "description": "Live coding video synthesizer and shader ecosystem.",
+          "meta": ["JS", "Visuals"],
+          "url": "https://github.com/hydra-synth/hydra-synth"
+        },
+        {
+          "name": "osci-render",
+          "badge": "Experiment",
+          "badgeClass": "badge-ready",
+          "description": "Oscilloscope-style rendering and shader visualization.",
+          "meta": ["Visuals"],
+          "url": "https://github.com/jameshball/osci-render"
         }
       ]
     },
@@ -306,8 +416,16 @@
     },
     {
       "name": "Reference & Learning",
-      "count": 7,
+      "count": 8,
       "items": [
+        {
+          "name": "hls_tutorials",
+          "badge": "Learning",
+          "badgeClass": "badge-ready",
+          "description": "HLS (High-Level Synthesis) tutorials from hlslibs for FPGA development.",
+          "meta": ["FPGA", "Learning"],
+          "url": "https://github.com/hlslibs/hls_tutorials"
+        },
         {
           "name": "visual-explainer",
           "badge": "Reference",
@@ -352,7 +470,7 @@
           "name": "superpowers",
           "badge": "Reference",
           "badgeClass": "badge-ready",
-          "description": "Jesse Vincent's coding-agent methodology — skills + hooks framework (brainstorming, TDD, systematic debugging, plan execution). Installed as Claude plugin (superpowers@superpowers-marketplace).",
+          "description": "Jesse Vincent's coding-agent methodology — skills + hooks framework.",
           "meta": ["Markdown", "Skills", "Plugin"],
           "path": "~/dev/superpowers",
           "url": "https://github.com/obra/superpowers"
@@ -361,7 +479,7 @@
           "name": "Quansloth",
           "badge": "Reference",
           "badgeClass": "badge-ready",
-          "description": "TurboQuant-based local LLM server — Gradio UI + llama.cpp CUDA backend. Claims 75% KV cache compression for 32k+ contexts on RTX 3060. Linux/WSL2.",
+          "description": "TurboQuant-based local LLM server — Gradio UI + llama.cpp CUDA backend.",
           "meta": ["Python", "Gradio", "CUDA", "WSL2"],
           "path": "~/dev/Quansloth",
           "url": "https://github.com/PacifAIst/Quansloth"
@@ -376,7 +494,7 @@
           "name": "gesture-instrument",
           "badge": "Experiment",
           "badgeClass": "badge-ready",
-          "description": "Hand-gesture music instrument — MIDI bridge into VCV Rack. Resume via Desktop session continuer.",
+          "description": "Hand-gesture music instrument — MIDI bridge into VCV Rack.",
           "meta": ["MIDI", "VCV"],
           "path": "~/dev/experiments/gesture-instrument"
         },

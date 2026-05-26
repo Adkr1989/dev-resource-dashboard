@@ -5,6 +5,20 @@
       "count": 7,
       "items": [
         {
+          "name": "/grantya-security-sweep",
+          "badge": "Security",
+          "badgeClass": "badge-active",
+          "description": "Nightly Pattern-C code+security sweep for grantya-platform (Pattern C).",
+          "meta": ["Pattern C", "Grantya"]
+        },
+        {
+          "name": "/sana-shader-add",
+          "badge": "Utility",
+          "badgeClass": "badge-ready",
+          "description": "Add a Shadertoy shader to the SANA LED wall pool (TD-adapted).",
+          "meta": ["TouchDesigner", "Shaders"]
+        },
+        {
           "name": "/prospect <url>",
           "badge": "Pipeline",
           "badgeClass": "badge-active",
