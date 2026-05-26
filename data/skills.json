@@ -186,7 +186,7 @@
     },
     {
       "name": "Dev & Code Quality",
-      "count": 9,
+      "count": 11,
       "items": [
         { "name": "/visual-explainer", "badge": "Diagrams", "badgeClass": "badge-active", "description": "Generate visual diagrams, slides, and project recaps.", "meta": ["SVG", "HTML", "Canvas"] },
         { "name": "/code-review", "badge": "Quality", "badgeClass": "badge-active", "description": "Multi-perspective code review — correctness, perf, security, maintainability, tests.", "meta": ["Review"] },
@@ -196,12 +196,14 @@
         { "name": "/swarm-orchestration", "badge": "Multi-Agent", "badgeClass": "badge-active", "description": "Multi-agent swarm coordination for 3+ file changes, refactors.", "meta": ["Claude Flow"] },
         { "name": "/frontend-design", "badge": "UI", "badgeClass": "badge-active", "description": "Distinctive, production-grade frontend interfaces.", "meta": ["Design"] },
         { "name": "/website-builder", "badge": "Deploy", "badgeClass": "badge-active", "description": "Build cinematic landing pages and deploy on Netlify.", "meta": ["Netlify"] },
-        { "name": "/security", "badge": "Active", "badgeClass": "badge-active", "description": "Comprehensive security scanning (Quick + Deep modes).", "meta": ["CVE", "OWASP"] }
+        { "name": "/security", "badge": "Active", "badgeClass": "badge-active", "description": "Comprehensive security scanning (Quick + Deep modes).", "meta": ["CVE", "OWASP"] },
+        { "name": "/security-plus", "badge": "Audit", "badgeClass": "badge-active", "description": "Full production-release audit — cve-lite scan + adversarial review + remediation-first fixes.", "meta": ["CVE-lite", "Adversarial"] },
+        { "name": "/spec-kit", "badge": "SDD", "badgeClass": "badge-active", "description": "Bootstrap Spec-Driven Development projects via specify-cli — constitution → spec → plan → tasks → implement.", "meta": ["specify-cli", "SDD"] }
       ]
     },
     {
       "name": "Web & Research",
-      "count": 8,
+      "count": 9,
       "items": [
         { "name": "/firecrawl", "badge": "Web", "badgeClass": "badge-active", "description": "Full Firecrawl CLI — search, scrape, crawl, interaction.", "meta": ["CLI"] },
         { "name": "/firecrawl-scrape", "badge": "Web", "badgeClass": "badge-active", "description": "Extract clean markdown from any URL.", "meta": ["Markdown"] },
@@ -210,7 +212,8 @@
         { "name": "/web-to-note", "badge": "Capture", "badgeClass": "badge-active", "description": "Convert URL to clean Obsidian markdown note.", "meta": ["Obsidian"] },
         { "name": "/notebooklm", "badge": "Research", "badgeClass": "badge-active", "description": "NotebookLM API — notebooks, podcasts, summaries.", "meta": ["Programmatic"] },
         { "name": "/kb", "badge": "KB", "badgeClass": "badge-active", "description": "Semantic query against local LightRAG Knowledge Graph.", "meta": ["LightRAG"] },
-        { "name": "/firecrawl-parse", "badge": "Local", "badgeClass": "badge-active", "description": "Convert local PDFs/Docs to markdown.", "meta": ["Parse"] }
+        { "name": "/firecrawl-parse", "badge": "Local", "badgeClass": "badge-active", "description": "Convert local PDFs/Docs to markdown.", "meta": ["Parse"] },
+        { "name": "/phomber", "badge": "OSINT", "badgeClass": "badge-active", "description": "OSINT recon — phone/IP/MAC/WHOIS/DNS + username scan across ~100 sites. Headless, no API keys.", "meta": ["Python", "Recon"] }
       ]
     },
     {
@@ -229,7 +232,7 @@
     },
     {
       "name": "System & Meta",
-      "count": 7,
+      "count": 9,
       "items": [
         { "name": "/skill-builder", "badge": "Meta", "badgeClass": "badge-active", "description": "Create new Claude Code Skills templates.", "meta": ["Templates"] },
         { "name": "/skill-doctor", "badge": "Meta", "badgeClass": "badge-active", "description": "Audit all skills against best practices.", "meta": ["Audit"] },
@@ -237,7 +240,9 @@
         { "name": "/repos", "badge": "Inventory", "badgeClass": "badge-active", "description": "Browse and manage Git Repository Library.", "meta": ["Inventory"] },
         { "name": "/add-mcp", "badge": "MCP", "badgeClass": "badge-active", "description": "Add a new MCP server via mcp2cli.", "meta": ["mcp2cli"] },
         { "name": "/open-all-apps", "badge": "Launcher", "badgeClass": "badge-ready", "description": "Open all active ADEV dev servers in Edge.", "meta": ["Edge"] },
-        { "name": "/paper-trading", "badge": "Finance", "badgeClass": "badge-active", "description": "Daily Paper Trading Lab P&L tracker.", "meta": ["Sheets", "P&L"] }
+        { "name": "/paper-trading", "badge": "Finance", "badgeClass": "badge-active", "description": "Daily Paper Trading Lab P&L tracker.", "meta": ["Sheets", "P&L"] },
+        { "name": "/prompt-master", "badge": "Prompt", "badgeClass": "badge-active", "description": "Generate optimized prompts for LLMs, image/video AI, and coding agents.", "meta": ["Prompt engineering"] },
+        { "name": "/sana-shader-add", "badge": "Creative", "badgeClass": "badge-ready", "description": "Add a Shadertoy fragment shader to the SANA LED wall pool — TD-adapted, catalog updated.", "meta": ["TouchDesigner", "GLSL"] }
       ]
     },
     {
